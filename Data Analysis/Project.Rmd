@@ -4,6 +4,7 @@ author: "Amith N, Harrison Vincent, Keertan Reddy"
 date: "2026-06-26"
 output: word_document
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,
@@ -11,168 +12,161 @@ knitr::opts_chunk$set(
   message = FALSE
 )
 
-library(tidyverse)
+#------------------------------------------------------------
+# Load datasets
+#------------------------------------------------------------
+food <- read.csv("../Dataset/Food_Balance.csv", stringsAsFactors = FALSE)
+emission <- read.csv("../Dataset/Emissions_livestock_E_Asia.csv", stringsAsFactors = FALSE)
+
+View(food)
+View(emission)
+
+#------------------------------------------------------------
+# Filter meat consumption data
+#------------------------------------------------------------
+meat_items <- c(
+  "Bovine Meat",
+  "Pigmeat",
+  "Poultry Meat",
+  "Mutton & Goat Meat",
+  "Meat, Other"
+)
+
+meat <- food[
+  food$Element == "Food supply quantity (kg/capita/yr)" &
+  food$Item %in% meat_items,
+]
+
+#------------------------------------------------------------
+# Prepare methane emission dataset
+#------------------------------------------------------------
+year_cols <- grep("^Y20", names(emission), value = TRUE)
+
+ghg <- reshape(
+  emission[emission$Element == "Livestock total (Emissions CH4)", ],
+  varying = year_cols,
+  v.names = "Emission",
+  timevar = "Year",
+  times = year_cols,
+  direction = "long"
+)
+
+ghg <- ghg[!grepl("F|N", ghg$Year), ]
+
+ghg$Year <- as.numeric(sub("Y", "", ghg$Year))
+ghg$Emission <- as.numeric(ghg$Emission)
+
+row.names(ghg) <- NULL
 ```
+
+# Trend of Meat Consumption
 
 ```{r}
-# Read dataset
-food <- read.csv("..\\Dataset\\Food_Balance.csv")
+# Aggregate yearly meat consumption
+meat_trend <- aggregate(
+  Value ~ Year,
+  data = meat,
+  FUN = sum,
+  na.rm = TRUE
+)
 
-# Keep only meat items
-meat_data <- food %>%
-  filter(
-    Element == "Food supply quantity (kg/capita/yr)",
-    Item %in% c("Bovine Meat",
-                "Pigmeat",
-                "Poultry Meat",
-                "Mutton & Goat Meat",
-                "Meat, Other")
-  )
-
-# Sum meat consumption for each year
-meat_trend <- meat_data %>%
-  group_by(Year) %>%
-  summarise(Meat_Consumption = sum(Value, na.rm = TRUE))
-
-# Plot
-ggplot(meat_trend,
-       aes(x = Year,
-           y = Meat_Consumption)) +
-
-  geom_line(size = 1.3,
-            colour = "#D55E00") +
-
-  geom_point(size = 2.5,
-             colour = "#D55E00") +
-
-  labs(
-    title = "Trend of Meat Consumption in Asia (2010–2025)",
-    x = "Year",
-    y = "Food Supply (kg/capita/year)"
-  ) +
-
-  theme_minimal(base_size = 14)
+plot(
+  meat_trend$Year,
+  meat_trend$Value,
+  type = "o",
+  lwd = 2,
+  pch = 16,
+  col = "darkred",
+  xlab = "Year",
+  ylab = "Food Supply (kg/capita/year)",
+  main = "Trend of Meat Consumption in Asia (2010–2025)"
+)
 ```
+
+**Interpretation**
+
+The graph illustrates the trend in per-capita meat consumption across Asia between 2010 and 2025. An upward trend indicates increasing demand for meat products over time, which may be attributed to population growth, rising incomes, urbanization, and changing dietary preferences.
+
+---
+
+# Trend of Livestock Methane Emissions
 
 ```{r}
-emission <- read.csv("..\\Dataset\\Emissions_livestock_E_Asia.csv")
+ghg_trend <- aggregate(
+  Emission ~ Year,
+  data = ghg,
+  FUN = sum,
+  na.rm = TRUE
+)
 
-# Select total livestock methane emissions
-ghg <- emission %>%
-  filter(Element == "Livestock total (Emissions CH4)")
-
-# Convert years into rows
-ghg_long <- ghg %>%
-  pivot_longer(
-    cols = starts_with("Y20"),
-    names_to = "Year",
-    values_to = "Emission",
-    values_transform = list(Emission = as.character) #
-  ) %>%
-  filter(!grepl("F|N", Year))
-
-# Remove "Y"
-ghg_long$Year <- as.numeric(gsub("Y", "", ghg_long$Year))
-
-# Sum emissions across Asia
-ghg_summary <- ghg_long %>%
-  mutate(Emission = as.numeric(Emission)) %>% #
-  group_by(Year) %>%
-  summarise(Total_Emission = sum(Emission, na.rm = TRUE))
-
-# Plot
-ggplot(ghg_summary,
-       aes(Year,
-           Total_Emission)) +
-  geom_line(size = 1.3,
-            colour = "#0072B2") +
-
-  geom_point(size = 2.5,
-             colour = "#0072B2") +
-
-  labs(
-    title = "Agricultural Greenhouse Gas Emissions (CH₄)",
-    x = "Year",
-    y = "Methane Emissions"
-  ) +
-
-  theme_minimal(base_size = 14)
+plot(
+  ghg_trend$Year,
+  ghg_trend$Emission,
+  type = "o",
+  lwd = 2,
+  pch = 16,
+  col = "blue",
+  xlab = "Year",
+  ylab = "Methane Emissions",
+  main = "Agricultural Greenhouse Gas Emissions (CH4)"
+)
 ```
+
+**Interpretation**
+
+This graph shows the annual trend of livestock methane emissions across Asia. Increasing emissions generally indicate expansion of livestock production and increasing environmental impacts.
+
+---
+
+# Relationship Between Meat Consumption and Methane Emissions
 
 ```{r}
-# -------------------
-# Food Balance
-# -------------------
+# Aggregate meat by country and year
+meat_area <- aggregate(
+  Value ~ Area + Year,
+  data = meat,
+  FUN = sum,
+  na.rm = TRUE
+)
 
-food <- read.csv("..\\Dataset\\Food_Balance.csv")
+names(meat_area)[3] <- "Meat"
 
-meat <- food %>%
-  filter(
-    Element == "Food supply quantity (kg/capita/yr)",
-    Item %in% c("Bovine Meat",
-                "Pigmeat",
-                "Poultry Meat",
-                "Mutton & Goat Meat",
-                "Meat, Other")
-  ) %>%
-  group_by(Area, Year) %>%
-  summarise(Meat = sum(Value), .groups="drop")
+# Aggregate emissions by country and year
+ghg_area <- aggregate(
+  Emission ~ Area + Year,
+  data = ghg,
+  FUN = sum,
+  na.rm = TRUE
+)
 
-# -------------------
-# Emissions
-# -------------------
+# Merge datasets
+combined <- merge(
+  meat_area,
+  ghg_area,
+  by = c("Area", "Year")
+)
 
-emission <- read.csv("..\\Dataset\\Emissions_livestock_E_Asia.csv")
+# Scatter plot
+plot(
+  combined$Meat,
+  combined$Emission,
+  pch = 16,
+  col = "darkgreen",
+  xlab = "Meat Consumption (kg/capita/year)",
+  ylab = "Livestock CH4 Emissions",
+  main = "Relationship Between Meat Consumption and Agricultural Emissions"
+)
 
-ghg <- emission %>%
-  filter(Element == "Livestock total (Emissions CH4)") %>%
-  pivot_longer(
-    cols = starts_with("Y20"),
-    names_to = "Year",
-    values_to = "Emission",
-    values_transform = list(Emission = as.character) # 1. Allows text and numbers to blend
-  ) %>%
-  filter(!grepl("F|N", Year)) %>%
-  mutate(Emission = as.numeric(Emission))            # 2. Converts your final clean data back to numbers
+# Linear regression
+model <- lm(Emission ~ Meat, data = combined)
 
+abline(model, col = "red", lwd = 2)
 
-ghg$Year <- as.numeric(gsub("Y","",ghg$Year))
-
-ghg <- ghg %>%
-  group_by(Area, Year) %>%
-  summarise(Emission = sum(Emission), .groups="drop")
-
-# -------------------
-# Merge
-# -------------------
-
-combined <- inner_join(meat,
-                       ghg,
-                       by = c("Area","Year"))
-
-# -------------------
-# Scatter Plot
-# -------------------
-
-ggplot(combined,
-       aes(Meat,
-           Emission)) +
-
-  geom_point(size = 3,
-             alpha = 0.7,
-             colour = "#009E73") +
-
-  geom_smooth(
-      method = "lm",
-      se = TRUE,
-      colour = "red"
-  ) +
-
-  labs(
-    title = "Relationship Between Meat Consumption and Agricultural Emissions",
-    x = "Meat Consumption (kg/capita/year)",
-    y = "Livestock CH₄ Emissions"
-  ) +
-
-  theme_minimal(base_size = 14)
+# Optional correlation
+cor(combined$Meat, combined$Emission, use = "complete.obs")
+summary(model)
 ```
+
+**Interpretation**
+
+Each point represents a country-year observation. The fitted regression line summarizes the relationship between meat consumption and methane emissions. A positive slope suggests that higher meat consumption is generally associated with higher livestock methane emissions.
