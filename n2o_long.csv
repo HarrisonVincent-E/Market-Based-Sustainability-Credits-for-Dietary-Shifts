@@ -1,0 +1,2871 @@
+area,item,unit,year,value
+Afghanistan,Cattle,kt,2010,5.0383
+Afghanistan,Cattle,kt,2011,4.9079
+Afghanistan,Cattle,kt,2012,4.9678
+Afghanistan,Cattle,kt,2013,4.9961
+Afghanistan,Cattle,kt,2014,5.0436
+Afghanistan,Cattle,kt,2015,4.6175
+Afghanistan,Cattle,kt,2016,4.5968
+Afghanistan,Cattle,kt,2017,4.3776
+Afghanistan,Cattle,kt,2018,4.5202
+Afghanistan,Cattle,kt,2019,4.5505
+Afghanistan,Cattle,kt,2020,4.6111
+Afghanistan,Cattle,kt,2021,4.6705
+Afghanistan,Cattle,kt,2022,4.7799
+Afghanistan,Cattle,kt,2023,4.8626
+Afghanistan,Goats,kt,2010,2.3206
+Afghanistan,Goats,kt,2011,2.6098
+Afghanistan,Goats,kt,2012,2.499
+Afghanistan,Goats,kt,2013,2.4054
+Afghanistan,Goats,kt,2014,2.4129
+Afghanistan,Goats,kt,2015,2.6399
+Afghanistan,Goats,kt,2016,2.5459
+Afghanistan,Goats,kt,2017,2.5971
+Afghanistan,Goats,kt,2018,2.653
+Afghanistan,Goats,kt,2019,2.6942
+Afghanistan,Goats,kt,2020,2.6466
+Afghanistan,Goats,kt,2021,2.6852
+Afghanistan,Goats,kt,2022,2.7193
+Afghanistan,Goats,kt,2023,2.7478
+Afghanistan,Sheep,kt,2010,3.7697
+Afghanistan,Sheep,kt,2011,4.0466
+Afghanistan,Sheep,kt,2012,3.9212
+Afghanistan,Sheep,kt,2013,3.7285
+Afghanistan,Sheep,kt,2014,3.8261
+Afghanistan,Sheep,kt,2015,3.7504
+Afghanistan,Sheep,kt,2016,3.7638
+Afghanistan,Sheep,kt,2017,3.9342
+Afghanistan,Sheep,kt,2018,3.8161
+Afghanistan,Sheep,kt,2019,3.6885
+Afghanistan,Sheep,kt,2020,3.6349
+Afghanistan,Sheep,kt,2021,3.6034
+Afghanistan,Sheep,kt,2022,3.5467
+Afghanistan,Sheep,kt,2023,3.4726
+Armenia,Buffalo,kt,2010,0.0005
+Armenia,Buffalo,kt,2011,0.0005
+Armenia,Buffalo,kt,2012,0.0005
+Armenia,Buffalo,kt,2013,0.0006
+Armenia,Buffalo,kt,2014,0.0008
+Armenia,Buffalo,kt,2015,0.0008
+Armenia,Buffalo,kt,2016,0.0008
+Armenia,Buffalo,kt,2017,0.0008
+Armenia,Buffalo,kt,2018,0.0008
+Armenia,Buffalo,kt,2019,0.0008
+Armenia,Buffalo,kt,2020,0.0008
+Armenia,Buffalo,kt,2021,0.0009
+Armenia,Buffalo,kt,2022,0.0008
+Armenia,Buffalo,kt,2023,0.0006
+Armenia,Cattle,kt,2010,1.1888
+Armenia,Cattle,kt,2011,1.1892
+Armenia,Cattle,kt,2012,1.2454
+Armenia,Cattle,kt,2013,1.3671
+Armenia,Cattle,kt,2014,1.4005
+Armenia,Cattle,kt,2015,1.4226
+Armenia,Cattle,kt,2016,1.4486
+Armenia,Cattle,kt,2017,1.3528
+Armenia,Cattle,kt,2018,1.2185
+Armenia,Cattle,kt,2019,1.1768
+Armenia,Cattle,kt,2020,1.188
+Armenia,Cattle,kt,2021,1.2575
+Armenia,Cattle,kt,2022,1.1499
+Armenia,Cattle,kt,2023,1.0321
+Armenia,Goats,kt,2010,0.01
+Armenia,Goats,kt,2011,0.0097
+Armenia,Goats,kt,2012,0.0096
+Armenia,Goats,kt,2013,0.0097
+Armenia,Goats,kt,2014,0.0102
+Armenia,Goats,kt,2015,0.0107
+Armenia,Goats,kt,2016,0.0103
+Armenia,Goats,kt,2017,0.0092
+Armenia,Goats,kt,2018,0.0074
+Armenia,Goats,kt,2019,0.0076
+Armenia,Goats,kt,2020,0.0077
+Armenia,Goats,kt,2021,0.0082
+Armenia,Goats,kt,2022,0.0074
+Armenia,Goats,kt,2023,0.0069
+Armenia,Sheep,kt,2010,0.1289
+Armenia,Sheep,kt,2011,0.1349
+Armenia,Sheep,kt,2012,0.1504
+Armenia,Sheep,kt,2013,0.1729
+Armenia,Sheep,kt,2014,0.184
+Armenia,Sheep,kt,2015,0.1911
+Armenia,Sheep,kt,2016,0.2001
+Armenia,Sheep,kt,2017,0.1873
+Armenia,Sheep,kt,2018,0.1708
+Armenia,Sheep,kt,2019,0.1649
+Armenia,Sheep,kt,2020,0.1713
+Armenia,Sheep,kt,2021,0.1857
+Armenia,Sheep,kt,2022,0.1852
+Armenia,Sheep,kt,2023,0.1822
+Armenia,Swine,kt,2010,0.076
+Armenia,Swine,kt,2011,0.0775
+Armenia,Swine,kt,2012,0.0729
+Armenia,Swine,kt,2013,0.0979
+Armenia,Swine,kt,2014,0.0943
+Armenia,Swine,kt,2015,0.0961
+Armenia,Swine,kt,2016,0.1179
+Armenia,Swine,kt,2017,0.1185
+Armenia,Swine,kt,2018,0.1125
+Armenia,Swine,kt,2019,0.1335
+Armenia,Swine,kt,2020,0.1507
+Armenia,Swine,kt,2021,0.1351
+Armenia,Swine,kt,2022,0.1121
+Armenia,Swine,kt,2023,0.122
+Azerbaijan,Buffalo,kt,2010,0.3155
+Azerbaijan,Buffalo,kt,2011,0.3064
+Azerbaijan,Buffalo,kt,2012,0.3024
+Azerbaijan,Buffalo,kt,2013,0.2967
+Azerbaijan,Buffalo,kt,2014,0.287
+Azerbaijan,Buffalo,kt,2015,0.2756
+Azerbaijan,Buffalo,kt,2016,0.2437
+Azerbaijan,Buffalo,kt,2017,0.2237
+Azerbaijan,Buffalo,kt,2018,0.2004
+Azerbaijan,Buffalo,kt,2019,0.1848
+Azerbaijan,Buffalo,kt,2020,0.1668
+Azerbaijan,Buffalo,kt,2021,0.1469
+Azerbaijan,Buffalo,kt,2022,0.1364
+Azerbaijan,Buffalo,kt,2023,0.1229
+Azerbaijan,Cattle,kt,2010,4.9151
+Azerbaijan,Cattle,kt,2011,4.9755
+Azerbaijan,Cattle,kt,2012,5.0481
+Azerbaijan,Cattle,kt,2013,5.1195
+Azerbaijan,Cattle,kt,2014,5.1856
+Azerbaijan,Cattle,kt,2015,5.2201
+Azerbaijan,Cattle,kt,2016,5.2546
+Azerbaijan,Cattle,kt,2017,5.238
+Azerbaijan,Cattle,kt,2018,5.2395
+Azerbaijan,Cattle,kt,2019,5.2374
+Azerbaijan,Cattle,kt,2020,5.2714
+Azerbaijan,Cattle,kt,2021,5.3002
+Azerbaijan,Cattle,kt,2022,5.2681
+Azerbaijan,Cattle,kt,2023,5.0972
+Azerbaijan,Goats,kt,2010,0.2085
+Azerbaijan,Goats,kt,2011,0.2083
+Azerbaijan,Goats,kt,2012,0.2106
+Azerbaijan,Goats,kt,2013,0.2166
+Azerbaijan,Goats,kt,2014,0.2211
+Azerbaijan,Goats,kt,2015,0.2188
+Azerbaijan,Goats,kt,2016,0.2178
+Azerbaijan,Goats,kt,2017,0.2128
+Azerbaijan,Goats,kt,2018,0.2091
+Azerbaijan,Goats,kt,2019,0.2062
+Azerbaijan,Goats,kt,2020,0.2035
+Azerbaijan,Goats,kt,2021,0.1967
+Azerbaijan,Goats,kt,2022,0.1951
+Azerbaijan,Goats,kt,2023,0.1411
+Azerbaijan,Sheep,kt,2010,2.1076
+Azerbaijan,Sheep,kt,2011,2.0845
+Azerbaijan,Sheep,kt,2012,2.1012
+Azerbaijan,Sheep,kt,2013,2.1219
+Azerbaijan,Sheep,kt,2014,2.1387
+Azerbaijan,Sheep,kt,2015,2.1489
+Azerbaijan,Sheep,kt,2016,2.1331
+Azerbaijan,Sheep,kt,2017,2.0941
+Azerbaijan,Sheep,kt,2018,2.0568
+Azerbaijan,Sheep,kt,2019,2.0284
+Azerbaijan,Sheep,kt,2020,2.0038
+Azerbaijan,Sheep,kt,2021,1.9584
+Azerbaijan,Sheep,kt,2022,1.9201
+Azerbaijan,Sheep,kt,2023,1.7781
+Azerbaijan,Swine,kt,2010,0.0036
+Azerbaijan,Swine,kt,2011,0.0043
+Azerbaijan,Swine,kt,2012,0.0041
+Azerbaijan,Swine,kt,2013,0.0044
+Azerbaijan,Swine,kt,2014,0.0041
+Azerbaijan,Swine,kt,2015,0.0035
+Azerbaijan,Swine,kt,2016,0.003
+Azerbaijan,Swine,kt,2017,0.0033
+Azerbaijan,Swine,kt,2018,0.0037
+Azerbaijan,Swine,kt,2019,0.0038
+Azerbaijan,Swine,kt,2020,0.004
+Azerbaijan,Swine,kt,2021,0.004
+Azerbaijan,Swine,kt,2022,0.0035
+Azerbaijan,Swine,kt,2023,0.0033
+Bahrain,Cattle,kt,2010,0.0219
+Bahrain,Cattle,kt,2011,0.0219
+Bahrain,Cattle,kt,2012,0.0219
+Bahrain,Cattle,kt,2013,0.023
+Bahrain,Cattle,kt,2014,0.023
+Bahrain,Cattle,kt,2015,0.0197
+Bahrain,Cattle,kt,2016,0.0178
+Bahrain,Cattle,kt,2017,0.0153
+Bahrain,Cattle,kt,2018,0.0153
+Bahrain,Cattle,kt,2019,0.0168
+Bahrain,Cattle,kt,2020,0.0151
+Bahrain,Cattle,kt,2021,0.016
+Bahrain,Cattle,kt,2022,0.0159
+Bahrain,Cattle,kt,2023,0.0154
+Bahrain,Goats,kt,2010,0.0064
+Bahrain,Goats,kt,2011,0.0064
+Bahrain,Goats,kt,2012,0.0062
+Bahrain,Goats,kt,2013,0.0062
+Bahrain,Goats,kt,2014,0.0062
+Bahrain,Goats,kt,2015,0.0064
+Bahrain,Goats,kt,2016,0.0066
+Bahrain,Goats,kt,2017,0.0067
+Bahrain,Goats,kt,2018,0.0084
+Bahrain,Goats,kt,2019,0.0086
+Bahrain,Goats,kt,2020,0.0071
+Bahrain,Goats,kt,2021,0.0084
+Bahrain,Goats,kt,2022,0.0082
+Bahrain,Goats,kt,2023,0.0079
+Bahrain,Sheep,kt,2010,0.0107
+Bahrain,Sheep,kt,2011,0.0107
+Bahrain,Sheep,kt,2012,0.011
+Bahrain,Sheep,kt,2013,0.0107
+Bahrain,Sheep,kt,2014,0.0107
+Bahrain,Sheep,kt,2015,0.0127
+Bahrain,Sheep,kt,2016,0.0147
+Bahrain,Sheep,kt,2017,0.0173
+Bahrain,Sheep,kt,2018,0.017
+Bahrain,Sheep,kt,2019,0.0168
+Bahrain,Sheep,kt,2020,0.0161
+Bahrain,Sheep,kt,2021,0.0161
+Bahrain,Sheep,kt,2022,0.0167
+Bahrain,Sheep,kt,2023,0.0163
+Bangladesh,Buffalo,kt,2010,1.1448
+Bangladesh,Buffalo,kt,2011,1.183
+Bangladesh,Buffalo,kt,2012,1.2246
+Bangladesh,Buffalo,kt,2013,1.2432
+Bangladesh,Buffalo,kt,2014,1.2365
+Bangladesh,Buffalo,kt,2015,1.2424
+Bangladesh,Buffalo,kt,2016,1.2483
+Bangladesh,Buffalo,kt,2017,1.2543
+Bangladesh,Buffalo,kt,2018,1.2602
+Bangladesh,Buffalo,kt,2019,1.2645
+Bangladesh,Buffalo,kt,2020,1.267
+Bangladesh,Buffalo,kt,2021,1.2729
+Bangladesh,Buffalo,kt,2022,1.2797
+Bangladesh,Buffalo,kt,2023,1.2865
+Bangladesh,Cattle,kt,2010,14.357
+Bangladesh,Cattle,kt,2011,14.4006
+Bangladesh,Cattle,kt,2012,14.4467
+Bangladesh,Cattle,kt,2013,14.5376
+Bangladesh,Cattle,kt,2014,14.6292
+Bangladesh,Cattle,kt,2015,14.7213
+Bangladesh,Cattle,kt,2016,14.8142
+Bangladesh,Cattle,kt,2017,14.9076
+Bangladesh,Cattle,kt,2018,15.0016
+Bangladesh,Cattle,kt,2019,15.0646
+Bangladesh,Cattle,kt,2020,15.1916
+Bangladesh,Cattle,kt,2021,15.2875
+Bangladesh,Cattle,kt,2022,15.384
+Bangladesh,Cattle,kt,2023,15.4815
+Bangladesh,Goats,kt,2010,7.9559
+Bangladesh,Goats,kt,2011,8.2546
+Bangladesh,Goats,kt,2012,8.5851
+Bangladesh,Goats,kt,2013,8.6402
+Bangladesh,Goats,kt,2014,8.6956
+Bangladesh,Goats,kt,2015,8.7513
+Bangladesh,Goats,kt,2016,8.8073
+Bangladesh,Goats,kt,2017,8.8637
+Bangladesh,Goats,kt,2018,8.9215
+Bangladesh,Goats,kt,2019,8.9786
+Bangladesh,Goats,kt,2020,9.036
+Bangladesh,Goats,kt,2021,9.0938
+Bangladesh,Goats,kt,2022,9.1519
+Bangladesh,Goats,kt,2023,9.2103
+Bangladesh,Sheep,kt,2010,0.8447
+Bangladesh,Sheep,kt,2011,0.8518
+Bangladesh,Sheep,kt,2012,0.8745
+Bangladesh,Sheep,kt,2013,0.8918
+Bangladesh,Sheep,kt,2014,0.9096
+Bangladesh,Sheep,kt,2015,0.9278
+Bangladesh,Sheep,kt,2016,0.9462
+Bangladesh,Sheep,kt,2017,0.965
+Bangladesh,Sheep,kt,2018,0.984
+Bangladesh,Sheep,kt,2019,1.0036
+Bangladesh,Sheep,kt,2020,1.0234
+Bangladesh,Sheep,kt,2021,1.0439
+Bangladesh,Sheep,kt,2022,1.0646
+Bangladesh,Sheep,kt,2023,1.0858
+Bhutan,Buffalo,kt,2010,0.0378
+Bhutan,Buffalo,kt,2011,0.0401
+Bhutan,Buffalo,kt,2012,0.0373
+Bhutan,Buffalo,kt,2013,0.04
+Bhutan,Buffalo,kt,2014,0.0397
+Bhutan,Buffalo,kt,2015,0.0406
+Bhutan,Buffalo,kt,2016,0.043
+Bhutan,Buffalo,kt,2017,0.0436
+Bhutan,Buffalo,kt,2018,0.0441
+Bhutan,Buffalo,kt,2019,0.0448
+Bhutan,Buffalo,kt,2020,0.0444
+Bhutan,Buffalo,kt,2021,0.0429
+Bhutan,Buffalo,kt,2022,0.0474
+Bhutan,Buffalo,kt,2023,0.0503
+Bhutan,Cattle,kt,2010,0.1347
+Bhutan,Cattle,kt,2011,0.1343
+Bhutan,Cattle,kt,2012,0.1352
+Bhutan,Cattle,kt,2013,0.1378
+Bhutan,Cattle,kt,2014,0.1415
+Bhutan,Cattle,kt,2015,0.1473
+Bhutan,Cattle,kt,2016,0.1554
+Bhutan,Cattle,kt,2017,0.1585
+Bhutan,Cattle,kt,2018,0.1658
+Bhutan,Cattle,kt,2019,0.166
+Bhutan,Cattle,kt,2020,0.1582
+Bhutan,Cattle,kt,2021,0.1544
+Bhutan,Cattle,kt,2022,0.138
+Bhutan,Cattle,kt,2023,0.1213
+Bhutan,Goats,kt,2010,0.0147
+Bhutan,Goats,kt,2011,0.0149
+Bhutan,Goats,kt,2012,0.0133
+Bhutan,Goats,kt,2013,0.0134
+Bhutan,Goats,kt,2014,0.0167
+Bhutan,Goats,kt,2015,0.0144
+Bhutan,Goats,kt,2016,0.0135
+Bhutan,Goats,kt,2017,0.0146
+Bhutan,Goats,kt,2018,0.015
+Bhutan,Goats,kt,2019,0.0163
+Bhutan,Goats,kt,2020,0.0151
+Bhutan,Goats,kt,2021,0.0204
+Bhutan,Goats,kt,2022,0.0191
+Bhutan,Goats,kt,2023,0.0208
+Bhutan,Sheep,kt,2010,0.0036
+Bhutan,Sheep,kt,2011,0.0035
+Bhutan,Sheep,kt,2012,0.0031
+Bhutan,Sheep,kt,2013,0.0028
+Bhutan,Sheep,kt,2014,0.0031
+Bhutan,Sheep,kt,2015,0.0032
+Bhutan,Sheep,kt,2016,0.0032
+Bhutan,Sheep,kt,2017,0.003
+Bhutan,Sheep,kt,2018,0.0031
+Bhutan,Sheep,kt,2019,0.0033
+Bhutan,Sheep,kt,2020,0.0031
+Bhutan,Sheep,kt,2021,0.003
+Bhutan,Sheep,kt,2022,0.0028
+Bhutan,Sheep,kt,2023,0.0027
+Bhutan,Swine,kt,2010,0.0027
+Bhutan,Swine,kt,2011,0.0029
+Bhutan,Swine,kt,2012,0.0027
+Bhutan,Swine,kt,2013,0.0021
+Bhutan,Swine,kt,2014,0.002
+Bhutan,Swine,kt,2015,0.0022
+Bhutan,Swine,kt,2016,0.0021
+Bhutan,Swine,kt,2017,0.0026
+Bhutan,Swine,kt,2018,0.003
+Bhutan,Swine,kt,2019,0.0028
+Bhutan,Swine,kt,2020,0.0024
+Bhutan,Swine,kt,2021,0.0032
+Bhutan,Swine,kt,2022,0.0046
+Bhutan,Swine,kt,2023,0.0041
+Brunei Darussalam,Buffalo,kt,2010,0.0075
+Brunei Darussalam,Buffalo,kt,2011,0.0047
+Brunei Darussalam,Buffalo,kt,2012,0.0045
+Brunei Darussalam,Buffalo,kt,2013,0.0043
+Brunei Darussalam,Buffalo,kt,2014,0.0046
+Brunei Darussalam,Buffalo,kt,2015,0.0054
+Brunei Darussalam,Buffalo,kt,2016,0.005
+Brunei Darussalam,Buffalo,kt,2017,0.0049
+Brunei Darussalam,Buffalo,kt,2018,0.0042
+Brunei Darussalam,Buffalo,kt,2019,0.0042
+Brunei Darussalam,Buffalo,kt,2020,0.0042
+Brunei Darussalam,Buffalo,kt,2021,0.0024
+Brunei Darussalam,Buffalo,kt,2022,0.0022
+Brunei Darussalam,Buffalo,kt,2023,0.0019
+Brunei Darussalam,Cattle,kt,2010,0.0014
+Brunei Darussalam,Cattle,kt,2011,0.0015
+Brunei Darussalam,Cattle,kt,2012,0.0014
+Brunei Darussalam,Cattle,kt,2013,0.0013
+Brunei Darussalam,Cattle,kt,2014,0.0013
+Brunei Darussalam,Cattle,kt,2015,0.0013
+Brunei Darussalam,Cattle,kt,2016,0.0013
+Brunei Darussalam,Cattle,kt,2017,0.0011
+Brunei Darussalam,Cattle,kt,2018,0.0011
+Brunei Darussalam,Cattle,kt,2019,0.001
+Brunei Darussalam,Cattle,kt,2020,0.001
+Brunei Darussalam,Cattle,kt,2021,0.0006
+Brunei Darussalam,Cattle,kt,2022,0.0006
+Brunei Darussalam,Cattle,kt,2023,0.0005
+Brunei Darussalam,Goats,kt,2010,0.0023
+Brunei Darussalam,Goats,kt,2011,0.0021
+Brunei Darussalam,Goats,kt,2012,0.0023
+Brunei Darussalam,Goats,kt,2013,0.0024
+Brunei Darussalam,Goats,kt,2014,0.0023
+Brunei Darussalam,Goats,kt,2015,0.0025
+Brunei Darussalam,Goats,kt,2016,0.003
+Brunei Darussalam,Goats,kt,2017,0.0026
+Brunei Darussalam,Goats,kt,2018,0.0021
+Brunei Darussalam,Goats,kt,2019,0.002
+Brunei Darussalam,Goats,kt,2020,0.0021
+Brunei Darussalam,Goats,kt,2021,0.0014
+Brunei Darussalam,Goats,kt,2022,0.0014
+Brunei Darussalam,Goats,kt,2023,0.0012
+Brunei Darussalam,Sheep,kt,2010,0.0011
+Brunei Darussalam,Sheep,kt,2011,0.0011
+Brunei Darussalam,Sheep,kt,2012,0.0011
+Brunei Darussalam,Sheep,kt,2013,0.0011
+Brunei Darussalam,Sheep,kt,2014,0.0011
+Brunei Darussalam,Sheep,kt,2015,0.0012
+Brunei Darussalam,Sheep,kt,2016,0.0012
+Brunei Darussalam,Sheep,kt,2017,0.0012
+Brunei Darussalam,Sheep,kt,2018,0.0012
+Brunei Darussalam,Sheep,kt,2019,0.0012
+Brunei Darussalam,Sheep,kt,2020,0.0012
+Brunei Darussalam,Sheep,kt,2021,0.0012
+Brunei Darussalam,Sheep,kt,2022,0.0012
+Brunei Darussalam,Sheep,kt,2023,0.0013
+Brunei Darussalam,Swine,kt,2010,0.0002
+Brunei Darussalam,Swine,kt,2011,0.0002
+Brunei Darussalam,Swine,kt,2012,0.0002
+Brunei Darussalam,Swine,kt,2013,0.0002
+Brunei Darussalam,Swine,kt,2014,0.0002
+Brunei Darussalam,Swine,kt,2015,0.0002
+Brunei Darussalam,Swine,kt,2016,0.0002
+Brunei Darussalam,Swine,kt,2017,0.0002
+Brunei Darussalam,Swine,kt,2018,0.0002
+Brunei Darussalam,Swine,kt,2019,0.0002
+Brunei Darussalam,Swine,kt,2020,0.0002
+Brunei Darussalam,Swine,kt,2021,0.0002
+Brunei Darussalam,Swine,kt,2022,0.0002
+Brunei Darussalam,Swine,kt,2023,0.0001
+Cambodia,Buffalo,kt,2010,1.2847
+Cambodia,Buffalo,kt,2011,1.2623
+Cambodia,Buffalo,kt,2012,1.2443
+Cambodia,Buffalo,kt,2013,1.237
+Cambodia,Buffalo,kt,2014,1.2443
+Cambodia,Buffalo,kt,2015,1.248
+Cambodia,Buffalo,kt,2016,1.2454
+Cambodia,Buffalo,kt,2017,1.2422
+Cambodia,Buffalo,kt,2018,1.2386
+Cambodia,Buffalo,kt,2019,1.233
+Cambodia,Buffalo,kt,2020,1.2252
+Cambodia,Buffalo,kt,2021,1.2241
+Cambodia,Buffalo,kt,2022,1.2207
+Cambodia,Buffalo,kt,2023,1.2174
+Cambodia,Cattle,kt,2010,5.8682
+Cambodia,Cattle,kt,2011,5.7374
+Cambodia,Cattle,kt,2012,4.9058
+Cambodia,Cattle,kt,2013,4.8805
+Cambodia,Cattle,kt,2014,4.838
+Cambodia,Cattle,kt,2015,4.8406
+Cambodia,Cattle,kt,2016,4.8513
+Cambodia,Cattle,kt,2017,4.8346
+Cambodia,Cattle,kt,2018,4.8174
+Cambodia,Cattle,kt,2019,4.7825
+Cambodia,Cattle,kt,2020,4.7567
+Cambodia,Cattle,kt,2021,4.6552
+Cambodia,Cattle,kt,2022,4.5352
+Cambodia,Cattle,kt,2023,4.3969
+Cambodia,Swine,kt,2010,0.3469
+Cambodia,Swine,kt,2011,0.354
+Cambodia,Swine,kt,2012,0.3574
+Cambodia,Swine,kt,2013,0.3625
+Cambodia,Swine,kt,2014,0.3676
+Cambodia,Swine,kt,2015,0.3676
+Cambodia,Swine,kt,2016,0.3661
+Cambodia,Swine,kt,2017,0.3664
+Cambodia,Swine,kt,2018,0.3674
+Cambodia,Swine,kt,2019,0.3682
+Cambodia,Swine,kt,2020,0.3522
+Cambodia,Swine,kt,2021,0.3329
+Cambodia,Swine,kt,2022,0.3505
+Cambodia,Swine,kt,2023,0.3434
+"China, Hong Kong SAR",Buffalo,kt,2010,0.0005
+"China, Hong Kong SAR",Buffalo,kt,2011,0.0005
+"China, Hong Kong SAR",Buffalo,kt,2012,0.0005
+"China, Hong Kong SAR",Buffalo,kt,2013,0.0005
+"China, Hong Kong SAR",Buffalo,kt,2014,0.0005
+"China, Hong Kong SAR",Buffalo,kt,2015,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2016,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2017,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2018,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2019,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2020,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2021,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2022,0.0006
+"China, Hong Kong SAR",Buffalo,kt,2023,0.0006
+"China, Hong Kong SAR",Cattle,kt,2010,0.0027
+"China, Hong Kong SAR",Cattle,kt,2011,0.0027
+"China, Hong Kong SAR",Cattle,kt,2012,0.0029
+"China, Hong Kong SAR",Cattle,kt,2013,0.0029
+"China, Hong Kong SAR",Cattle,kt,2014,0.0029
+"China, Hong Kong SAR",Cattle,kt,2015,0.0028
+"China, Hong Kong SAR",Cattle,kt,2016,0.0027
+"China, Hong Kong SAR",Cattle,kt,2017,0.0027
+"China, Hong Kong SAR",Cattle,kt,2018,0.0027
+"China, Hong Kong SAR",Cattle,kt,2019,0.0026
+"China, Hong Kong SAR",Cattle,kt,2020,0.0026
+"China, Hong Kong SAR",Cattle,kt,2021,0.0026
+"China, Hong Kong SAR",Cattle,kt,2022,0.0026
+"China, Hong Kong SAR",Cattle,kt,2023,0.0026
+"China, Hong Kong SAR",Goats,kt,2010,0.0002
+"China, Hong Kong SAR",Goats,kt,2011,0.0002
+"China, Hong Kong SAR",Goats,kt,2012,0.0002
+"China, Hong Kong SAR",Goats,kt,2013,0.0002
+"China, Hong Kong SAR",Goats,kt,2014,0.0002
+"China, Hong Kong SAR",Goats,kt,2015,0.0002
+"China, Hong Kong SAR",Goats,kt,2016,0.0002
+"China, Hong Kong SAR",Goats,kt,2017,0.0002
+"China, Hong Kong SAR",Goats,kt,2018,0.0002
+"China, Hong Kong SAR",Goats,kt,2019,0.0002
+"China, Hong Kong SAR",Goats,kt,2020,0.0002
+"China, Hong Kong SAR",Goats,kt,2021,0.0002
+"China, Hong Kong SAR",Goats,kt,2022,0.0002
+"China, Hong Kong SAR",Goats,kt,2023,0.0002
+"China, Hong Kong SAR",Sheep,kt,2010,0
+"China, Hong Kong SAR",Sheep,kt,2011,0
+"China, Hong Kong SAR",Sheep,kt,2012,0
+"China, Hong Kong SAR",Sheep,kt,2013,0
+"China, Hong Kong SAR",Sheep,kt,2014,0
+"China, Hong Kong SAR",Sheep,kt,2015,0
+"China, Hong Kong SAR",Sheep,kt,2016,0
+"China, Hong Kong SAR",Sheep,kt,2017,0
+"China, Hong Kong SAR",Sheep,kt,2018,0
+"China, Hong Kong SAR",Sheep,kt,2019,0
+"China, Hong Kong SAR",Sheep,kt,2020,0
+"China, Hong Kong SAR",Sheep,kt,2021,0
+"China, Hong Kong SAR",Sheep,kt,2022,0
+"China, Hong Kong SAR",Sheep,kt,2023,0
+"China, Hong Kong SAR",Swine,kt,2010,0.0287
+"China, Hong Kong SAR",Swine,kt,2011,0.0295
+"China, Hong Kong SAR",Swine,kt,2012,0.0295
+"China, Hong Kong SAR",Swine,kt,2013,0.0297
+"China, Hong Kong SAR",Swine,kt,2014,0.0298
+"China, Hong Kong SAR",Swine,kt,2015,0.0145
+"China, Hong Kong SAR",Swine,kt,2016,0.0148
+"China, Hong Kong SAR",Swine,kt,2017,0.0176
+"China, Hong Kong SAR",Swine,kt,2018,0.0179
+"China, Hong Kong SAR",Swine,kt,2019,0.0184
+"China, Hong Kong SAR",Swine,kt,2020,0.0201
+"China, Hong Kong SAR",Swine,kt,2021,0.0186
+"China, Hong Kong SAR",Swine,kt,2022,0.0204
+"China, Hong Kong SAR",Swine,kt,2023,0.0197
+"China, Taiwan Province of",Buffalo,kt,2010,0.007
+"China, Taiwan Province of",Buffalo,kt,2011,0.007
+"China, Taiwan Province of",Buffalo,kt,2012,0.0066
+"China, Taiwan Province of",Buffalo,kt,2013,0.0058
+"China, Taiwan Province of",Buffalo,kt,2014,0.0046
+"China, Taiwan Province of",Buffalo,kt,2015,0.0045
+"China, Taiwan Province of",Buffalo,kt,2016,0.0042
+"China, Taiwan Province of",Buffalo,kt,2017,0.0037
+"China, Taiwan Province of",Buffalo,kt,2018,0.0038
+"China, Taiwan Province of",Buffalo,kt,2019,0.0036
+"China, Taiwan Province of",Buffalo,kt,2020,0.0039
+"China, Taiwan Province of",Buffalo,kt,2021,0.0037
+"China, Taiwan Province of",Buffalo,kt,2022,0.0035
+"China, Taiwan Province of",Buffalo,kt,2023,0.0037
+"China, Taiwan Province of",Cattle,kt,2010,0.2116
+"China, Taiwan Province of",Cattle,kt,2011,0.222
+"China, Taiwan Province of",Cattle,kt,2012,0.2293
+"China, Taiwan Province of",Cattle,kt,2013,0.233
+"China, Taiwan Province of",Cattle,kt,2014,0.2359
+"China, Taiwan Province of",Cattle,kt,2015,0.2333
+"China, Taiwan Province of",Cattle,kt,2016,0.2394
+"China, Taiwan Province of",Cattle,kt,2017,0.2346
+"China, Taiwan Province of",Cattle,kt,2018,0.2363
+"China, Taiwan Province of",Cattle,kt,2019,0.2424
+"China, Taiwan Province of",Cattle,kt,2020,0.2468
+"China, Taiwan Province of",Cattle,kt,2021,0.2593
+"China, Taiwan Province of",Cattle,kt,2022,0.2579
+"China, Taiwan Province of",Cattle,kt,2023,0.2559
+"China, Taiwan Province of",Goats,kt,2010,0.0706
+"China, Taiwan Province of",Goats,kt,2011,0.07
+"China, Taiwan Province of",Goats,kt,2012,0.0651
+"China, Taiwan Province of",Goats,kt,2013,0.0571
+"China, Taiwan Province of",Goats,kt,2014,0.055
+"China, Taiwan Province of",Goats,kt,2015,0.0533
+"China, Taiwan Province of",Goats,kt,2016,0.0499
+"China, Taiwan Province of",Goats,kt,2017,0.0495
+"China, Taiwan Province of",Goats,kt,2018,0.0484
+"China, Taiwan Province of",Goats,kt,2019,0.0461
+"China, Taiwan Province of",Goats,kt,2020,0.0446
+"China, Taiwan Province of",Goats,kt,2021,0.0431
+"China, Taiwan Province of",Goats,kt,2022,0.0398
+"China, Taiwan Province of",Goats,kt,2023,0.0368
+"China, Taiwan Province of",Sheep,kt,2010,0.0001
+"China, Taiwan Province of",Sheep,kt,2011,0.0001
+"China, Taiwan Province of",Sheep,kt,2012,0.0001
+"China, Taiwan Province of",Sheep,kt,2013,0.0001
+"China, Taiwan Province of",Sheep,kt,2014,0.0001
+"China, Taiwan Province of",Sheep,kt,2015,0.0001
+"China, Taiwan Province of",Sheep,kt,2016,0.0001
+"China, Taiwan Province of",Sheep,kt,2017,0.0001
+"China, Taiwan Province of",Sheep,kt,2018,0.0001
+"China, Taiwan Province of",Sheep,kt,2019,0
+"China, Taiwan Province of",Sheep,kt,2020,0
+"China, Taiwan Province of",Sheep,kt,2021,0
+"China, Taiwan Province of",Sheep,kt,2022,0
+"China, Taiwan Province of",Sheep,kt,2023,0
+"China, Taiwan Province of",Swine,kt,2010,1.0335
+"China, Taiwan Province of",Swine,kt,2011,1.043
+"China, Taiwan Province of",Swine,kt,2012,1.0564
+"China, Taiwan Province of",Swine,kt,2013,1.0124
+"China, Taiwan Province of",Swine,kt,2014,0.979
+"China, Taiwan Province of",Swine,kt,2015,0.9349
+"China, Taiwan Province of",Swine,kt,2016,0.9267
+"China, Taiwan Province of",Swine,kt,2017,0.9176
+"China, Taiwan Province of",Swine,kt,2018,0.916
+"China, Taiwan Province of",Swine,kt,2019,0.9297
+"China, Taiwan Province of",Swine,kt,2020,0.9294
+"China, Taiwan Province of",Swine,kt,2021,0.9225
+"China, Taiwan Province of",Swine,kt,2022,0.8964
+"China, Taiwan Province of",Swine,kt,2023,0.8694
+"China, mainland",Buffalo,kt,2010,53.9092
+"China, mainland",Buffalo,kt,2011,51.5158
+"China, mainland",Buffalo,kt,2012,50.1612
+"China, mainland",Buffalo,kt,2013,49.3296
+"China, mainland",Buffalo,kt,2014,49.3296
+"China, mainland",Buffalo,kt,2015,49.4477
+"China, mainland",Buffalo,kt,2016,49.714
+"China, mainland",Buffalo,kt,2017,48.4991
+"China, mainland",Buffalo,kt,2018,49.6205
+"China, mainland",Buffalo,kt,2019,50.1668
+"China, mainland",Buffalo,kt,2020,52.4933
+"China, mainland",Buffalo,kt,2021,53.8942
+"China, mainland",Buffalo,kt,2022,56.0824
+"China, mainland",Buffalo,kt,2023,57.6891
+"China, mainland",Cattle,kt,2010,114.3472
+"China, mainland",Cattle,kt,2011,109.2068
+"China, mainland",Cattle,kt,2012,106.3014
+"China, mainland",Cattle,kt,2013,104.5166
+"China, mainland",Cattle,kt,2014,104.4577
+"China, mainland",Cattle,kt,2015,104.8155
+"China, mainland",Cattle,kt,2016,105.3915
+"China, mainland",Cattle,kt,2017,102.788
+"China, mainland",Cattle,kt,2018,105.184
+"China, mainland",Cattle,kt,2019,106.2896
+"China, mainland",Cattle,kt,2020,111.1675
+"China, mainland",Cattle,kt,2021,114.0489
+"China, mainland",Cattle,kt,2022,118.6232
+"China, mainland",Cattle,kt,2023,121.9352
+"China, mainland",Goats,kt,2010,48.5214
+"China, mainland",Goats,kt,2011,48.1537
+"China, mainland",Goats,kt,2012,47.6234
+"China, mainland",Goats,kt,2013,46.6841
+"China, mainland",Goats,kt,2014,46.6841
+"China, mainland",Goats,kt,2015,48.4274
+"China, mainland",Goats,kt,2016,49.5896
+"China, mainland",Goats,kt,2017,47.2524
+"China, mainland",Goats,kt,2018,46.401
+"China, mainland",Goats,kt,2019,46.9085
+"China, mainland",Goats,kt,2020,45.6167
+"China, mainland",Goats,kt,2021,45.5702
+"China, mainland",Goats,kt,2022,45.2031
+"China, mainland",Goats,kt,2023,44.2117
+"China, mainland",Sheep,kt,2010,41.241
+"China, mainland",Sheep,kt,2011,41.3588
+"China, mainland",Sheep,kt,2012,41.3694
+"China, mainland",Sheep,kt,2013,43.3477
+"China, mainland",Sheep,kt,2014,43.3457
+"China, mainland",Sheep,kt,2015,46.032
+"China, mainland",Sheep,kt,2016,47.289
+"China, mainland",Sheep,kt,2017,46.5544
+"China, mainland",Sheep,kt,2018,45.791
+"China, mainland",Sheep,kt,2019,46.3872
+"China, mainland",Sheep,kt,2020,49.1127
+"China, mainland",Sheep,kt,2021,52.8811
+"China, mainland",Sheep,kt,2022,55.0526
+"China, mainland",Sheep,kt,2023,54.7557
+"China, mainland",Swine,kt,2010,78.848
+"China, mainland",Swine,kt,2011,79.3699
+"China, mainland",Swine,kt,2012,80.9808
+"China, mainland",Swine,kt,2013,80.7497
+"China, mainland",Swine,kt,2014,80.7497
+"China, mainland",Swine,kt,2015,79.5139
+"China, mainland",Swine,kt,2016,77.2254
+"China, mainland",Swine,kt,2017,74.4536
+"China, mainland",Swine,kt,2018,72.1913
+"China, mainland",Swine,kt,2019,52.3358
+"China, mainland",Swine,kt,2020,68.5382
+"China, mainland",Swine,kt,2021,75.7409
+"China, mainland",Swine,kt,2022,76.3033
+"China, mainland",Swine,kt,2023,73.2116
+Cyprus,Cattle,kt,2010,0.1089
+Cyprus,Cattle,kt,2011,0.1131
+Cyprus,Cattle,kt,2012,0.1135
+Cyprus,Cattle,kt,2013,0.115
+Cyprus,Cattle,kt,2014,0.1219
+Cyprus,Cattle,kt,2015,0.1184
+Cyprus,Cattle,kt,2016,0.1303
+Cyprus,Cattle,kt,2017,0.1379
+Cyprus,Cattle,kt,2018,0.146
+Cyprus,Cattle,kt,2019,0.1538
+Cyprus,Cattle,kt,2020,0.1727
+Cyprus,Cattle,kt,2021,0.1751
+Cyprus,Cattle,kt,2022,0.169
+Cyprus,Cattle,kt,2023,0.1708
+Cyprus,Goats,kt,2010,0.1033
+Cyprus,Goats,kt,2011,0.0975
+Cyprus,Goats,kt,2012,0.0911
+Cyprus,Goats,kt,2013,0.0817
+Cyprus,Goats,kt,2014,0.0806
+Cyprus,Goats,kt,2015,0.0796
+Cyprus,Goats,kt,2016,0.0828
+Cyprus,Goats,kt,2017,0.0865
+Cyprus,Goats,kt,2018,0.0841
+Cyprus,Goats,kt,2019,0.0839
+Cyprus,Goats,kt,2020,0.0877
+Cyprus,Goats,kt,2021,0.0864
+Cyprus,Goats,kt,2022,0.0841
+Cyprus,Goats,kt,2023,
+Cyprus,Sheep,kt,2010,0.0881
+Cyprus,Sheep,kt,2011,0.0953
+Cyprus,Sheep,kt,2012,0.0929
+Cyprus,Sheep,kt,2013,0.0839
+Cyprus,Sheep,kt,2014,0.0863
+Cyprus,Sheep,kt,2015,0.0795
+Cyprus,Sheep,kt,2016,0.0814
+Cyprus,Sheep,kt,2017,0.0861
+Cyprus,Sheep,kt,2018,0.0833
+Cyprus,Sheep,kt,2019,0.0866
+Cyprus,Sheep,kt,2020,0.0874
+Cyprus,Sheep,kt,2021,0.0939
+Cyprus,Sheep,kt,2022,0.0919
+Cyprus,Sheep,kt,2023,
+Cyprus,Swine,kt,2010,0.3129
+Cyprus,Swine,kt,2011,0.2964
+Cyprus,Swine,kt,2012,0.2664
+Cyprus,Swine,kt,2013,0.2415
+Cyprus,Swine,kt,2014,0.2308
+Cyprus,Swine,kt,2015,0.2416
+Cyprus,Swine,kt,2016,0.2381
+Cyprus,Swine,kt,2017,0.2363
+Cyprus,Swine,kt,2018,0.2444
+Cyprus,Swine,kt,2019,0.2374
+Cyprus,Swine,kt,2020,0.2423
+Cyprus,Swine,kt,2021,0.2433
+Cyprus,Swine,kt,2022,0.2233
+Cyprus,Swine,kt,2023,0.209
+Democratic People's Republic of Korea,Cattle,kt,2010,0.9692
+Democratic People's Republic of Korea,Cattle,kt,2011,0.9691
+Democratic People's Republic of Korea,Cattle,kt,2012,0.9672
+Democratic People's Republic of Korea,Cattle,kt,2013,0.9672
+Democratic People's Republic of Korea,Cattle,kt,2014,0.9664
+Democratic People's Republic of Korea,Cattle,kt,2015,0.965
+Democratic People's Republic of Korea,Cattle,kt,2016,0.9681
+Democratic People's Republic of Korea,Cattle,kt,2017,0.9681
+Democratic People's Republic of Korea,Cattle,kt,2018,0.9681
+Democratic People's Republic of Korea,Cattle,kt,2019,0.9715
+Democratic People's Republic of Korea,Cattle,kt,2020,0.9765
+Democratic People's Republic of Korea,Cattle,kt,2021,0.9741
+Democratic People's Republic of Korea,Cattle,kt,2022,0.9602
+Democratic People's Republic of Korea,Cattle,kt,2023,0.9637
+Democratic People's Republic of Korea,Goats,kt,2010,1.2155
+Democratic People's Republic of Korea,Goats,kt,2011,1.25
+Democratic People's Republic of Korea,Goats,kt,2012,1.261
+Democratic People's Republic of Korea,Goats,kt,2013,1.2586
+Democratic People's Republic of Korea,Goats,kt,2014,1.2528
+Democratic People's Republic of Korea,Goats,kt,2015,1.2543
+Democratic People's Republic of Korea,Goats,kt,2016,1.2586
+Democratic People's Republic of Korea,Goats,kt,2017,1.2593
+Democratic People's Republic of Korea,Goats,kt,2018,1.2411
+Democratic People's Republic of Korea,Goats,kt,2019,1.2664
+Democratic People's Republic of Korea,Goats,kt,2020,1.2829
+Democratic People's Republic of Korea,Goats,kt,2021,1.2962
+Democratic People's Republic of Korea,Goats,kt,2022,1.3304
+Democratic People's Republic of Korea,Goats,kt,2023,1.3367
+Democratic People's Republic of Korea,Sheep,kt,2010,0.0471
+Democratic People's Republic of Korea,Sheep,kt,2011,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2012,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2013,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2014,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2015,0.0474
+Democratic People's Republic of Korea,Sheep,kt,2016,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2017,0.0477
+Democratic People's Republic of Korea,Sheep,kt,2018,0.0474
+Democratic People's Republic of Korea,Sheep,kt,2019,0.048
+Democratic People's Republic of Korea,Sheep,kt,2020,0.0485
+Democratic People's Republic of Korea,Sheep,kt,2021,0.0478
+Democratic People's Republic of Korea,Sheep,kt,2022,0.0471
+Democratic People's Republic of Korea,Sheep,kt,2023,0.0473
+Democratic People's Republic of Korea,Swine,kt,2010,0.379
+Democratic People's Republic of Korea,Swine,kt,2011,0.3826
+Democratic People's Republic of Korea,Swine,kt,2012,0.4817
+Democratic People's Republic of Korea,Swine,kt,2013,0.3819
+Democratic People's Republic of Korea,Swine,kt,2014,0.3541
+Democratic People's Republic of Korea,Swine,kt,2015,0.3925
+Democratic People's Republic of Korea,Swine,kt,2016,0.4353
+Democratic People's Republic of Korea,Swine,kt,2017,0.4385
+Democratic People's Republic of Korea,Swine,kt,2018,0.4372
+Democratic People's Republic of Korea,Swine,kt,2019,0.4132
+Democratic People's Republic of Korea,Swine,kt,2020,0.3888
+Democratic People's Republic of Korea,Swine,kt,2021,0.3739
+Democratic People's Republic of Korea,Swine,kt,2022,0.3988
+Democratic People's Republic of Korea,Swine,kt,2023,0.4023
+Georgia,Buffalo,kt,2010,0.0193
+Georgia,Buffalo,kt,2011,0.0194
+Georgia,Buffalo,kt,2012,0.0196
+Georgia,Buffalo,kt,2013,0.0207
+Georgia,Buffalo,kt,2014,0.022
+Georgia,Buffalo,kt,2015,0.022
+Georgia,Buffalo,kt,2016,0.0214
+Georgia,Buffalo,kt,2017,0.0212
+Georgia,Buffalo,kt,2018,0.0211
+Georgia,Buffalo,kt,2019,0.0211
+Georgia,Buffalo,kt,2020,0.0216
+Georgia,Buffalo,kt,2021,0.022
+Georgia,Buffalo,kt,2022,0.0222
+Georgia,Buffalo,kt,2023,0.0224
+Georgia,Cattle,kt,2010,2.2066
+Georgia,Cattle,kt,2011,2.2644
+Georgia,Cattle,kt,2012,2.5286
+Georgia,Cattle,kt,2013,2.5389
+Georgia,Cattle,kt,2014,2.5982
+Georgia,Cattle,kt,2015,2.0904
+Georgia,Cattle,kt,2016,2.1161
+Georgia,Cattle,kt,2017,2.0394
+Georgia,Cattle,kt,2018,1.9244
+Georgia,Cattle,kt,2019,1.8569
+Georgia,Cattle,kt,2020,1.829
+Georgia,Cattle,kt,2021,1.9334
+Georgia,Cattle,kt,2022,1.9389
+Georgia,Cattle,kt,2023,1.794
+Georgia,Goats,kt,2010,0.024
+Georgia,Goats,kt,2011,0.0192
+Georgia,Goats,kt,2012,0.018
+Georgia,Goats,kt,2013,0.0183
+Georgia,Goats,kt,2014,0.0204
+Georgia,Goats,kt,2015,0.018
+Georgia,Goats,kt,2016,0.0167
+Georgia,Goats,kt,2017,0.0204
+Georgia,Goats,kt,2018,0.0172
+Georgia,Goats,kt,2019,0.0169
+Georgia,Goats,kt,2020,0.0167
+Georgia,Goats,kt,2021,0.0169
+Georgia,Goats,kt,2022,0.0176
+Georgia,Goats,kt,2023,0.0169
+Georgia,Sheep,kt,2010,0.1613
+Georgia,Sheep,kt,2011,0.1598
+Georgia,Sheep,kt,2012,0.1544
+Georgia,Sheep,kt,2013,0.1843
+Georgia,Sheep,kt,2014,0.2131
+Georgia,Sheep,kt,2015,0.2319
+Georgia,Sheep,kt,2016,0.2253
+Georgia,Sheep,kt,2017,0.2345
+Georgia,Sheep,kt,2018,0.2292
+Georgia,Sheep,kt,2019,0.2193
+Georgia,Sheep,kt,2020,0.2254
+Georgia,Sheep,kt,2021,0.24
+Georgia,Sheep,kt,2022,0.2421
+Georgia,Sheep,kt,2023,0.2313
+Georgia,Swine,kt,2010,0.0912
+Georgia,Swine,kt,2011,0.0743
+Georgia,Swine,kt,2012,0.0709
+Georgia,Swine,kt,2013,0.1379
+Georgia,Swine,kt,2014,0.129
+Georgia,Swine,kt,2015,0.1145
+Georgia,Swine,kt,2016,0.109
+Georgia,Swine,kt,2017,0.0919
+Georgia,Swine,kt,2018,0.1017
+Georgia,Swine,kt,2019,0.1101
+Georgia,Swine,kt,2020,0.1049
+Georgia,Swine,kt,2021,0.1118
+Georgia,Swine,kt,2022,0.1032
+Georgia,Swine,kt,2023,0.1014
+India,Buffalo,kt,2010,91.1217
+India,Buffalo,kt,2011,91.7055
+India,Buffalo,kt,2012,92.2479
+India,Buffalo,kt,2013,92.8402
+India,Buffalo,kt,2014,93.3493
+India,Buffalo,kt,2015,93.6155
+India,Buffalo,kt,2016,93.6561
+India,Buffalo,kt,2017,93.5475
+India,Buffalo,kt,2018,93.388
+India,Buffalo,kt,2019,93.2235
+India,Buffalo,kt,2020,93.0658
+India,Buffalo,kt,2021,94.5684
+India,Buffalo,kt,2022,94.8238
+India,Buffalo,kt,2023,95.089
+India,Cattle,kt,2010,101.1273
+India,Cattle,kt,2011,101.3168
+India,Cattle,kt,2012,101.3688
+India,Cattle,kt,2013,100.9253
+India,Cattle,kt,2014,101.1401
+India,Cattle,kt,2015,102.4724
+India,Cattle,kt,2016,104.3883
+India,Cattle,kt,2017,106.248
+India,Cattle,kt,2018,108.2823
+India,Cattle,kt,2019,110.0263
+India,Cattle,kt,2020,113.0497
+India,Cattle,kt,2021,114.1024
+India,Cattle,kt,2022,115.1131
+India,Cattle,kt,2023,117.613
+India,Goats,kt,2010,46.939
+India,Goats,kt,2011,46.5723
+India,Goats,kt,2012,46.2049
+India,Goats,kt,2013,47.8713
+India,Goats,kt,2014,48.2968
+India,Goats,kt,2015,48.8372
+India,Goats,kt,2016,49.3348
+India,Goats,kt,2017,49.8409
+India,Goats,kt,2018,50.3505
+India,Goats,kt,2019,50.8918
+India,Goats,kt,2020,51.4198
+India,Goats,kt,2021,51.8627
+India,Goats,kt,2022,52.302
+India,Goats,kt,2023,52.7299
+India,Sheep,kt,2010,19.2211
+India,Sheep,kt,2011,18.8733
+India,Sheep,kt,2012,18.4622
+India,Sheep,kt,2013,19.5621
+India,Sheep,kt,2014,19.7804
+India,Sheep,kt,2015,20.0645
+India,Sheep,kt,2016,20.33
+India,Sheep,kt,2017,20.6021
+India,Sheep,kt,2018,20.8767
+India,Sheep,kt,2019,21.0701
+India,Sheep,kt,2020,21.2693
+India,Sheep,kt,2021,21.6027
+India,Sheep,kt,2022,21.7777
+India,Sheep,kt,2023,21.9677
+India,Swine,kt,2010,1.4785
+India,Swine,kt,2011,1.4564
+India,Swine,kt,2012,1.4304
+India,Swine,kt,2013,1.4077
+India,Swine,kt,2014,1.3896
+India,Swine,kt,2015,1.3689
+India,Swine,kt,2016,1.346
+India,Swine,kt,2017,1.3187
+India,Swine,kt,2018,1.2886
+India,Swine,kt,2019,1.2584
+India,Swine,kt,2020,1.2283
+India,Swine,kt,2021,1.2231
+India,Swine,kt,2022,1.1993
+India,Swine,kt,2023,1.1759
+Indonesia,Buffalo,kt,2010,3.6591
+Indonesia,Buffalo,kt,2011,2.3882
+Indonesia,Buffalo,kt,2012,2.632
+Indonesia,Buffalo,kt,2013,2.0305
+Indonesia,Buffalo,kt,2014,2.4432
+Indonesia,Buffalo,kt,2015,2.4647
+Indonesia,Buffalo,kt,2016,2.4798
+Indonesia,Buffalo,kt,2017,2.419
+Indonesia,Buffalo,kt,2018,1.6365
+Indonesia,Buffalo,kt,2019,2.0748
+Indonesia,Buffalo,kt,2020,2.1121
+Indonesia,Buffalo,kt,2021,2.0919
+Indonesia,Buffalo,kt,2022,2.1414
+Indonesia,Buffalo,kt,2023,1.8603
+Indonesia,Cattle,kt,2010,22.8793
+Indonesia,Cattle,kt,2011,24.9646
+Indonesia,Cattle,kt,2012,26.9165
+Indonesia,Cattle,kt,2013,21.3737
+Indonesia,Cattle,kt,2014,24.8137
+Indonesia,Cattle,kt,2015,25.9822
+Indonesia,Cattle,kt,2016,26.9676
+Indonesia,Cattle,kt,2017,27.6848
+Indonesia,Cattle,kt,2018,27.6852
+Indonesia,Cattle,kt,2019,28.5278
+Indonesia,Cattle,kt,2020,29.3898
+Indonesia,Cattle,kt,2021,30.2949
+Indonesia,Cattle,kt,2022,31.363
+Indonesia,Cattle,kt,2023,31.74
+Indonesia,Goats,kt,2010,5.6809
+Indonesia,Goats,kt,2011,5.7925
+Indonesia,Goats,kt,2012,6.1206
+Indonesia,Goats,kt,2013,6.3238
+Indonesia,Goats,kt,2014,6.3714
+Indonesia,Goats,kt,2015,6.499
+Indonesia,Goats,kt,2016,6.1005
+Indonesia,Goats,kt,2017,6.2239
+Indonesia,Goats,kt,2018,6.2575
+Indonesia,Goats,kt,2019,6.3111
+Indonesia,Goats,kt,2020,6.3885
+Indonesia,Goats,kt,2021,6.4619
+Indonesia,Goats,kt,2022,6.6306
+Indonesia,Goats,kt,2023,6.7152
+Indonesia,Sheep,kt,2010,3.0432
+Indonesia,Sheep,kt,2011,3.3454
+Indonesia,Sheep,kt,2012,3.8078
+Indonesia,Sheep,kt,2013,4.235
+Indonesia,Sheep,kt,2014,4.5658
+Indonesia,Sheep,kt,2015,4.8304
+Indonesia,Sheep,kt,2016,4.4593
+Indonesia,Sheep,kt,2017,4.8639
+Indonesia,Sheep,kt,2018,4.9969
+Indonesia,Sheep,kt,2019,5.06
+Indonesia,Sheep,kt,2020,4.972
+Indonesia,Sheep,kt,2021,4.4365
+Indonesia,Sheep,kt,2022,4.4306
+Indonesia,Sheep,kt,2023,4.4049
+Indonesia,Swine,kt,2010,1.2606
+Indonesia,Swine,kt,2011,1.2687
+Indonesia,Swine,kt,2012,1.332
+Indonesia,Swine,kt,2013,1.2812
+Indonesia,Swine,kt,2014,1.2973
+Indonesia,Swine,kt,2015,1.3165
+Indonesia,Swine,kt,2016,1.3326
+Indonesia,Swine,kt,2017,1.3928
+Indonesia,Swine,kt,2018,1.3917
+Indonesia,Swine,kt,2019,1.4402
+Indonesia,Swine,kt,2020,1.2852
+Indonesia,Swine,kt,2021,1.2103
+Indonesia,Swine,kt,2022,1.2275
+Indonesia,Swine,kt,2023,1.2289
+Iran (Islamic Republic of),Buffalo,kt,2010,0.1655
+Iran (Islamic Republic of),Buffalo,kt,2011,0.1672
+Iran (Islamic Republic of),Buffalo,kt,2012,0.1689
+Iran (Islamic Republic of),Buffalo,kt,2013,0.1714
+Iran (Islamic Republic of),Buffalo,kt,2014,0.0904
+Iran (Islamic Republic of),Buffalo,kt,2015,0.0858
+Iran (Islamic Republic of),Buffalo,kt,2016,0.1062
+Iran (Islamic Republic of),Buffalo,kt,2017,0.1076
+Iran (Islamic Republic of),Buffalo,kt,2018,0.1155
+Iran (Islamic Republic of),Buffalo,kt,2019,0.121
+Iran (Islamic Republic of),Buffalo,kt,2020,0.1452
+Iran (Islamic Republic of),Buffalo,kt,2021,0.1697
+Iran (Islamic Republic of),Buffalo,kt,2022,0.1612
+Iran (Islamic Republic of),Buffalo,kt,2023,0.1358
+Iran (Islamic Republic of),Cattle,kt,2010,4.863
+Iran (Islamic Republic of),Cattle,kt,2011,4.3758
+Iran (Islamic Republic of),Cattle,kt,2012,4.4013
+Iran (Islamic Republic of),Cattle,kt,2013,4.3904
+Iran (Islamic Republic of),Cattle,kt,2014,3.083
+Iran (Islamic Republic of),Cattle,kt,2015,2.9138
+Iran (Islamic Republic of),Cattle,kt,2016,3.1718
+Iran (Islamic Republic of),Cattle,kt,2017,3.1059
+Iran (Islamic Republic of),Cattle,kt,2018,3.3485
+Iran (Islamic Republic of),Cattle,kt,2019,3.451
+Iran (Islamic Republic of),Cattle,kt,2020,3.4537
+Iran (Islamic Republic of),Cattle,kt,2021,3.7374
+Iran (Islamic Republic of),Cattle,kt,2022,3.7002
+Iran (Islamic Republic of),Cattle,kt,2023,3.4811
+Iran (Islamic Republic of),Goats,kt,2010,7.3269
+Iran (Islamic Republic of),Goats,kt,2011,7.2538
+Iran (Islamic Republic of),Goats,kt,2012,7.1813
+Iran (Islamic Republic of),Goats,kt,2013,7.0384
+Iran (Islamic Republic of),Goats,kt,2014,6.9757
+Iran (Islamic Republic of),Goats,kt,2015,5.4412
+Iran (Islamic Republic of),Goats,kt,2016,5.4735
+Iran (Islamic Republic of),Goats,kt,2017,5.3704
+Iran (Islamic Republic of),Goats,kt,2018,5.272
+Iran (Islamic Republic of),Goats,kt,2019,5.1391
+Iran (Islamic Republic of),Goats,kt,2020,5.696
+Iran (Islamic Republic of),Goats,kt,2021,6.244
+Iran (Islamic Republic of),Goats,kt,2022,6.2584
+Iran (Islamic Republic of),Goats,kt,2023,6.2969
+Iran (Islamic Republic of),Sheep,kt,2010,13.5031
+Iran (Islamic Republic of),Sheep,kt,2011,13.2443
+Iran (Islamic Republic of),Sheep,kt,2012,13.1118
+Iran (Islamic Republic of),Sheep,kt,2013,12.8899
+Iran (Islamic Republic of),Sheep,kt,2014,8.915
+Iran (Islamic Republic of),Sheep,kt,2015,12.6918
+Iran (Islamic Republic of),Sheep,kt,2016,12.4153
+Iran (Islamic Republic of),Sheep,kt,2017,11.3577
+Iran (Islamic Republic of),Sheep,kt,2018,11.3488
+Iran (Islamic Republic of),Sheep,kt,2019,11.7192
+Iran (Islamic Republic of),Sheep,kt,2020,13.2182
+Iran (Islamic Republic of),Sheep,kt,2021,15.2841
+Iran (Islamic Republic of),Sheep,kt,2022,15.7704
+Iran (Islamic Republic of),Sheep,kt,2023,14.7576
+Iraq,Buffalo,kt,2010,0.3355
+Iraq,Buffalo,kt,2011,0.3435
+Iraq,Buffalo,kt,2012,0.3549
+Iraq,Buffalo,kt,2013,0.2055
+Iraq,Buffalo,kt,2014,0.2131
+Iraq,Buffalo,kt,2015,0.2211
+Iraq,Buffalo,kt,2016,0.2293
+Iraq,Buffalo,kt,2017,0.2379
+Iraq,Buffalo,kt,2018,0.2468
+Iraq,Buffalo,kt,2019,0.256
+Iraq,Buffalo,kt,2020,0.2655
+Iraq,Buffalo,kt,2021,0.2754
+Iraq,Buffalo,kt,2022,0.2857
+Iraq,Buffalo,kt,2023,0.2964
+Iraq,Cattle,kt,2010,4.8288
+Iraq,Cattle,kt,2011,4.9717
+Iraq,Cattle,kt,2012,4.9965
+Iraq,Cattle,kt,2013,5.1009
+Iraq,Cattle,kt,2014,5.3112
+Iraq,Cattle,kt,2015,3.4449
+Iraq,Cattle,kt,2016,3.5153
+Iraq,Cattle,kt,2017,3.5869
+Iraq,Cattle,kt,2018,3.6602
+Iraq,Cattle,kt,2019,3.7349
+Iraq,Cattle,kt,2020,3.8112
+Iraq,Cattle,kt,2021,3.889
+Iraq,Cattle,kt,2022,3.9684
+Iraq,Cattle,kt,2023,4.0495
+Iraq,Goats,kt,2010,0.5103
+Iraq,Goats,kt,2011,0.5257
+Iraq,Goats,kt,2012,0.5415
+Iraq,Goats,kt,2013,0.4017
+Iraq,Goats,kt,2014,0.4088
+Iraq,Goats,kt,2015,0.416
+Iraq,Goats,kt,2016,0.4234
+Iraq,Goats,kt,2017,0.4309
+Iraq,Goats,kt,2018,0.4386
+Iraq,Goats,kt,2019,0.4464
+Iraq,Goats,kt,2020,0.4543
+Iraq,Goats,kt,2021,0.4624
+Iraq,Goats,kt,2022,0.4706
+Iraq,Goats,kt,2023,0.4789
+Iraq,Sheep,kt,2010,2.1274
+Iraq,Sheep,kt,2011,2.1911
+Iraq,Sheep,kt,2012,2.1956
+Iraq,Sheep,kt,2013,1.7447
+Iraq,Sheep,kt,2014,1.7525
+Iraq,Sheep,kt,2015,1.7604
+Iraq,Sheep,kt,2016,1.7683
+Iraq,Sheep,kt,2017,1.7763
+Iraq,Sheep,kt,2018,1.7843
+Iraq,Sheep,kt,2019,1.7923
+Iraq,Sheep,kt,2020,1.8004
+Iraq,Sheep,kt,2021,1.8085
+Iraq,Sheep,kt,2022,1.8166
+Iraq,Sheep,kt,2023,1.8248
+Israel,Cattle,kt,2010,0.8342
+Israel,Cattle,kt,2011,0.8369
+Israel,Cattle,kt,2012,0.8414
+Israel,Cattle,kt,2013,0.8944
+Israel,Cattle,kt,2014,0.8881
+Israel,Cattle,kt,2015,0.9531
+Israel,Cattle,kt,2016,0.9642
+Israel,Cattle,kt,2017,0.9681
+Israel,Cattle,kt,2018,1.0355
+Israel,Cattle,kt,2019,1.0459
+Israel,Cattle,kt,2020,1.0033
+Israel,Cattle,kt,2021,1.0521
+Israel,Cattle,kt,2022,1.0982
+Israel,Cattle,kt,2023,1.0924
+Israel,Goats,kt,2010,0.0336
+Israel,Goats,kt,2011,0.0359
+Israel,Goats,kt,2012,0.0336
+Israel,Goats,kt,2013,0.0336
+Israel,Goats,kt,2014,0.052
+Israel,Goats,kt,2015,0.0432
+Israel,Goats,kt,2016,0.0398
+Israel,Goats,kt,2017,0.0301
+Israel,Goats,kt,2018,0.0364
+Israel,Goats,kt,2019,0.0361
+Israel,Goats,kt,2020,0.0391
+Israel,Goats,kt,2021,0.039
+Israel,Goats,kt,2022,0.0485
+Israel,Goats,kt,2023,0.0383
+Israel,Sheep,kt,2010,0.1192
+Israel,Sheep,kt,2011,0.1301
+Israel,Sheep,kt,2012,0.1446
+Israel,Sheep,kt,2013,0.1446
+Israel,Sheep,kt,2014,0.1595
+Israel,Sheep,kt,2015,0.1449
+Israel,Sheep,kt,2016,0.1308
+Israel,Sheep,kt,2017,0.1391
+Israel,Sheep,kt,2018,0.1278
+Israel,Sheep,kt,2019,0.139
+Israel,Sheep,kt,2020,0.1339
+Israel,Sheep,kt,2021,0.1392
+Israel,Sheep,kt,2022,0.1473
+Israel,Sheep,kt,2023,0.1339
+Israel,Swine,kt,2010,0.1505
+Israel,Swine,kt,2011,0.1512
+Israel,Swine,kt,2012,0.1512
+Israel,Swine,kt,2013,0.1194
+Israel,Swine,kt,2014,0.1282
+Israel,Swine,kt,2015,0.1282
+Israel,Swine,kt,2016,0.1282
+Israel,Swine,kt,2017,0.1282
+Israel,Swine,kt,2018,0.1154
+Israel,Swine,kt,2019,0.1121
+Israel,Swine,kt,2020,0.124
+Israel,Swine,kt,2021,0.1104
+Israel,Swine,kt,2022,0.0942
+Israel,Swine,kt,2023,0.0898
+Japan,Cattle,kt,2010,7.2437
+Japan,Cattle,kt,2011,7.0013
+Japan,Cattle,kt,2012,6.9117
+Japan,Cattle,kt,2013,6.7337
+Japan,Cattle,kt,2014,6.564
+Japan,Cattle,kt,2015,6.3951
+Japan,Cattle,kt,2016,6.3341
+Japan,Cattle,kt,2017,6.3335
+Japan,Cattle,kt,2018,6.368
+Japan,Cattle,kt,2019,6.3574
+Japan,Cattle,kt,2020,6.4791
+Japan,Cattle,kt,2021,6.5688
+Japan,Cattle,kt,2022,6.6076
+Japan,Cattle,kt,2023,6.7093
+Japan,Goats,kt,2010,0.0066
+Japan,Goats,kt,2011,0.0068
+Japan,Goats,kt,2012,0.007
+Japan,Goats,kt,2013,0.0073
+Japan,Goats,kt,2014,0.0075
+Japan,Goats,kt,2015,0.0075
+Japan,Goats,kt,2016,0.0075
+Japan,Goats,kt,2017,0.0075
+Japan,Goats,kt,2018,0.0075
+Japan,Goats,kt,2019,0.0074
+Japan,Goats,kt,2020,0.0074
+Japan,Goats,kt,2021,0.0076
+Japan,Goats,kt,2022,0.0077
+Japan,Goats,kt,2023,0.0077
+Japan,Sheep,kt,2010,0.0059
+Japan,Sheep,kt,2011,0.0061
+Japan,Sheep,kt,2012,0.0063
+Japan,Sheep,kt,2013,0.0064
+Japan,Sheep,kt,2014,0.0065
+Japan,Sheep,kt,2015,0.0067
+Japan,Sheep,kt,2016,0.0068
+Japan,Sheep,kt,2017,0.0067
+Japan,Sheep,kt,2018,0.0066
+Japan,Sheep,kt,2019,0.0066
+Japan,Sheep,kt,2020,0.0068
+Japan,Sheep,kt,2021,0.0069
+Japan,Sheep,kt,2022,0.0071
+Japan,Sheep,kt,2023,0.0073
+Japan,Swine,kt,2010,1.6523
+Japan,Swine,kt,2011,1.6469
+Japan,Swine,kt,2012,1.6414
+Japan,Swine,kt,2013,1.6329
+Japan,Swine,kt,2014,1.608
+Japan,Swine,kt,2015,1.585
+Japan,Swine,kt,2016,1.5702
+Japan,Swine,kt,2017,1.5758
+Japan,Swine,kt,2018,1.5493
+Japan,Swine,kt,2019,1.5437
+Japan,Swine,kt,2020,1.5572
+Japan,Swine,kt,2021,1.5663
+Japan,Swine,kt,2022,1.5088
+Japan,Swine,kt,2023,1.51
+Jordan,Buffalo,kt,2010,0.0001
+Jordan,Buffalo,kt,2011,0.0001
+Jordan,Buffalo,kt,2012,0.0001
+Jordan,Buffalo,kt,2013,0.0001
+Jordan,Buffalo,kt,2014,0.0001
+Jordan,Buffalo,kt,2015,0.0001
+Jordan,Buffalo,kt,2016,0.0001
+Jordan,Buffalo,kt,2017,0.0001
+Jordan,Buffalo,kt,2018,0.0001
+Jordan,Buffalo,kt,2019,0.0001
+Jordan,Buffalo,kt,2020,0.0001
+Jordan,Buffalo,kt,2021,0.0001
+Jordan,Buffalo,kt,2022,0.0001
+Jordan,Buffalo,kt,2023,0.0001
+Jordan,Cattle,kt,2010,0.1413
+Jordan,Cattle,kt,2011,0.1451
+Jordan,Cattle,kt,2012,0.1467
+Jordan,Cattle,kt,2013,0.1487
+Jordan,Cattle,kt,2014,0.1498
+Jordan,Cattle,kt,2015,0.1591
+Jordan,Cattle,kt,2016,0.1613
+Jordan,Cattle,kt,2017,0.1641
+Jordan,Cattle,kt,2018,0.1645
+Jordan,Cattle,kt,2019,0.1674
+Jordan,Cattle,kt,2020,0.1665
+Jordan,Cattle,kt,2021,0.1684
+Jordan,Cattle,kt,2022,0.1758
+Jordan,Cattle,kt,2023,0.1707
+Jordan,Goats,kt,2010,0.2525
+Jordan,Goats,kt,2011,0.2527
+Jordan,Goats,kt,2012,0.266
+Jordan,Goats,kt,2013,0.281
+Jordan,Goats,kt,2014,0.2881
+Jordan,Goats,kt,2015,0.289
+Jordan,Goats,kt,2016,0.3285
+Jordan,Goats,kt,2017,0.2596
+Jordan,Goats,kt,2018,0.2493
+Jordan,Goats,kt,2019,0.2568
+Jordan,Goats,kt,2020,0.2562
+Jordan,Goats,kt,2021,0.2701
+Jordan,Goats,kt,2022,0.2463
+Jordan,Goats,kt,2023,0.2575
+Jordan,Sheep,kt,2010,0.5826
+Jordan,Sheep,kt,2011,0.6064
+Jordan,Sheep,kt,2012,0.5982
+Jordan,Sheep,kt,2013,0.6188
+Jordan,Sheep,kt,2014,0.7177
+Jordan,Sheep,kt,2015,0.6952
+Jordan,Sheep,kt,2016,0.8565
+Jordan,Sheep,kt,2017,0.8202
+Jordan,Sheep,kt,2018,0.8194
+Jordan,Sheep,kt,2019,0.8056
+Jordan,Sheep,kt,2020,0.8039
+Jordan,Sheep,kt,2021,0.8261
+Jordan,Sheep,kt,2022,0.793
+Jordan,Sheep,kt,2023,0.7857
+Kazakhstan,Buffalo,kt,2010,0.0183
+Kazakhstan,Buffalo,kt,2011,0.0183
+Kazakhstan,Buffalo,kt,2012,0.0183
+Kazakhstan,Buffalo,kt,2013,0.0183
+Kazakhstan,Buffalo,kt,2014,0.0183
+Kazakhstan,Buffalo,kt,2015,0.0183
+Kazakhstan,Buffalo,kt,2016,0.0184
+Kazakhstan,Buffalo,kt,2017,0.0184
+Kazakhstan,Buffalo,kt,2018,0.0183
+Kazakhstan,Buffalo,kt,2019,0.0181
+Kazakhstan,Buffalo,kt,2020,0.0178
+Kazakhstan,Buffalo,kt,2021,0.0177
+Kazakhstan,Buffalo,kt,2022,0.0175
+Kazakhstan,Buffalo,kt,2023,0.0174
+Kazakhstan,Cattle,kt,2010,9.9514
+Kazakhstan,Cattle,kt,2011,10.0923
+Kazakhstan,Cattle,kt,2012,9.3172
+Kazakhstan,Cattle,kt,2013,9.2999
+Kazakhstan,Cattle,kt,2014,9.5633
+Kazakhstan,Cattle,kt,2015,10.1241
+Kazakhstan,Cattle,kt,2016,10.5022
+Kazakhstan,Cattle,kt,2017,11.0871
+Kazakhstan,Cattle,kt,2018,11.7296
+Kazakhstan,Cattle,kt,2019,10.3875
+Kazakhstan,Cattle,kt,2020,10.7789
+Kazakhstan,Cattle,kt,2021,11.1414
+Kazakhstan,Cattle,kt,2022,10.8543
+Kazakhstan,Cattle,kt,2023,10.984
+Kazakhstan,Goats,kt,2010,0.926
+Kazakhstan,Goats,kt,2011,0.9144
+Kazakhstan,Goats,kt,2012,0.9067
+Kazakhstan,Goats,kt,2013,0.8532
+Kazakhstan,Goats,kt,2014,0.8077
+Kazakhstan,Goats,kt,2015,0.7955
+Kazakhstan,Goats,kt,2016,0.786
+Kazakhstan,Goats,kt,2017,0.7791
+Kazakhstan,Goats,kt,2018,0.7804
+Kazakhstan,Goats,kt,2019,0.6242
+Kazakhstan,Goats,kt,2020,0.6201
+Kazakhstan,Goats,kt,2021,0.6471
+Kazakhstan,Goats,kt,2022,0.644
+Kazakhstan,Goats,kt,2023,0.583
+Kazakhstan,Sheep,kt,2010,4.1597
+Kazakhstan,Sheep,kt,2011,4.3448
+Kazakhstan,Sheep,kt,2012,4.3807
+Kazakhstan,Sheep,kt,2013,4.2949
+Kazakhstan,Sheep,kt,2014,4.3121
+Kazakhstan,Sheep,kt,2015,4.4513
+Kazakhstan,Sheep,kt,2016,4.507
+Kazakhstan,Sheep,kt,2017,4.5538
+Kazakhstan,Sheep,kt,2018,4.6578
+Kazakhstan,Sheep,kt,2019,4.6986
+Kazakhstan,Sheep,kt,2020,4.7363
+Kazakhstan,Sheep,kt,2021,4.8175
+Kazakhstan,Sheep,kt,2022,4.8118
+Kazakhstan,Sheep,kt,2023,4.8126
+Kazakhstan,Swine,kt,2010,0.2236
+Kazakhstan,Swine,kt,2011,0.2266
+Kazakhstan,Swine,kt,2012,0.203
+Kazakhstan,Swine,kt,2013,0.1739
+Kazakhstan,Swine,kt,2014,0.1555
+Kazakhstan,Swine,kt,2015,0.1497
+Kazakhstan,Swine,kt,2016,0.1407
+Kazakhstan,Swine,kt,2017,0.1374
+Kazakhstan,Swine,kt,2018,0.1347
+Kazakhstan,Swine,kt,2019,0.0944
+Kazakhstan,Swine,kt,2020,0.0961
+Kazakhstan,Swine,kt,2021,0.0927
+Kazakhstan,Swine,kt,2022,0.086
+Kazakhstan,Swine,kt,2023,0.0815
+Kuwait,Cattle,kt,2010,0.069
+Kuwait,Cattle,kt,2011,0.0572
+Kuwait,Cattle,kt,2012,0.0516
+Kuwait,Cattle,kt,2013,0.0504
+Kuwait,Cattle,kt,2014,0.0558
+Kuwait,Cattle,kt,2015,0.0589
+Kuwait,Cattle,kt,2016,0.0492
+Kuwait,Cattle,kt,2017,0.062
+Kuwait,Cattle,kt,2018,0.058
+Kuwait,Cattle,kt,2019,0.0681
+Kuwait,Cattle,kt,2020,0.0616
+Kuwait,Cattle,kt,2021,0.0622
+Kuwait,Cattle,kt,2022,0.0636
+Kuwait,Cattle,kt,2023,0.0655
+Kuwait,Goats,kt,2010,0.06
+Kuwait,Goats,kt,2011,0.051
+Kuwait,Goats,kt,2012,0.0462
+Kuwait,Goats,kt,2013,0.0506
+Kuwait,Goats,kt,2014,0.0515
+Kuwait,Goats,kt,2015,0.0526
+Kuwait,Goats,kt,2016,0.0579
+Kuwait,Goats,kt,2017,0.0664
+Kuwait,Goats,kt,2018,0.0704
+Kuwait,Goats,kt,2019,0.0791
+Kuwait,Goats,kt,2020,0.072
+Kuwait,Goats,kt,2021,0.0738
+Kuwait,Goats,kt,2022,0.075
+Kuwait,Goats,kt,2023,0.0736
+Kuwait,Sheep,kt,2010,0.1232
+Kuwait,Sheep,kt,2011,0.1194
+Kuwait,Sheep,kt,2012,0.1211
+Kuwait,Sheep,kt,2013,0.1384
+Kuwait,Sheep,kt,2014,0.1682
+Kuwait,Sheep,kt,2015,0.1576
+Kuwait,Sheep,kt,2016,0.1863
+Kuwait,Sheep,kt,2017,0.178
+Kuwait,Sheep,kt,2018,0.1832
+Kuwait,Sheep,kt,2019,0.1913
+Kuwait,Sheep,kt,2020,0.1943
+Kuwait,Sheep,kt,2021,0.2004
+Kuwait,Sheep,kt,2022,0.2049
+Kuwait,Sheep,kt,2023,0.1967
+Kyrgyzstan,Cattle,kt,2010,2.0971
+Kyrgyzstan,Cattle,kt,2011,2.164
+Kyrgyzstan,Cattle,kt,2012,2.2102
+Kyrgyzstan,Cattle,kt,2013,2.2672
+Kyrgyzstan,Cattle,kt,2014,2.355
+Kyrgyzstan,Cattle,kt,2015,2.4154
+Kyrgyzstan,Cattle,kt,2016,2.4703
+Kyrgyzstan,Cattle,kt,2017,2.549
+Kyrgyzstan,Cattle,kt,2018,2.6338
+Kyrgyzstan,Cattle,kt,2019,2.7207
+Kyrgyzstan,Cattle,kt,2020,2.7737
+Kyrgyzstan,Cattle,kt,2021,2.8303
+Kyrgyzstan,Cattle,kt,2022,2.8835
+Kyrgyzstan,Cattle,kt,2023,2.9129
+Kyrgyzstan,Goats,kt,2010,0.3222
+Kyrgyzstan,Goats,kt,2011,0.3327
+Kyrgyzstan,Goats,kt,2012,0.3192
+Kyrgyzstan,Goats,kt,2013,0.3283
+Kyrgyzstan,Goats,kt,2014,0.3111
+Kyrgyzstan,Goats,kt,2015,0.2973
+Kyrgyzstan,Goats,kt,2016,0.2929
+Kyrgyzstan,Goats,kt,2017,0.2803
+Kyrgyzstan,Goats,kt,2018,0.2758
+Kyrgyzstan,Goats,kt,2019,0.2738
+Kyrgyzstan,Goats,kt,2020,0.2634
+Kyrgyzstan,Goats,kt,2021,0.2538
+Kyrgyzstan,Goats,kt,2022,0.2343
+Kyrgyzstan,Goats,kt,2023,0.2266
+Kyrgyzstan,Sheep,kt,2010,1.1619
+Kyrgyzstan,Sheep,kt,2011,1.2242
+Kyrgyzstan,Sheep,kt,2012,1.274
+Kyrgyzstan,Sheep,kt,2013,1.3281
+Kyrgyzstan,Sheep,kt,2014,1.3956
+Kyrgyzstan,Sheep,kt,2015,1.4356
+Kyrgyzstan,Sheep,kt,2016,1.4657
+Kyrgyzstan,Sheep,kt,2017,1.4918
+Kyrgyzstan,Sheep,kt,2018,1.5211
+Kyrgyzstan,Sheep,kt,2019,1.5508
+Kyrgyzstan,Sheep,kt,2020,1.5628
+Kyrgyzstan,Sheep,kt,2021,1.5706
+Kyrgyzstan,Sheep,kt,2022,1.565
+Kyrgyzstan,Sheep,kt,2023,1.5756
+Kyrgyzstan,Swine,kt,2010,0.0101
+Kyrgyzstan,Swine,kt,2011,0.01
+Kyrgyzstan,Swine,kt,2012,0.0093
+Kyrgyzstan,Swine,kt,2013,0.0087
+Kyrgyzstan,Swine,kt,2014,0.0086
+Kyrgyzstan,Swine,kt,2015,0.0085
+Kyrgyzstan,Swine,kt,2016,0.0086
+Kyrgyzstan,Swine,kt,2017,0.0088
+Kyrgyzstan,Swine,kt,2018,0.0086
+Kyrgyzstan,Swine,kt,2019,0.0059
+Kyrgyzstan,Swine,kt,2020,0.005
+Kyrgyzstan,Swine,kt,2021,0.005
+Kyrgyzstan,Swine,kt,2022,0.0043
+Kyrgyzstan,Swine,kt,2023,0.005
+Lao People's Democratic Republic,Buffalo,kt,2010,2.1758
+Lao People's Democratic Republic,Buffalo,kt,2011,2.1904
+Lao People's Democratic Republic,Buffalo,kt,2012,2.1739
+Lao People's Democratic Republic,Buffalo,kt,2013,2.1776
+Lao People's Democratic Republic,Buffalo,kt,2014,2.1099
+Lao People's Democratic Republic,Buffalo,kt,2015,2.1319
+Lao People's Democratic Republic,Buffalo,kt,2016,2.1538
+Lao People's Democratic Republic,Buffalo,kt,2017,2.1758
+Lao People's Democratic Republic,Buffalo,kt,2018,2.196
+Lao People's Democratic Republic,Buffalo,kt,2019,2.2362
+Lao People's Democratic Republic,Buffalo,kt,2020,2.2581
+Lao People's Democratic Republic,Buffalo,kt,2021,2.2752
+Lao People's Democratic Republic,Buffalo,kt,2022,2.2083
+Lao People's Democratic Republic,Buffalo,kt,2023,2.2178
+Lao People's Democratic Republic,Cattle,kt,2010,2.4858
+Lao People's Democratic Republic,Cattle,kt,2011,2.5934
+Lao People's Democratic Republic,Cattle,kt,2012,2.8541
+Lao People's Democratic Republic,Cattle,kt,2013,2.8913
+Lao People's Democratic Republic,Cattle,kt,2014,2.9786
+Lao People's Democratic Republic,Cattle,kt,2015,3.0832
+Lao People's Democratic Republic,Cattle,kt,2016,3.2436
+Lao People's Democratic Republic,Cattle,kt,2017,3.3466
+Lao People's Democratic Republic,Cattle,kt,2018,3.4426
+Lao People's Democratic Republic,Cattle,kt,2019,3.5592
+Lao People's Democratic Republic,Cattle,kt,2020,3.6909
+Lao People's Democratic Republic,Cattle,kt,2021,3.8782
+Lao People's Democratic Republic,Cattle,kt,2022,4.096
+Lao People's Democratic Republic,Cattle,kt,2023,4.2896
+Lao People's Democratic Republic,Goats,kt,2010,0.1254
+Lao People's Democratic Republic,Goats,kt,2011,0.1473
+Lao People's Democratic Republic,Goats,kt,2012,0.1517
+Lao People's Democratic Republic,Goats,kt,2013,0.1607
+Lao People's Democratic Republic,Goats,kt,2014,0.1644
+Lao People's Democratic Republic,Goats,kt,2015,0.1822
+Lao People's Democratic Republic,Goats,kt,2016,0.1914
+Lao People's Democratic Republic,Goats,kt,2017,0.201
+Lao People's Democratic Republic,Goats,kt,2018,0.2107
+Lao People's Democratic Republic,Goats,kt,2019,0.2212
+Lao People's Democratic Republic,Goats,kt,2020,0.2331
+Lao People's Democratic Republic,Goats,kt,2021,0.2441
+Lao People's Democratic Republic,Goats,kt,2022,0.2578
+Lao People's Democratic Republic,Goats,kt,2023,0.269
+Lao People's Democratic Republic,Swine,kt,2010,0.464
+Lao People's Democratic Republic,Swine,kt,2011,0.4468
+Lao People's Democratic Republic,Swine,kt,2012,0.4711
+Lao People's Democratic Republic,Swine,kt,2013,0.497
+Lao People's Democratic Republic,Swine,kt,2014,0.5264
+Lao People's Democratic Republic,Swine,kt,2015,0.5493
+Lao People's Democratic Republic,Swine,kt,2016,0.6238
+Lao People's Democratic Republic,Swine,kt,2017,0.6523
+Lao People's Democratic Republic,Swine,kt,2018,0.6449
+Lao People's Democratic Republic,Swine,kt,2019,0.6938
+Lao People's Democratic Republic,Swine,kt,2020,0.7247
+Lao People's Democratic Republic,Swine,kt,2021,0.725
+Lao People's Democratic Republic,Swine,kt,2022,0.7432
+Lao People's Democratic Republic,Swine,kt,2023,0.763
+Lebanon,Cattle,kt,2010,0.148
+Lebanon,Cattle,kt,2011,0.1611
+Lebanon,Cattle,kt,2012,0.175
+Lebanon,Cattle,kt,2013,0.188
+Lebanon,Cattle,kt,2014,0.2086
+Lebanon,Cattle,kt,2015,0.1951
+Lebanon,Cattle,kt,2016,0.1882
+Lebanon,Cattle,kt,2017,0.1867
+Lebanon,Cattle,kt,2018,0.1882
+Lebanon,Cattle,kt,2019,0.1894
+Lebanon,Cattle,kt,2020,0.1937
+Lebanon,Cattle,kt,2021,0.1954
+Lebanon,Cattle,kt,2022,0.1953
+Lebanon,Cattle,kt,2023,0.195
+Lebanon,Goats,kt,2010,0.1357
+Lebanon,Goats,kt,2011,0.1848
+Lebanon,Goats,kt,2012,0.1848
+Lebanon,Goats,kt,2013,0.1848
+Lebanon,Goats,kt,2014,0.1848
+Lebanon,Goats,kt,2015,0.1734
+Lebanon,Goats,kt,2016,0.1677
+Lebanon,Goats,kt,2017,0.182
+Lebanon,Goats,kt,2018,0.1819
+Lebanon,Goats,kt,2019,0.1751
+Lebanon,Goats,kt,2020,0.1796
+Lebanon,Goats,kt,2021,0.1785
+Lebanon,Goats,kt,2022,0.1766
+Lebanon,Goats,kt,2023,0.1759
+Lebanon,Sheep,kt,2010,0.071
+Lebanon,Sheep,kt,2011,0.1205
+Lebanon,Sheep,kt,2012,0.1205
+Lebanon,Sheep,kt,2013,0.1205
+Lebanon,Sheep,kt,2014,0.1205
+Lebanon,Sheep,kt,2015,0.1155
+Lebanon,Sheep,kt,2016,0.1149
+Lebanon,Sheep,kt,2017,0.1159
+Lebanon,Sheep,kt,2018,0.1181
+Lebanon,Sheep,kt,2019,0.1221
+Lebanon,Sheep,kt,2020,0.1156
+Lebanon,Sheep,kt,2021,0.1155
+Lebanon,Sheep,kt,2022,0.1177
+Lebanon,Sheep,kt,2023,0.1163
+Lebanon,Swine,kt,2010,0.0052
+Lebanon,Swine,kt,2011,0.0052
+Lebanon,Swine,kt,2012,0.0053
+Lebanon,Swine,kt,2013,0.0053
+Lebanon,Swine,kt,2014,0.0054
+Lebanon,Swine,kt,2015,0.0053
+Lebanon,Swine,kt,2016,0.0051
+Lebanon,Swine,kt,2017,0.0052
+Lebanon,Swine,kt,2018,0.0052
+Lebanon,Swine,kt,2019,0.0051
+Lebanon,Swine,kt,2020,0.005
+Lebanon,Swine,kt,2021,0.005
+Lebanon,Swine,kt,2022,0.005
+Lebanon,Swine,kt,2023,0.005
+Malaysia,Buffalo,kt,2010,0.2377
+Malaysia,Buffalo,kt,2011,0.2346
+Malaysia,Buffalo,kt,2012,0.2287
+Malaysia,Buffalo,kt,2013,0.2263
+Malaysia,Buffalo,kt,2014,0.2219
+Malaysia,Buffalo,kt,2015,0.217
+Malaysia,Buffalo,kt,2016,0.218
+Malaysia,Buffalo,kt,2017,0.2086
+Malaysia,Buffalo,kt,2018,0.1958
+Malaysia,Buffalo,kt,2019,0.1861
+Malaysia,Buffalo,kt,2020,0.1176
+Malaysia,Buffalo,kt,2021,0.1218
+Malaysia,Buffalo,kt,2022,0.1288
+Malaysia,Buffalo,kt,2023,0.1328
+Malaysia,Cattle,kt,2010,1.4033
+Malaysia,Cattle,kt,2011,1.2888
+Malaysia,Cattle,kt,2012,1.248
+Malaysia,Cattle,kt,2013,1.2601
+Malaysia,Cattle,kt,2014,1.2457
+Malaysia,Cattle,kt,2015,1.2445
+Malaysia,Cattle,kt,2016,1.2406
+Malaysia,Cattle,kt,2017,1.1832
+Malaysia,Cattle,kt,2018,1.1376
+Malaysia,Cattle,kt,2019,1.1043
+Malaysia,Cattle,kt,2020,1.1762
+Malaysia,Cattle,kt,2021,1.2055
+Malaysia,Cattle,kt,2022,1.2242
+Malaysia,Cattle,kt,2023,1.2211
+Malaysia,Goats,kt,2010,0.1696
+Malaysia,Goats,kt,2011,0.1629
+Malaysia,Goats,kt,2012,0.1581
+Malaysia,Goats,kt,2013,0.1487
+Malaysia,Goats,kt,2014,0.1468
+Malaysia,Goats,kt,2015,0.1475
+Malaysia,Goats,kt,2016,0.1424
+Malaysia,Goats,kt,2017,0.1317
+Malaysia,Goats,kt,2018,0.1228
+Malaysia,Goats,kt,2019,0.1068
+Malaysia,Goats,kt,2020,0.1109
+Malaysia,Goats,kt,2021,0.1107
+Malaysia,Goats,kt,2022,0.1146
+Malaysia,Goats,kt,2023,0.1156
+Malaysia,Sheep,kt,2010,0.035
+Malaysia,Sheep,kt,2011,0.0359
+Malaysia,Sheep,kt,2012,0.0374
+Malaysia,Sheep,kt,2013,0.0403
+Malaysia,Sheep,kt,2014,0.0406
+Malaysia,Sheep,kt,2015,0.0417
+Malaysia,Sheep,kt,2016,0.0393
+Malaysia,Sheep,kt,2017,0.0371
+Malaysia,Sheep,kt,2018,0.0364
+Malaysia,Sheep,kt,2019,0.0345
+Malaysia,Sheep,kt,2020,0.0354
+Malaysia,Sheep,kt,2021,0.0388
+Malaysia,Sheep,kt,2022,0.0393
+Malaysia,Sheep,kt,2023,0.04
+Malaysia,Swine,kt,2010,0.3241
+Malaysia,Swine,kt,2011,0.3037
+Malaysia,Swine,kt,2012,0.3122
+Malaysia,Swine,kt,2013,0.3433
+Malaysia,Swine,kt,2014,0.3691
+Malaysia,Swine,kt,2015,0.3181
+Malaysia,Swine,kt,2016,0.2789
+Malaysia,Swine,kt,2017,0.3118
+Malaysia,Swine,kt,2018,0.3317
+Malaysia,Swine,kt,2019,0.3184
+Malaysia,Swine,kt,2020,0.3153
+Malaysia,Swine,kt,2021,0.2821
+Malaysia,Swine,kt,2022,0.2534
+Malaysia,Swine,kt,2023,0.2091
+Mongolia,Cattle,kt,2010,3.6045
+Mongolia,Cattle,kt,2011,3.8648
+Mongolia,Cattle,kt,2012,4.2667
+Mongolia,Cattle,kt,2013,4.803
+Mongolia,Cattle,kt,2014,5.6381
+Mongolia,Cattle,kt,2015,6.2362
+Mongolia,Cattle,kt,2016,6.7409
+Mongolia,Cattle,kt,2017,7.2548
+Mongolia,Cattle,kt,2018,7.2385
+Mongolia,Cattle,kt,2019,7.8564
+Mongolia,Cattle,kt,2020,7.8142
+Mongolia,Cattle,kt,2021,8.3129
+Mongolia,Cattle,kt,2022,9.1074
+Mongolia,Cattle,kt,2023,8.8559
+Mongolia,Goats,kt,2010,4.7456
+Mongolia,Goats,kt,2011,5.4468
+Mongolia,Goats,kt,2012,6.0019
+Mongolia,Goats,kt,2013,6.5724
+Mongolia,Goats,kt,2014,7.5231
+Mongolia,Goats,kt,2015,8.0645
+Mongolia,Goats,kt,2016,8.742
+Mongolia,Goats,kt,2017,9.3476
+Mongolia,Goats,kt,2018,9.2718
+Mongolia,Goats,kt,2019,10.0022
+Mongolia,Goats,kt,2020,9.4753
+Mongolia,Goats,kt,2021,9.0432
+Mongolia,Goats,kt,2022,9.4238
+Mongolia,Goats,kt,2023,8.415
+Mongolia,Sheep,kt,2010,4.1086
+Mongolia,Sheep,kt,2011,4.4457
+Mongolia,Sheep,kt,2012,5.1473
+Mongolia,Sheep,kt,2013,5.6935
+Mongolia,Sheep,kt,2014,6.5868
+Mongolia,Sheep,kt,2015,7.0772
+Mongolia,Sheep,kt,2016,7.9038
+Mongolia,Sheep,kt,2017,8.5431
+Mongolia,Sheep,kt,2018,8.6694
+Mongolia,Sheep,kt,2019,9.1553
+Mongolia,Sheep,kt,2020,8.526
+Mongolia,Sheep,kt,2021,8.8204
+Mongolia,Sheep,kt,2022,9.2916
+Mongolia,Sheep,kt,2023,8.3444
+Mongolia,Swine,kt,2010,0.0042
+Mongolia,Swine,kt,2011,0.0051
+Mongolia,Swine,kt,2012,0.0068
+Mongolia,Swine,kt,2013,0.0087
+Mongolia,Swine,kt,2014,0.0078
+Mongolia,Swine,kt,2015,0.0056
+Mongolia,Swine,kt,2016,0.0053
+Mongolia,Swine,kt,2017,0.0054
+Mongolia,Swine,kt,2018,0.0047
+Mongolia,Swine,kt,2019,0.0035
+Mongolia,Swine,kt,2020,0.0041
+Mongolia,Swine,kt,2021,0.0052
+Mongolia,Swine,kt,2022,0.0059
+Mongolia,Swine,kt,2023,0.0043
+Myanmar,Buffalo,kt,2010,5.4479
+Myanmar,Buffalo,kt,2011,5.667
+Myanmar,Buffalo,kt,2012,5.8759
+Myanmar,Buffalo,kt,2013,6.0712
+Myanmar,Buffalo,kt,2014,6.2627
+Myanmar,Buffalo,kt,2015,6.4631
+Myanmar,Buffalo,kt,2016,6.6629
+Myanmar,Buffalo,kt,2017,7.0781
+Myanmar,Buffalo,kt,2018,3.481
+Myanmar,Buffalo,kt,2019,3.5538
+Myanmar,Buffalo,kt,2020,3.6287
+Myanmar,Buffalo,kt,2021,3.7458
+Myanmar,Buffalo,kt,2022,3.7934
+Myanmar,Buffalo,kt,2023,3.7971
+Myanmar,Cattle,kt,2010,22.6155
+Myanmar,Cattle,kt,2011,23.5142
+Myanmar,Cattle,kt,2012,24.1917
+Myanmar,Cattle,kt,2013,24.9175
+Myanmar,Cattle,kt,2014,25.7251
+Myanmar,Cattle,kt,2015,26.4977
+Myanmar,Cattle,kt,2016,27.4592
+Myanmar,Cattle,kt,2017,29.2754
+Myanmar,Cattle,kt,2018,16.5514
+Myanmar,Cattle,kt,2019,16.8482
+Myanmar,Cattle,kt,2020,17.2239
+Myanmar,Cattle,kt,2021,17.8285
+Myanmar,Cattle,kt,2022,18.0769
+Myanmar,Cattle,kt,2023,18.06
+Myanmar,Goats,kt,2010,1.1694
+Myanmar,Goats,kt,2011,1.3167
+Myanmar,Goats,kt,2012,1.5334
+Myanmar,Goats,kt,2013,1.697
+Myanmar,Goats,kt,2014,1.9195
+Myanmar,Goats,kt,2015,2.1619
+Myanmar,Goats,kt,2016,2.4916
+Myanmar,Goats,kt,2017,2.8876
+Myanmar,Goats,kt,2018,0.6747
+Myanmar,Goats,kt,2019,0.7041
+Myanmar,Goats,kt,2020,0.7333
+Myanmar,Goats,kt,2021,0.7602
+Myanmar,Goats,kt,2022,0.7862
+Myanmar,Goats,kt,2023,0.7862
+Myanmar,Sheep,kt,2010,0.1883
+Myanmar,Sheep,kt,2011,0.2424
+Myanmar,Sheep,kt,2012,0.2508
+Myanmar,Sheep,kt,2013,0.2884
+Myanmar,Sheep,kt,2014,0.3298
+Myanmar,Sheep,kt,2015,0.3749
+Myanmar,Sheep,kt,2016,0.4246
+Myanmar,Sheep,kt,2017,0.3729
+Myanmar,Sheep,kt,2018,0.1147
+Myanmar,Sheep,kt,2019,0.1197
+Myanmar,Sheep,kt,2020,0.1247
+Myanmar,Sheep,kt,2021,0.1292
+Myanmar,Sheep,kt,2022,0.1538
+Myanmar,Sheep,kt,2023,0.1532
+Myanmar,Swine,kt,2010,1.5876
+Myanmar,Swine,kt,2011,1.7699
+Myanmar,Swine,kt,2012,1.9558
+Myanmar,Swine,kt,2013,2.1188
+Myanmar,Swine,kt,2014,2.3201
+Myanmar,Swine,kt,2015,2.5385
+Myanmar,Swine,kt,2016,2.7861
+Myanmar,Swine,kt,2017,3.2496
+Myanmar,Swine,kt,2018,1.0233
+Myanmar,Swine,kt,2019,1.0839
+Myanmar,Swine,kt,2020,1.1429
+Myanmar,Swine,kt,2021,1.237
+Myanmar,Swine,kt,2022,1.3156
+Myanmar,Swine,kt,2023,1.3151
+Nepal,Buffalo,kt,2010,4.1048
+Nepal,Buffalo,kt,2011,4.2378
+Nepal,Buffalo,kt,2012,4.3561
+Nepal,Buffalo,kt,2013,4.4484
+Nepal,Buffalo,kt,2014,4.3947
+Nepal,Buffalo,kt,2015,4.3855
+Nepal,Buffalo,kt,2016,4.3864
+Nepal,Buffalo,kt,2017,4.3942
+Nepal,Buffalo,kt,2018,4.4789
+Nepal,Buffalo,kt,2019,4.5051
+Nepal,Buffalo,kt,2020,4.4618
+Nepal,Buffalo,kt,2021,4.3789
+Nepal,Buffalo,kt,2022,4.356
+Nepal,Buffalo,kt,2023,2.6147
+Nepal,Cattle,kt,2010,3.2536
+Nepal,Cattle,kt,2011,3.2782
+Nepal,Cattle,kt,2012,3.3043
+Nepal,Cattle,kt,2013,3.3354
+Nepal,Cattle,kt,2014,3.324
+Nepal,Cattle,kt,2015,3.3244
+Nepal,Cattle,kt,2016,3.3458
+Nepal,Cattle,kt,2017,3.364
+Nepal,Cattle,kt,2018,3.3819
+Nepal,Cattle,kt,2019,3.4158
+Nepal,Cattle,kt,2020,3.5101
+Nepal,Cattle,kt,2021,3.5466
+Nepal,Cattle,kt,2022,3.539
+Nepal,Cattle,kt,2023,2.3722
+Nepal,Goats,kt,2010,3.0231
+Nepal,Goats,kt,2011,3.1401
+Nepal,Goats,kt,2012,3.2517
+Nepal,Goats,kt,2013,3.3452
+Nepal,Goats,kt,2014,3.4789
+Nepal,Goats,kt,2015,3.5042
+Nepal,Goats,kt,2016,3.7553
+Nepal,Goats,kt,2017,3.8165
+Nepal,Goats,kt,2018,3.9813
+Nepal,Goats,kt,2019,4.1988
+Nepal,Goats,kt,2020,4.3794
+Nepal,Goats,kt,2021,4.595
+Nepal,Goats,kt,2022,4.7823
+Nepal,Goats,kt,2023,4.9705
+Nepal,Sheep,kt,2010,0.2274
+Nepal,Sheep,kt,2011,0.2284
+Nepal,Sheep,kt,2012,0.229
+Nepal,Sheep,kt,2013,0.2297
+Nepal,Sheep,kt,2014,0.2239
+Nepal,Sheep,kt,2015,0.2239
+Nepal,Sheep,kt,2016,0.2272
+Nepal,Sheep,kt,2017,0.2275
+Nepal,Sheep,kt,2018,0.2272
+Nepal,Sheep,kt,2019,0.2267
+Nepal,Sheep,kt,2020,0.2287
+Nepal,Sheep,kt,2021,0.2252
+Nepal,Sheep,kt,2022,0.2188
+Nepal,Sheep,kt,2023,0.1424
+Nepal,Swine,kt,2010,0.148
+Nepal,Swine,kt,2011,0.154
+Nepal,Swine,kt,2012,0.1581
+Nepal,Swine,kt,2013,0.1612
+Nepal,Swine,kt,2014,0.1654
+Nepal,Swine,kt,2015,0.1672
+Nepal,Swine,kt,2016,0.1794
+Nepal,Swine,kt,2017,0.1845
+Nepal,Swine,kt,2018,0.1995
+Nepal,Swine,kt,2019,0.2068
+Nepal,Swine,kt,2020,0.2112
+Nepal,Swine,kt,2021,0.2208
+Nepal,Swine,kt,2022,0.2091
+Nepal,Swine,kt,2023,0.1886
+Oman,Cattle,kt,2010,0.6696
+Oman,Cattle,kt,2011,0.6831
+Oman,Cattle,kt,2012,0.6951
+Oman,Cattle,kt,2013,0.7186
+Oman,Cattle,kt,2014,0.7177
+Oman,Cattle,kt,2015,0.7321
+Oman,Cattle,kt,2016,0.7469
+Oman,Cattle,kt,2017,0.7607
+Oman,Cattle,kt,2018,0.7759
+Oman,Cattle,kt,2019,0.7914
+Oman,Cattle,kt,2020,0.8101
+Oman,Cattle,kt,2021,0.8276
+Oman,Cattle,kt,2022,0.8441
+Oman,Cattle,kt,2023,0.861
+Oman,Goats,kt,2010,0.5775
+Oman,Goats,kt,2011,0.589
+Oman,Goats,kt,2012,0.6008
+Oman,Goats,kt,2013,0.7005
+Oman,Goats,kt,2014,0.7145
+Oman,Goats,kt,2015,0.7288
+Oman,Goats,kt,2016,0.7434
+Oman,Goats,kt,2017,0.7582
+Oman,Goats,kt,2018,0.7734
+Oman,Goats,kt,2019,0.7888
+Oman,Goats,kt,2020,0.8046
+Oman,Goats,kt,2021,0.8207
+Oman,Goats,kt,2022,0.8371
+Oman,Goats,kt,2023,0.8539
+Oman,Sheep,kt,2010,0.104
+Oman,Sheep,kt,2011,0.1061
+Oman,Sheep,kt,2012,0.1082
+Oman,Sheep,kt,2013,0.1468
+Oman,Sheep,kt,2014,0.1497
+Oman,Sheep,kt,2015,0.1527
+Oman,Sheep,kt,2016,0.1558
+Oman,Sheep,kt,2017,0.1589
+Oman,Sheep,kt,2018,0.1621
+Oman,Sheep,kt,2019,0.1653
+Oman,Sheep,kt,2020,0.1686
+Oman,Sheep,kt,2021,0.172
+Oman,Sheep,kt,2022,0.1754
+Oman,Sheep,kt,2023,0.1789
+Pakistan,Buffalo,kt,2010,24.9608
+Pakistan,Buffalo,kt,2011,26.9228
+Pakistan,Buffalo,kt,2012,27.7392
+Pakistan,Buffalo,kt,2013,28.4758
+Pakistan,Buffalo,kt,2014,29.3227
+Pakistan,Buffalo,kt,2015,30.1943
+Pakistan,Buffalo,kt,2016,31.0599
+Pakistan,Buffalo,kt,2017,31.9934
+Pakistan,Buffalo,kt,2018,32.9676
+Pakistan,Buffalo,kt,2019,33.9469
+Pakistan,Buffalo,kt,2020,34.9559
+Pakistan,Buffalo,kt,2021,35.9955
+Pakistan,Buffalo,kt,2022,37.0648
+Pakistan,Buffalo,kt,2023,38.1663
+Pakistan,Cattle,kt,2010,19.8699
+Pakistan,Cattle,kt,2011,20.6152
+Pakistan,Cattle,kt,2012,21.3919
+Pakistan,Cattle,kt,2013,22.1987
+Pakistan,Cattle,kt,2014,23.0356
+Pakistan,Cattle,kt,2015,23.9039
+Pakistan,Cattle,kt,2016,24.806
+Pakistan,Cattle,kt,2017,25.7365
+Pakistan,Cattle,kt,2018,26.7104
+Pakistan,Cattle,kt,2019,27.7176
+Pakistan,Cattle,kt,2020,28.7627
+Pakistan,Cattle,kt,2021,29.8472
+Pakistan,Cattle,kt,2022,30.9717
+Pakistan,Cattle,kt,2023,32.1397
+Pakistan,Goats,kt,2010,20.4607
+Pakistan,Goats,kt,2011,21.0151
+Pakistan,Goats,kt,2012,21.5846
+Pakistan,Goats,kt,2013,22.1698
+Pakistan,Goats,kt,2014,22.7703
+Pakistan,Goats,kt,2015,23.3873
+Pakistan,Goats,kt,2016,24.0211
+Pakistan,Goats,kt,2017,24.6722
+Pakistan,Goats,kt,2018,25.3405
+Pakistan,Goats,kt,2019,26.0272
+Pakistan,Goats,kt,2020,26.7327
+Pakistan,Goats,kt,2021,27.457
+Pakistan,Goats,kt,2022,28.2012
+Pakistan,Goats,kt,2023,28.9651
+Pakistan,Sheep,kt,2010,7.8755
+Pakistan,Sheep,kt,2011,7.9689
+Pakistan,Sheep,kt,2012,8.0631
+Pakistan,Sheep,kt,2013,8.1587
+Pakistan,Sheep,kt,2014,8.2552
+Pakistan,Sheep,kt,2015,8.3531
+Pakistan,Sheep,kt,2016,8.4521
+Pakistan,Sheep,kt,2017,8.552
+Pakistan,Sheep,kt,2018,8.6533
+Pakistan,Sheep,kt,2019,8.7557
+Pakistan,Sheep,kt,2020,8.8595
+Pakistan,Sheep,kt,2021,8.9645
+Pakistan,Sheep,kt,2022,9.0706
+Pakistan,Sheep,kt,2023,9.1779
+Palestine,Cattle,kt,2010,0.074
+Palestine,Cattle,kt,2011,0.0874
+Palestine,Cattle,kt,2012,0.0693
+Palestine,Cattle,kt,2013,0.0662
+Palestine,Cattle,kt,2014,0.0908
+Palestine,Cattle,kt,2015,0.079
+Palestine,Cattle,kt,2016,0.0498
+Palestine,Cattle,kt,2017,0.0875
+Palestine,Cattle,kt,2018,0.0996
+Palestine,Cattle,kt,2019,0.0669
+Palestine,Cattle,kt,2020,0.0556
+Palestine,Cattle,kt,2021,0.1404
+Palestine,Cattle,kt,2022,0.1075
+Palestine,Cattle,kt,2023,0.0966
+Palestine,Goats,kt,2010,0.0737
+Palestine,Goats,kt,2011,0.0807
+Palestine,Goats,kt,2012,0.0739
+Palestine,Goats,kt,2013,0.0723
+Palestine,Goats,kt,2014,0.0705
+Palestine,Goats,kt,2015,0.0739
+Palestine,Goats,kt,2016,0.0698
+Palestine,Goats,kt,2017,0.0722
+Palestine,Goats,kt,2018,0.0748
+Palestine,Goats,kt,2019,0.0615
+Palestine,Goats,kt,2020,0.0718
+Palestine,Goats,kt,2021,0.0806
+Palestine,Goats,kt,2022,0.0858
+Palestine,Goats,kt,2023,0.0777
+Palestine,Sheep,kt,2010,0.1519
+Palestine,Sheep,kt,2011,0.1961
+Palestine,Sheep,kt,2012,0.1971
+Palestine,Sheep,kt,2013,0.1957
+Palestine,Sheep,kt,2014,0.1949
+Palestine,Sheep,kt,2015,0.1979
+Palestine,Sheep,kt,2016,0.2008
+Palestine,Sheep,kt,2017,0.2027
+Palestine,Sheep,kt,2018,0.2039
+Palestine,Sheep,kt,2019,0.2034
+Palestine,Sheep,kt,2020,0.2053
+Palestine,Sheep,kt,2021,0.2065
+Palestine,Sheep,kt,2022,0.2102
+Palestine,Sheep,kt,2023,0.2145
+Philippines,Buffalo,kt,2010,5.9846
+Philippines,Buffalo,kt,2011,5.6275
+Philippines,Buffalo,kt,2012,5.4235
+Philippines,Buffalo,kt,2013,5.3303
+Philippines,Buffalo,kt,2014,5.2106
+Philippines,Buffalo,kt,2015,5.2241
+Philippines,Buffalo,kt,2016,5.2648
+Philippines,Buffalo,kt,2017,5.2736
+Philippines,Buffalo,kt,2018,5.275
+Philippines,Buffalo,kt,2019,5.2584
+Philippines,Buffalo,kt,2020,5.244
+Philippines,Buffalo,kt,2021,5.2134
+Philippines,Buffalo,kt,2022,5.077
+Philippines,Buffalo,kt,2023,5.0801
+Philippines,Cattle,kt,2010,4.3437
+Philippines,Cattle,kt,2011,4.2549
+Philippines,Cattle,kt,2012,4.2121
+Philippines,Cattle,kt,2013,4.22
+Philippines,Cattle,kt,2014,4.2441
+Philippines,Cattle,kt,2015,4.2814
+Philippines,Cattle,kt,2016,4.3144
+Philippines,Cattle,kt,2017,4.3039
+Philippines,Cattle,kt,2018,4.3144
+Philippines,Cattle,kt,2019,4.2831
+Philippines,Cattle,kt,2020,4.294
+Philippines,Cattle,kt,2021,4.401
+Philippines,Cattle,kt,2022,4.3538
+Philippines,Cattle,kt,2023,4.3605
+Philippines,Goats,kt,2010,1.428
+Philippines,Goats,kt,2011,1.3268
+Philippines,Goats,kt,2012,1.2699
+Philippines,Goats,kt,2013,1.2627
+Philippines,Goats,kt,2014,1.2632
+Philippines,Goats,kt,2015,1.2559
+Philippines,Goats,kt,2016,1.2521
+Philippines,Goats,kt,2017,1.2683
+Philippines,Goats,kt,2018,1.2732
+Philippines,Goats,kt,2019,1.2838
+Philippines,Goats,kt,2020,1.3035
+Philippines,Goats,kt,2021,1.3223
+Philippines,Goats,kt,2022,1.3359
+Philippines,Goats,kt,2023,1.3339
+Philippines,Sheep,kt,2010,0.0085
+Philippines,Sheep,kt,2011,0.0085
+Philippines,Sheep,kt,2012,0.0085
+Philippines,Sheep,kt,2013,0.0085
+Philippines,Sheep,kt,2014,0.0085
+Philippines,Sheep,kt,2015,0.0085
+Philippines,Sheep,kt,2016,0.0085
+Philippines,Sheep,kt,2017,0.0085
+Philippines,Sheep,kt,2018,0.0085
+Philippines,Sheep,kt,2019,0.0085
+Philippines,Sheep,kt,2020,0.0085
+Philippines,Sheep,kt,2021,0.0085
+Philippines,Sheep,kt,2022,0.0085
+Philippines,Sheep,kt,2023,0.0085
+Philippines,Swine,kt,2010,2.2589
+Philippines,Swine,kt,2011,2.0743
+Philippines,Swine,kt,2012,2.0002
+Philippines,Swine,kt,2013,1.9968
+Philippines,Swine,kt,2014,1.9898
+Philippines,Swine,kt,2015,2.0232
+Philippines,Swine,kt,2016,2.104
+Philippines,Swine,kt,2017,2.0954
+Philippines,Swine,kt,2018,2.1252
+Philippines,Swine,kt,2019,2.1428
+Philippines,Swine,kt,2020,2.1574
+Philippines,Swine,kt,2021,1.6764
+Philippines,Swine,kt,2022,1.5893
+Philippines,Swine,kt,2023,1.6465
+Qatar,Cattle,kt,2010,0.0236
+Qatar,Cattle,kt,2011,0.0212
+Qatar,Cattle,kt,2012,0.0222
+Qatar,Cattle,kt,2013,0.0357
+Qatar,Cattle,kt,2014,0.0426
+Qatar,Cattle,kt,2015,0.0341
+Qatar,Cattle,kt,2016,0.0524
+Qatar,Cattle,kt,2017,0.0472
+Qatar,Cattle,kt,2018,0.0702
+Qatar,Cattle,kt,2019,0.0787
+Qatar,Cattle,kt,2020,0.0816
+Qatar,Cattle,kt,2021,0.0921
+Qatar,Cattle,kt,2022,0.0762
+Qatar,Cattle,kt,2023,0.0803
+Qatar,Goats,kt,2010,0.0577
+Qatar,Goats,kt,2011,0.0638
+Qatar,Goats,kt,2012,0.0723
+Qatar,Goats,kt,2013,0.0792
+Qatar,Goats,kt,2014,0.0898
+Qatar,Goats,kt,2015,0.1058
+Qatar,Goats,kt,2016,0.1221
+Qatar,Goats,kt,2017,0.1285
+Qatar,Goats,kt,2018,0.1377
+Qatar,Goats,kt,2019,0.1482
+Qatar,Goats,kt,2020,0.1541
+Qatar,Goats,kt,2021,0.1292
+Qatar,Goats,kt,2022,0.1203
+Qatar,Goats,kt,2023,0.1251
+Qatar,Sheep,kt,2010,0.0572
+Qatar,Sheep,kt,2011,0.0646
+Qatar,Sheep,kt,2012,0.0826
+Qatar,Sheep,kt,2013,0.107
+Qatar,Sheep,kt,2014,0.146
+Qatar,Sheep,kt,2015,0.169
+Qatar,Sheep,kt,2016,0.2203
+Qatar,Sheep,kt,2017,0.2497
+Qatar,Sheep,kt,2018,0.2664
+Qatar,Sheep,kt,2019,0.2702
+Qatar,Sheep,kt,2020,0.2736
+Qatar,Sheep,kt,2021,0.2467
+Qatar,Sheep,kt,2022,0.2179
+Qatar,Sheep,kt,2023,0.217
+Republic of Korea,Cattle,kt,2010,5.6337
+Republic of Korea,Cattle,kt,2011,5.6389
+Republic of Korea,Cattle,kt,2012,5.8481
+Republic of Korea,Cattle,kt,2013,5.6177
+Republic of Korea,Cattle,kt,2014,5.3602
+Republic of Korea,Cattle,kt,2015,5.6087
+Republic of Korea,Cattle,kt,2016,5.6837
+Republic of Korea,Cattle,kt,2017,5.7635
+Republic of Korea,Cattle,kt,2018,5.9199
+Republic of Korea,Cattle,kt,2019,6.1302
+Republic of Korea,Cattle,kt,2020,6.4004
+Republic of Korea,Cattle,kt,2021,6.7145
+Republic of Korea,Cattle,kt,2022,6.9284
+Republic of Korea,Cattle,kt,2023,6.7907
+Republic of Korea,Goats,kt,2010,0.0832
+Republic of Korea,Goats,kt,2011,0.0848
+Republic of Korea,Goats,kt,2012,0.0879
+Republic of Korea,Goats,kt,2013,0.083
+Republic of Korea,Goats,kt,2014,0.0857
+Republic of Korea,Goats,kt,2015,0.0971
+Republic of Korea,Goats,kt,2016,0.1192
+Republic of Korea,Goats,kt,2017,0.1054
+Republic of Korea,Goats,kt,2018,0.0996
+Republic of Korea,Goats,kt,2019,0.1035
+Republic of Korea,Goats,kt,2020,0.1133
+Republic of Korea,Goats,kt,2021,0.1058
+Republic of Korea,Goats,kt,2022,0.1075
+Republic of Korea,Goats,kt,2023,0.1104
+Republic of Korea,Sheep,kt,2010,0.0011
+Republic of Korea,Sheep,kt,2011,0.0008
+Republic of Korea,Sheep,kt,2012,0.0009
+Republic of Korea,Sheep,kt,2013,0.0007
+Republic of Korea,Sheep,kt,2014,0.0006
+Republic of Korea,Sheep,kt,2015,0.0009
+Republic of Korea,Sheep,kt,2016,0.0004
+Republic of Korea,Sheep,kt,2017,0.0006
+Republic of Korea,Sheep,kt,2018,0.0006
+Republic of Korea,Sheep,kt,2019,0.0006
+Republic of Korea,Sheep,kt,2020,0.0005
+Republic of Korea,Sheep,kt,2021,0.0005
+Republic of Korea,Sheep,kt,2022,0.0005
+Republic of Korea,Sheep,kt,2023,0.0004
+Republic of Korea,Swine,kt,2010,1.6659
+Republic of Korea,Swine,kt,2011,1.3777
+Republic of Korea,Swine,kt,2012,1.6719
+Republic of Korea,Swine,kt,2013,1.6712
+Republic of Korea,Swine,kt,2014,1.7013
+Republic of Korea,Swine,kt,2015,1.7175
+Republic of Korea,Swine,kt,2016,1.7479
+Republic of Korea,Swine,kt,2017,1.9007
+Republic of Korea,Swine,kt,2018,1.9108
+Republic of Korea,Swine,kt,2019,1.9018
+Republic of Korea,Swine,kt,2020,1.8678
+Republic of Korea,Swine,kt,2021,1.8912
+Republic of Korea,Swine,kt,2022,1.8755
+Republic of Korea,Swine,kt,2023,1.8697
+Saudi Arabia,Cattle,kt,2010,0.7992
+Saudi Arabia,Cattle,kt,2011,0.8612
+Saudi Arabia,Cattle,kt,2012,0.9694
+Saudi Arabia,Cattle,kt,2013,0.9729
+Saudi Arabia,Cattle,kt,2014,0.7966
+Saudi Arabia,Cattle,kt,2015,0.8042
+Saudi Arabia,Cattle,kt,2016,0.8122
+Saudi Arabia,Cattle,kt,2017,0.8202
+Saudi Arabia,Cattle,kt,2018,0.9619
+Saudi Arabia,Cattle,kt,2019,1.1328
+Saudi Arabia,Cattle,kt,2020,1.3788
+Saudi Arabia,Cattle,kt,2021,1.3655
+Saudi Arabia,Cattle,kt,2022,1.3597
+Saudi Arabia,Cattle,kt,2023,1.2612
+Saudi Arabia,Goats,kt,2010,1.1448
+Saudi Arabia,Goats,kt,2011,1.1361
+Saudi Arabia,Goats,kt,2012,1.1448
+Saudi Arabia,Goats,kt,2013,1.1522
+Saudi Arabia,Goats,kt,2014,1.1969
+Saudi Arabia,Goats,kt,2015,1.2088
+Saudi Arabia,Goats,kt,2016,1.2208
+Saudi Arabia,Goats,kt,2017,1.233
+Saudi Arabia,Goats,kt,2018,1.2119
+Saudi Arabia,Goats,kt,2019,1.2467
+Saudi Arabia,Goats,kt,2020,2.0492
+Saudi Arabia,Goats,kt,2021,2.0477
+Saudi Arabia,Goats,kt,2022,2.2773
+Saudi Arabia,Goats,kt,2023,2.1247
+Saudi Arabia,Sheep,kt,2010,2.3405
+Saudi Arabia,Sheep,kt,2011,2.7033
+Saudi Arabia,Sheep,kt,2012,2.7121
+Saudi Arabia,Sheep,kt,2013,3.0792
+Saudi Arabia,Sheep,kt,2014,2.4247
+Saudi Arabia,Sheep,kt,2015,2.4488
+Saudi Arabia,Sheep,kt,2016,2.4732
+Saudi Arabia,Sheep,kt,2017,2.4978
+Saudi Arabia,Sheep,kt,2018,2.516
+Saudi Arabia,Sheep,kt,2019,2.5222
+Saudi Arabia,Sheep,kt,2020,4.6858
+Saudi Arabia,Sheep,kt,2021,4.6953
+Saudi Arabia,Sheep,kt,2022,5.8384
+Saudi Arabia,Sheep,kt,2023,5.0732
+Singapore,Cattle,kt,2010,0.0003
+Singapore,Cattle,kt,2011,0.0003
+Singapore,Cattle,kt,2012,0.0003
+Singapore,Cattle,kt,2013,0.0003
+Singapore,Cattle,kt,2014,0.0003
+Singapore,Cattle,kt,2015,0.0003
+Singapore,Cattle,kt,2016,0.0003
+Singapore,Cattle,kt,2017,0.0003
+Singapore,Cattle,kt,2018,0.0003
+Singapore,Cattle,kt,2019,0.0003
+Singapore,Cattle,kt,2020,0.0003
+Singapore,Cattle,kt,2021,0.0003
+Singapore,Cattle,kt,2022,0.0003
+Singapore,Cattle,kt,2023,0.0003
+Singapore,Goats,kt,2010,0.0002
+Singapore,Goats,kt,2011,0.0002
+Singapore,Goats,kt,2012,0.0002
+Singapore,Goats,kt,2013,0.0002
+Singapore,Goats,kt,2014,0.0002
+Singapore,Goats,kt,2015,0.0002
+Singapore,Goats,kt,2016,0.0002
+Singapore,Goats,kt,2017,0.0002
+Singapore,Goats,kt,2018,0.0002
+Singapore,Goats,kt,2019,0.0002
+Singapore,Goats,kt,2020,0.0002
+Singapore,Goats,kt,2021,0.0002
+Singapore,Goats,kt,2022,0.0003
+Singapore,Goats,kt,2023,0.0003
+Sri Lanka,Buffalo,kt,2010,0.3587
+Sri Lanka,Buffalo,kt,2011,0.3438
+Sri Lanka,Buffalo,kt,2012,0.3519
+Sri Lanka,Buffalo,kt,2013,0.3231
+Sri Lanka,Buffalo,kt,2014,0.2721
+Sri Lanka,Buffalo,kt,2015,0.2742
+Sri Lanka,Buffalo,kt,2016,0.2264
+Sri Lanka,Buffalo,kt,2017,0.2406
+Sri Lanka,Buffalo,kt,2018,0.262
+Sri Lanka,Buffalo,kt,2019,0.2533
+Sri Lanka,Buffalo,kt,2020,0.2741
+Sri Lanka,Buffalo,kt,2021,0.2828
+Sri Lanka,Buffalo,kt,2022,0.2757
+Sri Lanka,Buffalo,kt,2023,0.2775
+Sri Lanka,Cattle,kt,2010,0.6022
+Sri Lanka,Cattle,kt,2011,0.6121
+Sri Lanka,Cattle,kt,2012,0.6499
+Sri Lanka,Cattle,kt,2013,0.647
+Sri Lanka,Cattle,kt,2014,0.6156
+Sri Lanka,Cattle,kt,2015,0.6151
+Sri Lanka,Cattle,kt,2016,0.5522
+Sri Lanka,Cattle,kt,2017,0.5809
+Sri Lanka,Cattle,kt,2018,0.6451
+Sri Lanka,Cattle,kt,2019,0.6319
+Sri Lanka,Cattle,kt,2020,0.6497
+Sri Lanka,Cattle,kt,2021,0.6695
+Sri Lanka,Cattle,kt,2022,0.6659
+Sri Lanka,Cattle,kt,2023,0.6602
+Sri Lanka,Goats,kt,2010,0.1277
+Sri Lanka,Goats,kt,2011,0.1283
+Sri Lanka,Goats,kt,2012,0.1311
+Sri Lanka,Goats,kt,2013,0.1132
+Sri Lanka,Goats,kt,2014,0.1022
+Sri Lanka,Goats,kt,2015,0.1057
+Sri Lanka,Goats,kt,2016,0.0912
+Sri Lanka,Goats,kt,2017,0.0982
+Sri Lanka,Goats,kt,2018,0.1076
+Sri Lanka,Goats,kt,2019,0.1072
+Sri Lanka,Goats,kt,2020,0.1143
+Sri Lanka,Goats,kt,2021,0.1236
+Sri Lanka,Goats,kt,2022,0.125
+Sri Lanka,Goats,kt,2023,0.1198
+Sri Lanka,Sheep,kt,2010,0.0022
+Sri Lanka,Sheep,kt,2011,0.0023
+Sri Lanka,Sheep,kt,2012,0.0026
+Sri Lanka,Sheep,kt,2013,0.0027
+Sri Lanka,Sheep,kt,2014,0.0031
+Sri Lanka,Sheep,kt,2015,0.0022
+Sri Lanka,Sheep,kt,2016,0.0024
+Sri Lanka,Sheep,kt,2017,0.0029
+Sri Lanka,Sheep,kt,2018,0.0032
+Sri Lanka,Sheep,kt,2019,0.0033
+Sri Lanka,Sheep,kt,2020,0.0032
+Sri Lanka,Sheep,kt,2021,0.0034
+Sri Lanka,Sheep,kt,2022,0.0035
+Sri Lanka,Sheep,kt,2023,0.0037
+Sri Lanka,Swine,kt,2010,0.0116
+Sri Lanka,Swine,kt,2011,0.0114
+Sri Lanka,Swine,kt,2012,0.0124
+Sri Lanka,Swine,kt,2013,0.0113
+Sri Lanka,Swine,kt,2014,0.0146
+Sri Lanka,Swine,kt,2015,0.0097
+Sri Lanka,Swine,kt,2016,0.0113
+Sri Lanka,Swine,kt,2017,0.0132
+Sri Lanka,Swine,kt,2018,0.0136
+Sri Lanka,Swine,kt,2019,0.0127
+Sri Lanka,Swine,kt,2020,0.0129
+Sri Lanka,Swine,kt,2021,0.0138
+Sri Lanka,Swine,kt,2022,0.0139
+Sri Lanka,Swine,kt,2023,0.0142
+Syrian Arab Republic,Buffalo,kt,2010,0.008
+Syrian Arab Republic,Buffalo,kt,2011,0.0084
+Syrian Arab Republic,Buffalo,kt,2012,0.0084
+Syrian Arab Republic,Buffalo,kt,2013,0.0086
+Syrian Arab Republic,Buffalo,kt,2014,0.009
+Syrian Arab Republic,Buffalo,kt,2015,0.0091
+Syrian Arab Republic,Buffalo,kt,2016,0.0091
+Syrian Arab Republic,Buffalo,kt,2017,0.008
+Syrian Arab Republic,Buffalo,kt,2018,0.0079
+Syrian Arab Republic,Buffalo,kt,2019,0.0081
+Syrian Arab Republic,Buffalo,kt,2020,0.0082
+Syrian Arab Republic,Buffalo,kt,2021,0.0073
+Syrian Arab Republic,Buffalo,kt,2022,0.0075
+Syrian Arab Republic,Buffalo,kt,2023,0.0074
+Syrian Arab Republic,Cattle,kt,2010,2.1282
+Syrian Arab Republic,Cattle,kt,2011,2.3714
+Syrian Arab Republic,Cattle,kt,2012,2.3719
+Syrian Arab Republic,Cattle,kt,2013,2.3792
+Syrian Arab Republic,Cattle,kt,2014,2.3326
+Syrian Arab Republic,Cattle,kt,2015,2.2828
+Syrian Arab Republic,Cattle,kt,2016,2.283
+Syrian Arab Republic,Cattle,kt,2017,1.777
+Syrian Arab Republic,Cattle,kt,2018,1.6385
+Syrian Arab Republic,Cattle,kt,2019,1.6877
+Syrian Arab Republic,Cattle,kt,2020,1.9064
+Syrian Arab Republic,Cattle,kt,2021,1.8767
+Syrian Arab Republic,Cattle,kt,2022,1.8301
+Syrian Arab Republic,Cattle,kt,2023,1.801
+Syrian Arab Republic,Goats,kt,2010,0.691
+Syrian Arab Republic,Goats,kt,2011,0.7706
+Syrian Arab Republic,Goats,kt,2012,0.7702
+Syrian Arab Republic,Goats,kt,2013,0.7707
+Syrian Arab Republic,Goats,kt,2014,0.7679
+Syrian Arab Republic,Goats,kt,2015,0.7679
+Syrian Arab Republic,Goats,kt,2016,0.7679
+Syrian Arab Republic,Goats,kt,2017,0.6069
+Syrian Arab Republic,Goats,kt,2018,0.6069
+Syrian Arab Republic,Goats,kt,2019,0.6195
+Syrian Arab Republic,Goats,kt,2020,0.6705
+Syrian Arab Republic,Goats,kt,2021,0.6405
+Syrian Arab Republic,Goats,kt,2022,0.6815
+Syrian Arab Republic,Goats,kt,2023,0.7365
+Syrian Arab Republic,Sheep,kt,2010,4.1532
+Syrian Arab Republic,Sheep,kt,2011,4.8388
+Syrian Arab Republic,Sheep,kt,2012,4.8365
+Syrian Arab Republic,Sheep,kt,2013,4.8247
+Syrian Arab Republic,Sheep,kt,2014,4.7817
+Syrian Arab Republic,Sheep,kt,2015,4.4769
+Syrian Arab Republic,Sheep,kt,2016,4.1484
+Syrian Arab Republic,Sheep,kt,2017,3.7155
+Syrian Arab Republic,Sheep,kt,2018,3.7627
+Syrian Arab Republic,Sheep,kt,2019,3.898
+Syrian Arab Republic,Sheep,kt,2020,4.3037
+Syrian Arab Republic,Sheep,kt,2021,4.4939
+Syrian Arab Republic,Sheep,kt,2022,4.7788
+Syrian Arab Republic,Sheep,kt,2023,4.9721
+Syrian Arab Republic,Swine,kt,2010,0
+Syrian Arab Republic,Swine,kt,2011,0
+Syrian Arab Republic,Swine,kt,2012,0
+Syrian Arab Republic,Swine,kt,2013,0
+Syrian Arab Republic,Swine,kt,2014,0
+Syrian Arab Republic,Swine,kt,2015,0
+Syrian Arab Republic,Swine,kt,2016,0
+Syrian Arab Republic,Swine,kt,2017,0
+Syrian Arab Republic,Swine,kt,2018,0
+Syrian Arab Republic,Swine,kt,2019,0
+Syrian Arab Republic,Swine,kt,2020,0
+Syrian Arab Republic,Swine,kt,2021,0
+Syrian Arab Republic,Swine,kt,2022,0
+Syrian Arab Republic,Swine,kt,2023,0
+Tajikistan,Buffalo,kt,2010,0.0274
+Tajikistan,Buffalo,kt,2011,0.0274
+Tajikistan,Buffalo,kt,2012,0.0274
+Tajikistan,Buffalo,kt,2013,0.0274
+Tajikistan,Buffalo,kt,2014,0.0274
+Tajikistan,Buffalo,kt,2015,0.0278
+Tajikistan,Buffalo,kt,2016,0.0282
+Tajikistan,Buffalo,kt,2017,0.0284
+Tajikistan,Buffalo,kt,2018,0.0285
+Tajikistan,Buffalo,kt,2019,0.0285
+Tajikistan,Buffalo,kt,2020,0.0286
+Tajikistan,Buffalo,kt,2021,0.0285
+Tajikistan,Buffalo,kt,2022,0.0286
+Tajikistan,Buffalo,kt,2023,0.0287
+Tajikistan,Cattle,kt,2010,2.9525
+Tajikistan,Cattle,kt,2011,3.0606
+Tajikistan,Cattle,kt,2012,3.2531
+Tajikistan,Cattle,kt,2013,3.3938
+Tajikistan,Cattle,kt,2014,3.4392
+Tajikistan,Cattle,kt,2015,3.5667
+Tajikistan,Cattle,kt,2016,3.6778
+Tajikistan,Cattle,kt,2017,3.7399
+Tajikistan,Cattle,kt,2018,3.7556
+Tajikistan,Cattle,kt,2019,3.8108
+Tajikistan,Cattle,kt,2020,3.8573
+Tajikistan,Cattle,kt,2021,3.9807
+Tajikistan,Cattle,kt,2022,4.121
+Tajikistan,Cattle,kt,2023,4.2287
+Tajikistan,Goats,kt,2010,0.541
+Tajikistan,Goats,kt,2011,0.5693
+Tajikistan,Goats,kt,2012,0.5894
+Tajikistan,Goats,kt,2013,0.6242
+Tajikistan,Goats,kt,2014,0.6254
+Tajikistan,Goats,kt,2015,0.6546
+Tajikistan,Goats,kt,2016,0.6721
+Tajikistan,Goats,kt,2017,0.6651
+Tajikistan,Goats,kt,2018,0.6678
+Tajikistan,Goats,kt,2019,0.6662
+Tajikistan,Goats,kt,2020,0.6671
+Tajikistan,Goats,kt,2021,0.699
+Tajikistan,Goats,kt,2022,0.708
+Tajikistan,Goats,kt,2023,0.7173
+Tajikistan,Sheep,kt,2010,0.7426
+Tajikistan,Sheep,kt,2011,0.7742
+Tajikistan,Sheep,kt,2012,0.8212
+Tajikistan,Sheep,kt,2013,0.8789
+Tajikistan,Sheep,kt,2014,0.9156
+Tajikistan,Sheep,kt,2015,0.9545
+Tajikistan,Sheep,kt,2016,0.9902
+Tajikistan,Sheep,kt,2017,1.0316
+Tajikistan,Sheep,kt,2018,1.0404
+Tajikistan,Sheep,kt,2019,1.0604
+Tajikistan,Sheep,kt,2020,1.0875
+Tajikistan,Sheep,kt,2021,1.0628
+Tajikistan,Sheep,kt,2022,1.0702
+Tajikistan,Sheep,kt,2023,1.0735
+Tajikistan,Swine,kt,2010,0.0001
+Tajikistan,Swine,kt,2011,0.0001
+Tajikistan,Swine,kt,2012,0.0001
+Tajikistan,Swine,kt,2013,0.0001
+Tajikistan,Swine,kt,2014,0.0001
+Tajikistan,Swine,kt,2015,0.0001
+Tajikistan,Swine,kt,2016,0
+Tajikistan,Swine,kt,2017,0
+Tajikistan,Swine,kt,2018,0
+Tajikistan,Swine,kt,2019,0
+Tajikistan,Swine,kt,2020,0
+Tajikistan,Swine,kt,2021,0
+Tajikistan,Swine,kt,2022,0
+Tajikistan,Swine,kt,2023,0
+Thailand,Buffalo,kt,2010,2.9693
+Thailand,Buffalo,kt,2011,2.9054
+Thailand,Buffalo,kt,2012,2.822
+Thailand,Buffalo,kt,2013,2.3584
+Thailand,Buffalo,kt,2014,1.8667
+Thailand,Buffalo,kt,2015,1.8116
+Thailand,Buffalo,kt,2016,2.1229
+Thailand,Buffalo,kt,2017,2.123
+Thailand,Buffalo,kt,2018,2.1117
+Thailand,Buffalo,kt,2019,2.1175
+Thailand,Buffalo,kt,2020,2.0253
+Thailand,Buffalo,kt,2021,1.9113
+Thailand,Buffalo,kt,2022,1.7781
+Thailand,Buffalo,kt,2023,1.6282
+Thailand,Cattle,kt,2010,10.9543
+Thailand,Cattle,kt,2011,9.9298
+Thailand,Cattle,kt,2012,9.0795
+Thailand,Cattle,kt,2013,8.6641
+Thailand,Cattle,kt,2014,8.2445
+Thailand,Cattle,kt,2015,7.9899
+Thailand,Cattle,kt,2016,7.9046
+Thailand,Cattle,kt,2017,7.871
+Thailand,Cattle,kt,2018,7.8067
+Thailand,Cattle,kt,2019,7.7324
+Thailand,Cattle,kt,2020,7.8034
+Thailand,Cattle,kt,2021,7.7808
+Thailand,Cattle,kt,2022,7.7722
+Thailand,Cattle,kt,2023,7.7855
+Thailand,Goats,kt,2010,0.13
+Thailand,Goats,kt,2011,0.1462
+Thailand,Goats,kt,2012,0.1579
+Thailand,Goats,kt,2013,0.1437
+Thailand,Goats,kt,2014,0.153
+Thailand,Goats,kt,2015,0.1531
+Thailand,Goats,kt,2016,0.1539
+Thailand,Goats,kt,2017,0.1565
+Thailand,Goats,kt,2018,0.1571
+Thailand,Goats,kt,2019,0.1584
+Thailand,Goats,kt,2020,0.1583
+Thailand,Goats,kt,2021,0.1606
+Thailand,Goats,kt,2022,0.1628
+Thailand,Goats,kt,2023,0.1652
+Thailand,Sheep,kt,2010,0.0122
+Thailand,Sheep,kt,2011,0.0147
+Thailand,Sheep,kt,2012,0.0154
+Thailand,Sheep,kt,2013,0.0119
+Thailand,Sheep,kt,2014,0.0125
+Thailand,Sheep,kt,2015,0.0122
+Thailand,Sheep,kt,2016,0.0119
+Thailand,Sheep,kt,2017,0.012
+Thailand,Sheep,kt,2018,0.012
+Thailand,Sheep,kt,2019,0.0118
+Thailand,Sheep,kt,2020,0.0116
+Thailand,Sheep,kt,2021,0.0114
+Thailand,Sheep,kt,2022,0.0112
+Thailand,Sheep,kt,2023,0.0109
+Thailand,Swine,kt,2010,1.2854
+Thailand,Swine,kt,2011,1.3127
+Thailand,Swine,kt,2012,1.3192
+Thailand,Swine,kt,2013,1.2824
+Thailand,Swine,kt,2014,1.28
+Thailand,Swine,kt,2015,1.2871
+Thailand,Swine,kt,2016,1.2949
+Thailand,Swine,kt,2017,1.305
+Thailand,Swine,kt,2018,1.3134
+Thailand,Swine,kt,2019,1.3186
+Thailand,Swine,kt,2020,1.311
+Thailand,Swine,kt,2021,1.3031
+Thailand,Swine,kt,2022,1.3025
+Thailand,Swine,kt,2023,1.3019
+Timor-Leste,Buffalo,kt,2010,0.1766
+Timor-Leste,Buffalo,kt,2011,0.1796
+Timor-Leste,Buffalo,kt,2012,0.1891
+Timor-Leste,Buffalo,kt,2013,0.1991
+Timor-Leste,Buffalo,kt,2014,0.1995
+Timor-Leste,Buffalo,kt,2015,0.2347
+Timor-Leste,Buffalo,kt,2016,0.2308
+Timor-Leste,Buffalo,kt,2017,0.2295
+Timor-Leste,Buffalo,kt,2018,0.2312
+Timor-Leste,Buffalo,kt,2019,0.2333
+Timor-Leste,Buffalo,kt,2020,0.233
+Timor-Leste,Buffalo,kt,2021,0.2313
+Timor-Leste,Buffalo,kt,2022,0.232
+Timor-Leste,Buffalo,kt,2023,0.2473
+Timor-Leste,Cattle,kt,2010,0.2716
+Timor-Leste,Cattle,kt,2011,0.2863
+Timor-Leste,Cattle,kt,2012,0.2909
+Timor-Leste,Cattle,kt,2013,0.2958
+Timor-Leste,Cattle,kt,2014,0.2961
+Timor-Leste,Cattle,kt,2015,0.3723
+Timor-Leste,Cattle,kt,2016,0.3844
+Timor-Leste,Cattle,kt,2017,0.3824
+Timor-Leste,Cattle,kt,2018,0.3913
+Timor-Leste,Cattle,kt,2019,0.4801
+Timor-Leste,Cattle,kt,2020,0.4147
+Timor-Leste,Cattle,kt,2021,0.3744
+Timor-Leste,Cattle,kt,2022,0.3981
+Timor-Leste,Cattle,kt,2023,0.4054
+Timor-Leste,Goats,kt,2010,0.0521
+Timor-Leste,Goats,kt,2011,0.0548
+Timor-Leste,Goats,kt,2012,0.0577
+Timor-Leste,Goats,kt,2013,0.0608
+Timor-Leste,Goats,kt,2014,0.061
+Timor-Leste,Goats,kt,2015,0.0542
+Timor-Leste,Goats,kt,2016,0.0539
+Timor-Leste,Goats,kt,2017,0.0562
+Timor-Leste,Goats,kt,2018,0.0587
+Timor-Leste,Goats,kt,2019,0.0615
+Timor-Leste,Goats,kt,2020,0.0654
+Timor-Leste,Goats,kt,2021,0.0703
+Timor-Leste,Goats,kt,2022,0.0737
+Timor-Leste,Goats,kt,2023,0.0582
+Timor-Leste,Sheep,kt,2010,0.0119
+Timor-Leste,Sheep,kt,2011,0.014
+Timor-Leste,Sheep,kt,2012,0.0165
+Timor-Leste,Sheep,kt,2013,0.0195
+Timor-Leste,Sheep,kt,2014,0.0196
+Timor-Leste,Sheep,kt,2015,0.0115
+Timor-Leste,Sheep,kt,2016,0.0099
+Timor-Leste,Sheep,kt,2017,0.0091
+Timor-Leste,Sheep,kt,2018,0.0079
+Timor-Leste,Sheep,kt,2019,0.0068
+Timor-Leste,Sheep,kt,2020,0.0092
+Timor-Leste,Sheep,kt,2021,0.011
+Timor-Leste,Sheep,kt,2022,0.0115
+Timor-Leste,Sheep,kt,2023,0.0058
+Timor-Leste,Swine,kt,2010,0.0557
+Timor-Leste,Swine,kt,2011,0.0583
+Timor-Leste,Swine,kt,2012,0.0614
+Timor-Leste,Swine,kt,2013,0.0646
+Timor-Leste,Swine,kt,2014,0.068
+Timor-Leste,Swine,kt,2015,0.0707
+Timor-Leste,Swine,kt,2016,0.071
+Timor-Leste,Swine,kt,2017,0.0661
+Timor-Leste,Swine,kt,2018,0.0656
+Timor-Leste,Swine,kt,2019,0.0765
+Timor-Leste,Swine,kt,2020,0.0631
+Timor-Leste,Swine,kt,2021,0.0416
+Timor-Leste,Swine,kt,2022,0.0601
+Timor-Leste,Swine,kt,2023,0.0648
+Turkmenistan,Cattle,kt,2010,3.5259
+Turkmenistan,Cattle,kt,2011,3.5607
+Turkmenistan,Cattle,kt,2012,3.5945
+Turkmenistan,Cattle,kt,2013,3.66
+Turkmenistan,Cattle,kt,2014,3.7146
+Turkmenistan,Cattle,kt,2015,3.7672
+Turkmenistan,Cattle,kt,2016,3.7984
+Turkmenistan,Cattle,kt,2017,3.8581
+Turkmenistan,Cattle,kt,2018,3.8774
+Turkmenistan,Cattle,kt,2019,3.8928
+Turkmenistan,Cattle,kt,2020,4.0514
+Turkmenistan,Cattle,kt,2021,4.0773
+Turkmenistan,Cattle,kt,2022,4.1002
+Turkmenistan,Cattle,kt,2023,4.132
+Turkmenistan,Goats,kt,2010,0.9571
+Turkmenistan,Goats,kt,2011,0.7842
+Turkmenistan,Goats,kt,2012,0.7837
+Turkmenistan,Goats,kt,2013,0.8326
+Turkmenistan,Goats,kt,2014,0.9843
+Turkmenistan,Goats,kt,2015,1.0987
+Turkmenistan,Goats,kt,2016,1.1938
+Turkmenistan,Goats,kt,2017,1.271
+Turkmenistan,Goats,kt,2018,1.2993
+Turkmenistan,Goats,kt,2019,1.2988
+Turkmenistan,Goats,kt,2020,1.6009
+Turkmenistan,Goats,kt,2021,1.6064
+Turkmenistan,Goats,kt,2022,1.5997
+Turkmenistan,Goats,kt,2023,1.6691
+Turkmenistan,Sheep,kt,2010,3.8588
+Turkmenistan,Sheep,kt,2011,3.8729
+Turkmenistan,Sheep,kt,2012,3.9722
+Turkmenistan,Sheep,kt,2013,3.9722
+Turkmenistan,Sheep,kt,2014,3.9722
+Turkmenistan,Sheep,kt,2015,4.008
+Turkmenistan,Sheep,kt,2016,4.0362
+Turkmenistan,Sheep,kt,2017,4.012
+Turkmenistan,Sheep,kt,2018,4.0244
+Turkmenistan,Sheep,kt,2019,4.0554
+Turkmenistan,Sheep,kt,2020,3.9897
+Turkmenistan,Sheep,kt,2021,4.0187
+Turkmenistan,Sheep,kt,2022,4.0521
+Turkmenistan,Sheep,kt,2023,4.007
+Turkmenistan,Swine,kt,2010,0.0023
+Turkmenistan,Swine,kt,2011,0.0018
+Turkmenistan,Swine,kt,2012,0.0016
+Turkmenistan,Swine,kt,2013,0.0014
+Turkmenistan,Swine,kt,2014,0.0014
+Turkmenistan,Swine,kt,2015,0.0015
+Turkmenistan,Swine,kt,2016,0.0014
+Turkmenistan,Swine,kt,2017,0.0014
+Turkmenistan,Swine,kt,2018,0.0015
+Turkmenistan,Swine,kt,2019,0.0014
+Turkmenistan,Swine,kt,2020,0.0012
+Turkmenistan,Swine,kt,2021,0.0013
+Turkmenistan,Swine,kt,2022,0.0013
+Turkmenistan,Swine,kt,2023,0.0013
+Türkiye,Buffalo,kt,2010,0.0992
+Türkiye,Buffalo,kt,2011,0.0964
+Türkiye,Buffalo,kt,2012,0.111
+Türkiye,Buffalo,kt,2013,0.1222
+Türkiye,Buffalo,kt,2014,0.1337
+Türkiye,Buffalo,kt,2015,0.1386
+Türkiye,Buffalo,kt,2016,0.1521
+Türkiye,Buffalo,kt,2017,0.1616
+Türkiye,Buffalo,kt,2018,0.2029
+Türkiye,Buffalo,kt,2019,0.2095
+Türkiye,Buffalo,kt,2020,0.2189
+Türkiye,Buffalo,kt,2021,0.2111
+Türkiye,Buffalo,kt,2022,0.1954
+Türkiye,Buffalo,kt,2023,0.184
+Türkiye,Cattle,kt,2010,21.781
+Türkiye,Cattle,kt,2011,23.1903
+Türkiye,Cattle,kt,2012,25.4384
+Türkiye,Cattle,kt,2013,28.2246
+Türkiye,Cattle,kt,2014,29.0969
+Türkiye,Cattle,kt,2015,28.71
+Türkiye,Cattle,kt,2016,28.237
+Türkiye,Cattle,kt,2017,28.7706
+Türkiye,Cattle,kt,2018,34.2188
+Türkiye,Cattle,kt,2019,35.4875
+Türkiye,Cattle,kt,2020,36.6546
+Türkiye,Cattle,kt,2021,36.4272
+Türkiye,Cattle,kt,2022,34.4272
+Türkiye,Cattle,kt,2023,33.5655
+Türkiye,Goats,kt,2010,1.7227
+Türkiye,Goats,kt,2011,2.1141
+Türkiye,Goats,kt,2012,2.4449
+Türkiye,Goats,kt,2013,2.8074
+Türkiye,Goats,kt,2014,3.0991
+Türkiye,Goats,kt,2015,3.4751
+Türkiye,Goats,kt,2016,3.4991
+Türkiye,Goats,kt,2017,3.4753
+Türkiye,Goats,kt,2018,3.6691
+Türkiye,Goats,kt,2019,3.7642
+Türkiye,Goats,kt,2020,4.0264
+Türkiye,Goats,kt,2021,4.1458
+Türkiye,Goats,kt,2022,3.8893
+Türkiye,Goats,kt,2023,3.461
+Türkiye,Sheep,kt,2010,5.8357
+Türkiye,Sheep,kt,2011,6.1825
+Türkiye,Sheep,kt,2012,6.7025
+Türkiye,Sheep,kt,2013,7.3434
+Türkiye,Sheep,kt,2014,7.8412
+Türkiye,Sheep,kt,2015,8.3381
+Türkiye,Sheep,kt,2016,8.4366
+Türkiye,Sheep,kt,2017,8.2963
+Türkiye,Sheep,kt,2018,9.4238
+Türkiye,Sheep,kt,2019,9.981
+Türkiye,Sheep,kt,2020,11.2799
+Türkiye,Sheep,kt,2021,12.0968
+Türkiye,Sheep,kt,2022,11.9656
+Türkiye,Sheep,kt,2023,11.2621
+Türkiye,Swine,kt,2010,0.0013
+Türkiye,Swine,kt,2011,0.0011
+Türkiye,Swine,kt,2012,0.0012
+Türkiye,Swine,kt,2013,0.002
+Türkiye,Swine,kt,2014,0.0021
+Türkiye,Swine,kt,2015,0.0018
+Türkiye,Swine,kt,2016,0.0011
+Türkiye,Swine,kt,2017,0.0009
+Türkiye,Swine,kt,2018,0.0011
+Türkiye,Swine,kt,2019,0.001
+Türkiye,Swine,kt,2020,0.0007
+Türkiye,Swine,kt,2021,0.0009
+Türkiye,Swine,kt,2022,0.0011
+Türkiye,Swine,kt,2023,0.0011
+United Arab Emirates,Cattle,kt,2010,0.2006
+United Arab Emirates,Cattle,kt,2011,0.1785
+United Arab Emirates,Cattle,kt,2012,0.1642
+United Arab Emirates,Cattle,kt,2013,0.1757
+United Arab Emirates,Cattle,kt,2014,0.1837
+United Arab Emirates,Cattle,kt,2015,0.222
+United Arab Emirates,Cattle,kt,2016,0.2175
+United Arab Emirates,Cattle,kt,2017,0.2148
+United Arab Emirates,Cattle,kt,2018,0.2099
+United Arab Emirates,Cattle,kt,2019,0.2056
+United Arab Emirates,Cattle,kt,2020,0.2109
+United Arab Emirates,Cattle,kt,2021,0.2279
+United Arab Emirates,Cattle,kt,2022,0.2247
+United Arab Emirates,Cattle,kt,2023,0.2231
+United Arab Emirates,Goats,kt,2010,0.6328
+United Arab Emirates,Goats,kt,2011,0.6381
+United Arab Emirates,Goats,kt,2012,0.5305
+United Arab Emirates,Goats,kt,2013,0.6216
+United Arab Emirates,Goats,kt,2014,0.733
+United Arab Emirates,Goats,kt,2015,0.7476
+United Arab Emirates,Goats,kt,2016,0.754
+United Arab Emirates,Goats,kt,2017,0.7826
+United Arab Emirates,Goats,kt,2018,0.8046
+United Arab Emirates,Goats,kt,2019,0.7895
+United Arab Emirates,Goats,kt,2020,0.806
+United Arab Emirates,Goats,kt,2021,0.7707
+United Arab Emirates,Goats,kt,2022,0.7511
+United Arab Emirates,Goats,kt,2023,0.7759
+United Arab Emirates,Sheep,kt,2010,0.3617
+United Arab Emirates,Sheep,kt,2011,0.3713
+United Arab Emirates,Sheep,kt,2012,0.4932
+United Arab Emirates,Sheep,kt,2013,0.5577
+United Arab Emirates,Sheep,kt,2014,0.5559
+United Arab Emirates,Sheep,kt,2015,0.5715
+United Arab Emirates,Sheep,kt,2016,0.5699
+United Arab Emirates,Sheep,kt,2017,0.57
+United Arab Emirates,Sheep,kt,2018,0.5751
+United Arab Emirates,Sheep,kt,2019,0.5473
+United Arab Emirates,Sheep,kt,2020,0.5501
+United Arab Emirates,Sheep,kt,2021,0.5528
+United Arab Emirates,Sheep,kt,2022,0.5548
+United Arab Emirates,Sheep,kt,2023,0.5526
+Uzbekistan,Cattle,kt,2010,13.8622
+Uzbekistan,Cattle,kt,2011,14.8154
+Uzbekistan,Cattle,kt,2012,15.7246
+Uzbekistan,Cattle,kt,2013,16.5735
+Uzbekistan,Cattle,kt,2014,17.3337
+Uzbekistan,Cattle,kt,2015,17.9798
+Uzbekistan,Cattle,kt,2016,19.9076
+Uzbekistan,Cattle,kt,2017,20.3737
+Uzbekistan,Cattle,kt,2018,20.9248
+Uzbekistan,Cattle,kt,2019,21.1367
+Uzbekistan,Cattle,kt,2020,21.4634
+Uzbekistan,Cattle,kt,2021,22.1009
+Uzbekistan,Cattle,kt,2022,22.5984
+Uzbekistan,Cattle,kt,2023,23.062
+Uzbekistan,Goats,kt,2010,0.8035
+Uzbekistan,Goats,kt,2011,0.8748
+Uzbekistan,Goats,kt,2012,0.9513
+Uzbekistan,Goats,kt,2013,1.0143
+Uzbekistan,Goats,kt,2014,1.0806
+Uzbekistan,Goats,kt,2015,1.1079
+Uzbekistan,Goats,kt,2016,1.2787
+Uzbekistan,Goats,kt,2017,1.3092
+Uzbekistan,Goats,kt,2018,1.3009
+Uzbekistan,Goats,kt,2019,1.2678
+Uzbekistan,Goats,kt,2020,1.2407
+Uzbekistan,Goats,kt,2021,1.2453
+Uzbekistan,Goats,kt,2022,1.2526
+Uzbekistan,Goats,kt,2023,1.2252
+Uzbekistan,Sheep,kt,2010,3.428
+Uzbekistan,Sheep,kt,2011,3.6266
+Uzbekistan,Sheep,kt,2012,3.8037
+Uzbekistan,Sheep,kt,2013,4.0181
+Uzbekistan,Sheep,kt,2014,4.1301
+Uzbekistan,Sheep,kt,2015,4.3121
+Uzbekistan,Sheep,kt,2016,4.5275
+Uzbekistan,Sheep,kt,2017,4.7698
+Uzbekistan,Sheep,kt,2018,5.0433
+Uzbekistan,Sheep,kt,2019,5.1633
+Uzbekistan,Sheep,kt,2020,5.3424
+Uzbekistan,Sheep,kt,2021,5.4837
+Uzbekistan,Sheep,kt,2022,5.657
+Uzbekistan,Sheep,kt,2023,5.826
+Uzbekistan,Swine,kt,2010,0.0163
+Uzbekistan,Swine,kt,2011,0.0169
+Uzbekistan,Swine,kt,2012,0.0163
+Uzbekistan,Swine,kt,2013,0.0161
+Uzbekistan,Swine,kt,2014,0.0156
+Uzbekistan,Swine,kt,2015,0.0148
+Uzbekistan,Swine,kt,2016,0.0144
+Uzbekistan,Swine,kt,2017,0.0127
+Uzbekistan,Swine,kt,2018,0.0099
+Uzbekistan,Swine,kt,2019,0.0092
+Uzbekistan,Swine,kt,2020,0.0088
+Uzbekistan,Swine,kt,2021,0.0083
+Uzbekistan,Swine,kt,2022,0.0076
+Uzbekistan,Swine,kt,2023,0.0068
+Viet Nam,Buffalo,kt,2010,5.2647
+Viet Nam,Buffalo,kt,2011,4.9627
+Viet Nam,Buffalo,kt,2012,4.8087
+Viet Nam,Buffalo,kt,2013,4.6837
+Viet Nam,Buffalo,kt,2014,4.6139
+Viet Nam,Buffalo,kt,2015,4.6187
+Viet Nam,Buffalo,kt,2016,4.6103
+Viet Nam,Buffalo,kt,2017,4.5595
+Viet Nam,Buffalo,kt,2018,4.4377
+Viet Nam,Buffalo,kt,2019,4.3696
+Viet Nam,Buffalo,kt,2020,4.2687
+Viet Nam,Buffalo,kt,2021,4.1408
+Viet Nam,Buffalo,kt,2022,4.0827
+Viet Nam,Buffalo,kt,2023,3.9087
+Viet Nam,Cattle,kt,2010,9.7984
+Viet Nam,Cattle,kt,2011,9.1699
+Viet Nam,Cattle,kt,2012,8.7592
+Viet Nam,Cattle,kt,2013,8.687
+Viet Nam,Cattle,kt,2014,8.8122
+Viet Nam,Cattle,kt,2015,9.0298
+Viet Nam,Cattle,kt,2016,9.2473
+Viet Nam,Cattle,kt,2017,9.5121
+Viet Nam,Cattle,kt,2018,9.7633
+Viet Nam,Cattle,kt,2019,10.1948
+Viet Nam,Cattle,kt,2020,10.4805
+Viet Nam,Cattle,kt,2021,10.6569
+Viet Nam,Cattle,kt,2022,10.6893
+Viet Nam,Cattle,kt,2023,10.6532
+Viet Nam,Goats,kt,2010,0.4404
+Viet Nam,Goats,kt,2011,0.4334
+Viet Nam,Goats,kt,2012,0.4593
+Viet Nam,Goats,kt,2013,0.4767
+Viet Nam,Goats,kt,2014,0.547
+Viet Nam,Goats,kt,2015,0.6811
+Viet Nam,Goats,kt,2016,0.6908
+Viet Nam,Goats,kt,2017,0.8738
+Viet Nam,Goats,kt,2018,0.9174
+Viet Nam,Goats,kt,2019,0.8919
+Viet Nam,Goats,kt,2020,0.9074
+Viet Nam,Goats,kt,2021,0.9438
+Viet Nam,Goats,kt,2022,1.0306
+Viet Nam,Goats,kt,2023,1.0557
+Viet Nam,Swine,kt,2010,4.6152
+Viet Nam,Swine,kt,2011,4.5617
+Viet Nam,Swine,kt,2012,4.467
+Viet Nam,Swine,kt,2013,4.4283
+Viet Nam,Swine,kt,2014,4.5121
+Viet Nam,Swine,kt,2015,4.6789
+Viet Nam,Swine,kt,2016,4.9022
+Viet Nam,Swine,kt,2017,4.6209
+Viet Nam,Swine,kt,2018,4.7465
+Viet Nam,Swine,kt,2019,3.3073
+Viet Nam,Swine,kt,2020,3.714
+Viet Nam,Swine,kt,2021,3.9121
+Viet Nam,Swine,kt,2022,4.1722
+Viet Nam,Swine,kt,2023,4.3072
+Yemen,Cattle,kt,2010,3.0793
+Yemen,Cattle,kt,2011,3.1682
+Yemen,Cattle,kt,2012,3.2225
+Yemen,Cattle,kt,2013,3.2935
+Yemen,Cattle,kt,2014,3.3781
+Yemen,Cattle,kt,2015,3.3344
+Yemen,Cattle,kt,2016,3.2374
+Yemen,Cattle,kt,2017,3.1897
+Yemen,Cattle,kt,2018,2.8733
+Yemen,Cattle,kt,2019,3.4642
+Yemen,Cattle,kt,2020,3.4977
+Yemen,Cattle,kt,2021,3.5667
+Yemen,Cattle,kt,2022,3.5598
+Yemen,Cattle,kt,2023,3.5763
+Yemen,Goats,kt,2010,3.0287
+Yemen,Goats,kt,2011,3.0589
+Yemen,Goats,kt,2012,3.0766
+Yemen,Goats,kt,2013,3.1091
+Yemen,Goats,kt,2014,3.1509
+Yemen,Goats,kt,2015,3.1131
+Yemen,Goats,kt,2016,3.0509
+Yemen,Goats,kt,2017,3.0249
+Yemen,Goats,kt,2018,2.904
+Yemen,Goats,kt,2019,3.1866
+Yemen,Goats,kt,2020,3.2124
+Yemen,Goats,kt,2021,3.373
+Yemen,Goats,kt,2022,3.4545
+Yemen,Goats,kt,2023,3.3542
+Yemen,Sheep,kt,2010,2.465
+Yemen,Sheep,kt,2011,2.5057
+Yemen,Sheep,kt,2012,2.5221
+Yemen,Sheep,kt,2013,2.5575
+Yemen,Sheep,kt,2014,2.5941
+Yemen,Sheep,kt,2015,2.563
+Yemen,Sheep,kt,2016,2.4379
+Yemen,Sheep,kt,2017,2.4595
+Yemen,Sheep,kt,2018,2.3598
+Yemen,Sheep,kt,2019,2.602
+Yemen,Sheep,kt,2020,2.6417
+Yemen,Sheep,kt,2021,2.7738
+Yemen,Sheep,kt,2022,2.8131
+Yemen,Sheep,kt,2023,2.7699
