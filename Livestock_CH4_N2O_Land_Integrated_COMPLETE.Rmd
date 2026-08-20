@@ -1,0 +1,1238 @@
+---
+title: "Livestock Meat Supply, CH4, N2O and Land-Use Pressure in Asia"
+author: "Statistics Project"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+---
+
+# 1. Research Problem
+
+Livestock production connects food supply, greenhouse-gas emissions and land resources. This study examines these relationships across Asian countries using matched livestock categories so that the meat-supply and emissions measures refer to comparable animal groups.
+
+The analytical pathway is:
+
+**Matched meat supply → CH4 and N2O emissions → land-use indicators → integrated CO2-equivalent assessment**
+
+The study focuses on **association rather than causation**. Meat supply growth is only one possible factor affecting livestock emissions; animal populations, productivity, management practices, manure systems and land-use conditions can also contribute.
+
+# 2. Research Objectives
+
+1. Describe the distribution and temporal trends of matched livestock meat supply.
+2. Describe the distribution and temporal trends of livestock CH4 and N2O emissions.
+3. Examine the association between meat-supply growth and CH4-emission growth.
+4. Examine the association between meat-supply growth and N2O-emission growth.
+5. Examine the association between CH4/N2O growth and seven land-use indicators.
+6. Convert CH4 and N2O to a common CO2-equivalent unit and develop an integrated environmental-emissions picture.
+
+# 3. Data and Matching Logic
+
+The analysis uses cleaned secondary datasets derived from FAO data.
+
+## Livestock emissions
+
+The CH4 and N2O files contain:
+
+- `area`
+- `item`
+- `unit`
+- `year`
+- `value`
+
+The same livestock categories are retained in both emission datasets:
+
+- Cattle
+- Buffalo
+- Sheep
+- Goats
+- Swine
+
+## Food balance
+
+The matched meat categories are:
+
+| Food-balance item | Livestock categories |
+|---|---|
+| Bovine Meat | Cattle + Buffalo |
+| Mutton & Goat Meat | Sheep + Goats |
+| Pigmeat | Swine |
+
+`Poultry Meat` and `Meat, Other` are excluded from the matched analysis because the selected CH4/N2O datasets do not contain the same animal-category coverage.
+
+This restriction is deliberate: it reduces category mismatch and makes the comparison between meat supply and livestock emissions more defensible.
+
+# 4. Why Long Format Was Used
+
+The original livestock files stored years as separate columns. The cleaned analytical files use one row per country, animal category and year:
+
+```text
+area | item | unit | year | value
+```
+
+Long format makes grouping, aggregation, joining and growth-rate calculation straightforward. The transformation changes the structure of the dataset, not the underlying observations.
+
+# 5. Packages and Data Loading
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(knitr)
+
+read_project_csv <- function(...) {
+  candidates <- c(...)
+  existing <- candidates[file.exists(candidates)]
+
+  if (length(existing) == 0) {
+    stop(
+      paste0(
+        "File not found. Checked: ",
+        paste(candidates, collapse = " | ")
+      )
+    )
+  }
+
+  read_csv(existing[1], show_col_types = FALSE)
+}
+
+# The helper accepts either the current project-root names or
+# the names used in a cleaned/ subfolder.
+methane_long <- read_project_csv(
+  "methane_long.csv",
+  "cleaned/methane_long.csv"
+)
+
+n2o_long <- read_project_csv(
+  "n2o_long.csv",
+  "cleaned/n2o_long.csv"
+)
+
+food <- read_project_csv(
+  "food_balance_cleaned(4).csv",
+  "food_balance_cleaned(3).csv",
+  "food_balance_cleaned.csv",
+  "cleaned/food_balance_cleaned(4).csv",
+  "cleaned/food_balance_cleaned(3).csv",
+  "cleaned/food_balance_cleaned.csv"
+)
+
+land <- read_project_csv(
+  "landuse_asia_long_cleaned(2).csv",
+  "landuse_asia_long_cleaned.csv",
+  "cleaned/landuse_asia_long_cleaned(2).csv",
+  "cleaned/landuse_asia_long_cleaned.csv"
+)
+
+clean_names_simple <- function(df) {
+  names(df) <- names(df) |>
+    tolower() |>
+    gsub(" ", "_", x = _) |>
+    gsub("\\.", "_", x = _)
+  df
+}
+
+methane_long <- clean_names_simple(methane_long)
+n2o_long <- clean_names_simple(n2o_long)
+food <- clean_names_simple(food)
+land <- clean_names_simple(land)
+
+methane_long <- methane_long %>%
+  mutate(
+    year = as.numeric(year),
+    value = as.numeric(value)
+  )
+
+n2o_long <- n2o_long %>%
+  mutate(
+    year = as.numeric(year),
+    value = as.numeric(value)
+  )
+
+food <- food %>%
+  mutate(
+    year = as.numeric(year),
+    value = as.numeric(value)
+  )
+
+land <- land %>%
+  mutate(
+    year = as.numeric(year),
+    value = as.numeric(value)
+  )
+```
+
+# 6. Dataset Audit
+
+```{r audit}
+cat("CH4 rows:", nrow(methane_long), "\n")
+cat("CH4 countries:", n_distinct(methane_long$area), "\n")
+cat("CH4 years:", min(methane_long$year), "-", max(methane_long$year), "\n\n")
+
+cat("N2O rows:", nrow(n2o_long), "\n")
+cat("N2O countries:", n_distinct(n2o_long$area), "\n")
+cat("N2O years:", min(n2o_long$year), "-", max(n2o_long$year), "\n\n")
+
+cat("Food rows:", nrow(food), "\n")
+cat("Food countries:", n_distinct(food$area), "\n")
+cat("Food years:", min(food$year), "-", max(food$year), "\n\n")
+
+cat("Land rows:", nrow(land), "\n")
+cat("Land countries:", n_distinct(land$area), "\n")
+cat("Land years:", min(land$year), "-", max(land$year), "\n")
+```
+
+## Retained categories
+
+```{r category-audit}
+cat("CH4 livestock categories:\n")
+print(sort(unique(methane_long$item)))
+
+cat("\nN2O livestock categories:\n")
+print(sort(unique(n2o_long$item)))
+
+cat("\nFood categories:\n")
+print(sort(unique(food$item)))
+
+cat("\nLand indicators:\n")
+print(sort(unique(land$item)))
+```
+
+# 7. Construct Matched Meat Supply
+
+```{r meat-matching}
+food_matched <- food %>%
+  filter(
+    item %in% c(
+      "Bovine Meat",
+      "Mutton & Goat Meat",
+      "Pigmeat"
+    )
+  ) %>%
+  group_by(area, year) %>%
+  summarise(
+    meat_kg_capita = sum(value, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+head(food_matched)
+```
+
+# 8. Aggregate CH4 and N2O
+
+```{r emission-aggregation}
+methane_agg <- methane_long %>%
+  filter(
+    item %in% c("Cattle", "Buffalo", "Sheep", "Goats", "Swine")
+  ) %>%
+  group_by(area, year) %>%
+  summarise(
+    methane_kt = sum(value, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+n2o_agg <- n2o_long %>%
+  filter(
+    item %in% c("Cattle", "Buffalo", "Sheep", "Goats", "Swine")
+  ) %>%
+  group_by(area, year) %>%
+  summarise(
+    n2o_kt = sum(value, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+head(methane_agg)
+head(n2o_agg)
+```
+
+# 9. Matched Core Dataset
+
+```{r core-integration}
+core <- food_matched %>%
+  inner_join(methane_agg, by = c("area", "year")) %>%
+  inner_join(n2o_agg, by = c("area", "year")) %>%
+  arrange(area, year)
+
+cat("Matched observations:", nrow(core), "\n")
+cat("Matched countries:", n_distinct(core$area), "\n")
+cat("Matched years:", min(core$year), "-", max(core$year), "\n")
+```
+
+The `inner_join()` is intentional. Only country-year observations available in all three analytical datasets are retained.
+
+# 10. Meat Supply EDA
+
+```{r meat-summary}
+meat_summary <- core %>%
+  summarise(
+    observations = n(),
+    countries = n_distinct(area),
+    mean_meat = mean(meat_kg_capita, na.rm = TRUE),
+    median_meat = median(meat_kg_capita, na.rm = TRUE),
+    sd_meat = sd(meat_kg_capita, na.rm = TRUE),
+    minimum = min(meat_kg_capita, na.rm = TRUE),
+    maximum = max(meat_kg_capita, na.rm = TRUE)
+  )
+
+kable(
+  meat_summary,
+  digits = 2,
+  caption = "Descriptive statistics for matched per-capita meat supply"
+)
+```
+
+```{r meat-trend, fig.width=9, fig.height=5}
+meat_yearly <- core %>%
+  group_by(year) %>%
+  summarise(
+    average_meat_supply = mean(meat_kg_capita, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(meat_yearly,
+       aes(year, average_meat_supply)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  labs(
+    title = "Average Matched Per-Capita Meat Supply, 2010–2023",
+    x = "Year",
+    y = "Meat supply (kg/capita/year)"
+  ) +
+  theme_minimal()
+```
+
+# 11. CH4 Distribution and Trend
+
+```{r methane-summary}
+methane_summary <- core %>%
+  summarise(
+    mean = mean(methane_kt, na.rm = TRUE),
+    median = median(methane_kt, na.rm = TRUE),
+    sd = sd(methane_kt, na.rm = TRUE),
+    minimum = min(methane_kt, na.rm = TRUE),
+    maximum = max(methane_kt, na.rm = TRUE)
+  )
+
+kable(
+  methane_summary,
+  digits = 2,
+  caption = "Descriptive statistics for livestock CH4 emissions"
+)
+```
+
+```{r methane-distribution, fig.width=9, fig.height=5}
+ggplot(core, aes(methane_kt)) +
+  geom_histogram(bins = 40) +
+  labs(
+    title = "Distribution of Livestock CH4 Emissions",
+    x = "CH4 emissions (kt)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+```
+
+```{r methane-trend, fig.width=9, fig.height=5}
+methane_yearly <- core %>%
+  group_by(year) %>%
+  summarise(
+    total_methane = sum(methane_kt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(methane_yearly,
+       aes(year, total_methane)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  labs(
+    title = "Total Matched Livestock CH4 Emissions, 2010–2023",
+    x = "Year",
+    y = "CH4 emissions (kt)"
+  ) +
+  theme_minimal()
+```
+
+# 12. N2O Distribution and Trend
+
+```{r n2o-summary}
+n2o_summary <- core %>%
+  summarise(
+    mean = mean(n2o_kt, na.rm = TRUE),
+    median = median(n2o_kt, na.rm = TRUE),
+    sd = sd(n2o_kt, na.rm = TRUE),
+    minimum = min(n2o_kt, na.rm = TRUE),
+    maximum = max(n2o_kt, na.rm = TRUE)
+  )
+
+kable(
+  n2o_summary,
+  digits = 2,
+  caption = "Descriptive statistics for livestock N2O emissions"
+)
+```
+
+```{r n2o-distribution, fig.width=9, fig.height=5}
+ggplot(core, aes(n2o_kt)) +
+  geom_histogram(bins = 40) +
+  labs(
+    title = "Distribution of Livestock N2O Emissions",
+    x = "N2O emissions (kt)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+```
+
+```{r n2o-trend, fig.width=9, fig.height=5}
+n2o_yearly <- core %>%
+  group_by(year) %>%
+  summarise(
+    total_n2o = sum(n2o_kt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(n2o_yearly,
+       aes(year, total_n2o)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  labs(
+    title = "Total Matched Livestock N2O Emissions, 2010–2023",
+    x = "Year",
+    y = "N2O emissions (kt)"
+  ) +
+  theme_minimal()
+```
+
+# 13. Growth Rates
+
+Growth rates are calculated within country using:
+
+\[
+Growth_t = \left(\frac{X_t}{X_{t-1}} - 1\right)\times100
+\]
+
+This focuses the association analysis on year-to-year change rather than simply comparing large and small countries.
+
+```{r growth}
+core_growth <- core %>%
+  group_by(area) %>%
+  arrange(year, .by_group = TRUE) %>%
+  mutate(
+    meat_growth =
+      if_else(
+        !is.na(lag(meat_kg_capita)) &
+          lag(meat_kg_capita) != 0,
+        (meat_kg_capita / lag(meat_kg_capita) - 1) * 100,
+        NA_real_
+      ),
+
+    methane_growth =
+      if_else(
+        !is.na(lag(methane_kt)) &
+          lag(methane_kt) != 0,
+        (methane_kt / lag(methane_kt) - 1) * 100,
+        NA_real_
+      ),
+
+    n2o_growth =
+      if_else(
+        !is.na(lag(n2o_kt)) &
+          lag(n2o_kt) != 0,
+        (n2o_kt / lag(n2o_kt) - 1) * 100,
+        NA_real_
+      )
+  ) %>%
+  ungroup()
+```
+
+# 14. Statistical Analysis: Meat Growth vs CH4 Growth
+
+```{r methane-correlation}
+ch4_corr <- core_growth %>%
+  select(meat_growth, methane_growth) %>%
+  drop_na()
+
+ch4_pearson <- cor(
+  ch4_corr$meat_growth,
+  ch4_corr$methane_growth,
+  method = "pearson"
+)
+
+ch4_spearman <- cor(
+  ch4_corr$meat_growth,
+  ch4_corr$methane_growth,
+  method = "spearman"
+)
+
+ch4_test <- cor.test(
+  ch4_corr$meat_growth,
+  ch4_corr$methane_growth,
+  method = "pearson"
+)
+
+ch4_model <- lm(
+  methane_growth ~ meat_growth,
+  data = ch4_corr
+)
+
+ch4_model_summary <- summary(ch4_model)
+
+ch4_results <- tibble(
+  Statistic = c(
+    "Complete observations",
+    "Pearson r",
+    "Pearson p-value",
+    "Spearman rho",
+    "Regression slope",
+    "Regression R-squared"
+  ),
+  Value = c(
+    nrow(ch4_corr),
+    ch4_pearson,
+    ch4_test$p.value,
+    ch4_spearman,
+    coef(ch4_model)[["meat_growth"]],
+    ch4_model_summary$r.squared
+  )
+)
+
+kable(
+  ch4_results,
+  digits = 4,
+  caption = "Association between meat-supply growth and CH4-emission growth"
+)
+```
+
+```{r methane-scatter, fig.width=9, fig.height=5}
+ggplot(ch4_corr,
+       aes(meat_growth, methane_growth)) +
+  geom_point(alpha = 0.65) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Matched Meat-Supply Growth vs CH4 Growth",
+    x = "Meat supply growth (%)",
+    y = "CH4 growth (%)"
+  ) +
+  theme_minimal()
+```
+
+# 15. Statistical Analysis: Meat Growth vs N2O Growth
+
+```{r n2o-correlation}
+n2o_corr <- core_growth %>%
+  select(meat_growth, n2o_growth) %>%
+  drop_na()
+
+n2o_pearson <- cor(
+  n2o_corr$meat_growth,
+  n2o_corr$n2o_growth,
+  method = "pearson"
+)
+
+n2o_spearman <- cor(
+  n2o_corr$meat_growth,
+  n2o_corr$n2o_growth,
+  method = "spearman"
+)
+
+n2o_test <- cor.test(
+  n2o_corr$meat_growth,
+  n2o_corr$n2o_growth,
+  method = "pearson"
+)
+
+n2o_model <- lm(
+  n2o_growth ~ meat_growth,
+  data = n2o_corr
+)
+
+n2o_model_summary <- summary(n2o_model)
+
+n2o_results <- tibble(
+  Statistic = c(
+    "Complete observations",
+    "Pearson r",
+    "Pearson p-value",
+    "Spearman rho",
+    "Regression slope",
+    "Regression R-squared"
+  ),
+  Value = c(
+    nrow(n2o_corr),
+    n2o_pearson,
+    n2o_test$p.value,
+    n2o_spearman,
+    coef(n2o_model)[["meat_growth"]],
+    n2o_model_summary$r.squared
+  )
+)
+
+kable(
+  n2o_results,
+  digits = 4,
+  caption = "Association between meat-supply growth and N2O-emission growth"
+)
+```
+
+```{r n2o-scatter, fig.width=9, fig.height=5}
+ggplot(n2o_corr,
+       aes(meat_growth, n2o_growth)) +
+  geom_point(alpha = 0.65) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Matched Meat-Supply Growth vs N2O Growth",
+    x = "Meat supply growth (%)",
+    y = "N2O growth (%)"
+  ) +
+  theme_minimal()
+```
+
+# 16. Land-Use Dataset
+
+The land dataset is used to add a resource-pressure dimension to the emission analysis.
+
+For the **first integrated run**, all seven available land indicators are retained:
+
+1. Agricultural land
+2. Arable land
+3. Country area
+4. Cropland
+5. Land area
+6. Other land
+7. Permanent meadows and pastures
+
+This first run is deliberately broad. After examining the results, redundant or weakly informative land indicators can be reduced in a sensitivity analysis.
+
+```{r land-audit}
+land_items <- c(
+  "Agricultural land",
+  "Arable land",
+  "Country area",
+  "Cropland",
+  "Land area",
+  "Other land",
+  "Permanent meadows and pastures"
+)
+
+cat("Seven land indicators retained:\n")
+print(land_items)
+
+cat("\nAvailable land items:\n")
+print(sort(unique(land$item)))
+
+cat("\nAvailable elements:\n")
+print(sort(unique(land$element)))
+
+cat("\nAvailable units:\n")
+print(sort(unique(land$unit)))
+```
+
+# 17. Construct the Seven Land Indicators
+
+```{r land-select}
+land_area <- land %>%
+  filter(
+    element == "Area",
+    unit == "1000 ha",
+    item %in% land_items
+  ) %>%
+  select(area, item, year, value) %>%
+  pivot_wider(
+    names_from = item,
+    values_from = value
+  )
+
+required_items <- land_items[
+  !land_items %in% names(land_area)
+]
+
+if (length(required_items) > 0) {
+  stop(
+    paste(
+      "The following land indicators were not found after pivot:",
+      paste(required_items, collapse = ", ")
+    )
+  )
+}
+
+land_area <- land_area %>%
+  rename(
+    agricultural_land_1000ha = `Agricultural land`,
+    arable_land_1000ha = `Arable land`,
+    country_area_1000ha = `Country area`,
+    cropland_1000ha = `Cropland`,
+    land_area_1000ha = `Land area`,
+    other_land_1000ha = `Other land`,
+    pasture_1000ha = `Permanent meadows and pastures`
+  )
+
+head(land_area)
+```
+
+# 18. Land Validation
+
+```{r land-validation}
+land_validation <- land_area %>%
+  summarise(
+    rows = n(),
+    countries = n_distinct(area),
+    first_year = min(year, na.rm = TRUE),
+    last_year = max(year, na.rm = TRUE),
+    missing_agricultural = sum(is.na(agricultural_land_1000ha)),
+    missing_arable = sum(is.na(arable_land_1000ha)),
+    missing_country_area = sum(is.na(country_area_1000ha)),
+    missing_cropland = sum(is.na(cropland_1000ha)),
+    missing_land_area = sum(is.na(land_area_1000ha)),
+    missing_other_land = sum(is.na(other_land_1000ha)),
+    missing_pasture = sum(is.na(pasture_1000ha))
+  )
+
+kable(
+  land_validation,
+  digits = 2,
+  caption = "Validation of the seven retained land indicators"
+)
+```
+
+# 19. Full Meat–Emission–Land Dataset
+
+```{r full-integration}
+full_data <- core %>%
+  inner_join(
+    land_area,
+    by = c("area", "year")
+  ) %>%
+  arrange(area, year)
+
+cat("Full integrated observations:", nrow(full_data), "\n")
+cat("Countries:", n_distinct(full_data$area), "\n")
+cat("Years:", min(full_data$year), "-", max(full_data$year), "\n")
+
+if (nrow(full_data) == 0) {
+  stop("The integrated join produced zero observations.")
+}
+```
+
+# 20. Land-Use Trends
+
+```{r land-yearly}
+land_yearly <- full_data %>%
+  group_by(year) %>%
+  summarise(
+    agricultural_land =
+      mean(agricultural_land_1000ha, na.rm = TRUE),
+    arable_land =
+      mean(arable_land_1000ha, na.rm = TRUE),
+    country_area =
+      mean(country_area_1000ha, na.rm = TRUE),
+    cropland =
+      mean(cropland_1000ha, na.rm = TRUE),
+    land_area =
+      mean(land_area_1000ha, na.rm = TRUE),
+    other_land =
+      mean(other_land_1000ha, na.rm = TRUE),
+    pasture =
+      mean(pasture_1000ha, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+```{r land-trends, fig.width=10, fig.height=6}
+land_long_plot <- land_yearly %>%
+  pivot_longer(
+    cols = -year,
+    names_to = "indicator",
+    values_to = "area_1000ha"
+  )
+
+ggplot(
+  land_long_plot,
+  aes(year, area_1000ha)
+) +
+  geom_line(linewidth = 0.9) +
+  facet_wrap(~ indicator, scales = "free_y") +
+  labs(
+    title = "Average Land-Use Indicators Across Matched Asian Countries",
+    x = "Year",
+    y = "Area (1000 ha)"
+  ) +
+  theme_minimal()
+```
+
+# 21. Land-Use Growth Rates
+
+```{r land-growth}
+full_growth <- full_data %>%
+  group_by(area) %>%
+  arrange(year, .by_group = TRUE) %>%
+  mutate(
+    meat_growth =
+      if_else(
+        !is.na(lag(meat_kg_capita)) &
+          lag(meat_kg_capita) != 0,
+        (meat_kg_capita / lag(meat_kg_capita) - 1) * 100,
+        NA_real_
+      ),
+
+    methane_growth =
+      if_else(
+        !is.na(lag(methane_kt)) &
+          lag(methane_kt) != 0,
+        (methane_kt / lag(methane_kt) - 1) * 100,
+        NA_real_
+      ),
+
+    n2o_growth =
+      if_else(
+        !is.na(lag(n2o_kt)) &
+          lag(n2o_kt) != 0,
+        (n2o_kt / lag(n2o_kt) - 1) * 100,
+        NA_real_
+      ),
+
+    agricultural_land_growth =
+      if_else(
+        !is.na(lag(agricultural_land_1000ha)) &
+          lag(agricultural_land_1000ha) != 0,
+        (agricultural_land_1000ha /
+           lag(agricultural_land_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    arable_land_growth =
+      if_else(
+        !is.na(lag(arable_land_1000ha)) &
+          lag(arable_land_1000ha) != 0,
+        (arable_land_1000ha /
+           lag(arable_land_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    country_area_growth =
+      if_else(
+        !is.na(lag(country_area_1000ha)) &
+          lag(country_area_1000ha) != 0,
+        (country_area_1000ha /
+           lag(country_area_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    cropland_growth =
+      if_else(
+        !is.na(lag(cropland_1000ha)) &
+          lag(cropland_1000ha) != 0,
+        (cropland_1000ha /
+           lag(cropland_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    land_area_growth =
+      if_else(
+        !is.na(lag(land_area_1000ha)) &
+          lag(land_area_1000ha) != 0,
+        (land_area_1000ha /
+           lag(land_area_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    other_land_growth =
+      if_else(
+        !is.na(lag(other_land_1000ha)) &
+          lag(other_land_1000ha) != 0,
+        (other_land_1000ha /
+           lag(other_land_1000ha) - 1) * 100,
+        NA_real_
+      ),
+
+    pasture_growth =
+      if_else(
+        !is.na(lag(pasture_1000ha)) &
+          lag(pasture_1000ha) != 0,
+        (pasture_1000ha /
+           lag(pasture_1000ha) - 1) * 100,
+        NA_real_
+      )
+  ) %>%
+  ungroup()
+
+required_growth_columns <- c(
+  "area",
+  "year",
+  "meat_growth",
+  "methane_growth",
+  "n2o_growth",
+  "agricultural_land_growth",
+  "arable_land_growth",
+  "country_area_growth",
+  "cropland_growth",
+  "land_area_growth",
+  "other_land_growth",
+  "pasture_growth"
+)
+
+missing_growth_columns <- setdiff(
+  required_growth_columns,
+  names(full_growth)
+)
+
+if (length(missing_growth_columns) > 0) {
+  stop(
+    paste(
+      "Missing growth columns:",
+      paste(missing_growth_columns, collapse = ", ")
+    )
+  )
+}
+```
+
+# 22. Emission Growth vs Land-Use Growth
+
+Because land indicators differ greatly in scale, the analysis uses **percentage growth** rather than raw hectares.
+
+Both Pearson correlation and Spearman correlation are reported.
+
+```{r land-correlations}
+land_cor_data <- full_growth %>%
+  select(
+    area,
+    year,
+    methane_growth,
+    n2o_growth,
+    agricultural_land_growth,
+    arable_land_growth,
+    country_area_growth,
+    cropland_growth,
+    land_area_growth,
+    other_land_growth,
+    pasture_growth
+  ) %>%
+  drop_na()
+
+cat(
+  "Complete observations used for the land correlation table:",
+  nrow(land_cor_data),
+  "\n"
+)
+
+land_pairs <- tribble(
+  ~Gas, ~Land_Indicator, ~gas_col, ~land_col,
+  "CH4", "Agricultural land", "methane_growth", "agricultural_land_growth",
+  "CH4", "Arable land", "methane_growth", "arable_land_growth",
+  "CH4", "Country area", "methane_growth", "country_area_growth",
+  "CH4", "Cropland", "methane_growth", "cropland_growth",
+  "CH4", "Land area", "methane_growth", "land_area_growth",
+  "CH4", "Other land", "methane_growth", "other_land_growth",
+  "CH4", "Permanent meadows and pastures", "methane_growth", "pasture_growth",
+
+  "N2O", "Agricultural land", "n2o_growth", "agricultural_land_growth",
+  "N2O", "Arable land", "n2o_growth", "arable_land_growth",
+  "N2O", "Country area", "n2o_growth", "country_area_growth",
+  "N2O", "Cropland", "n2o_growth", "cropland_growth",
+  "N2O", "Land area", "n2o_growth", "land_area_growth",
+  "N2O", "Other land", "n2o_growth", "other_land_growth",
+  "N2O", "Permanent meadows and pastures", "n2o_growth", "pasture_growth"
+)
+
+land_correlation_summary <- purrr::pmap_dfr(
+  land_pairs,
+  function(Gas, Land_Indicator, gas_col, land_col) {
+
+    d <- full_growth %>%
+      select(
+        all_of(c(gas_col, land_col))
+      ) %>%
+      drop_na()
+
+    tibble(
+      Gas = Gas,
+      Land_Indicator = Land_Indicator,
+      Observations = nrow(d),
+      Pearson_r = cor(
+        d[[gas_col]],
+        d[[land_col]],
+        method = "pearson"
+      ),
+      Spearman_rho = cor(
+        d[[gas_col]],
+        d[[land_col]],
+        method = "spearman"
+      )
+    )
+  }
+)
+
+kable(
+  land_correlation_summary,
+  digits = 4,
+  caption = "Association between emission growth and land-use growth"
+)
+```
+
+# 23. Integrated Greenhouse-Gas Assessment
+
+CH4 and N2O cannot be added directly because one tonne of CH4 and one tonne of N2O have different climate effects.
+
+To put them on a common scale, the analysis uses **100-year Global Warming Potential (GWP100)** values from IPCC AR6:
+
+- CH4 = **27.9 CO2e per unit CH4**
+- N2O = **273 CO2e per unit N2O**
+
+The IPCC AR6 table reports GWP100 values of 27.9 for methane and 273 for nitrous oxide. These factors are used here as a transparent conversion for the integrated comparison.
+
+```{r co2e-conversion}
+CH4_GWP100 <- 27.9
+N2O_GWP100 <- 273
+
+integrated_annual <- core %>%
+  group_by(year) %>%
+  summarise(
+    countries = n_distinct(area),
+    average_meat_supply =
+      mean(meat_kg_capita, na.rm = TRUE),
+
+    total_CH4_kt =
+      sum(methane_kt, na.rm = TRUE),
+
+    total_N2O_kt =
+      sum(n2o_kt, na.rm = TRUE),
+
+    .groups = "drop"
+  ) %>%
+  mutate(
+    CH4_CO2e_kt =
+      total_CH4_kt * CH4_GWP100,
+
+    N2O_CO2e_kt =
+      total_N2O_kt * N2O_GWP100,
+
+    total_CO2e_kt =
+      CH4_CO2e_kt + N2O_CO2e_kt,
+
+    CH4_share_percent =
+      CH4_CO2e_kt / total_CO2e_kt * 100,
+
+    N2O_share_percent =
+      N2O_CO2e_kt / total_CO2e_kt * 100
+  )
+
+kable(
+  integrated_annual,
+  digits = 2,
+  caption = "Integrated livestock greenhouse-gas emissions in CO2-equivalent terms"
+)
+```
+
+# 24. Integrated CO2e Trend
+
+```{r co2e-trend, fig.width=9, fig.height=5}
+ggplot(
+  integrated_annual,
+  aes(year, total_CO2e_kt)
+) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  labs(
+    title = "Integrated Livestock Greenhouse-Gas Emissions, 2010–2023",
+    x = "Year",
+    y = "CO2-equivalent emissions (kt CO2e)"
+  ) +
+  theme_minimal()
+```
+
+# 25. CH4 and N2O Contribution to Integrated CO2e
+
+```{r co2e-components, fig.width=9, fig.height=5}
+co2e_long <- integrated_annual %>%
+  select(
+    year,
+    CH4_CO2e_kt,
+    N2O_CO2e_kt
+  ) %>%
+  pivot_longer(
+    cols = -year,
+    names_to = "gas",
+    values_to = "CO2e_kt"
+  )
+
+ggplot(
+  co2e_long,
+  aes(year, CO2e_kt, linetype = gas)
+) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  labs(
+    title = "CH4 and N2O Contributions to Integrated CO2e",
+    x = "Year",
+    y = "CO2-equivalent emissions (kt CO2e)",
+    linetype = "Component"
+  ) +
+  theme_minimal()
+```
+
+# 26. Overall Change from 2010 to 2023
+
+```{r overall-change}
+first_year <- integrated_annual %>%
+  filter(year == min(year))
+
+last_year <- integrated_annual %>%
+  filter(year == max(year))
+
+overall_change <- tibble(
+  Indicator = c(
+    "Average matched meat supply",
+    "Total CH4",
+    "Total N2O",
+    "Integrated CO2e"
+  ),
+
+  `2010` = c(
+    first_year$average_meat_supply,
+    first_year$total_CH4_kt,
+    first_year$total_N2O_kt,
+    first_year$total_CO2e_kt
+  ),
+
+  `2023` = c(
+    last_year$average_meat_supply,
+    last_year$total_CH4_kt,
+    last_year$total_N2O_kt,
+    last_year$total_CO2e_kt
+  )
+) %>%
+  mutate(
+    Percent_change =
+      (`2023` / `2010` - 1) * 100
+  )
+
+kable(
+  overall_change,
+  digits = 2,
+  caption = "Change in major study indicators from 2010 to 2023"
+)
+```
+
+# 27. Integrated Association: Meat Growth vs Total CO2e Growth
+
+This final statistical comparison asks whether year-to-year changes in matched meat supply are associated with year-to-year changes in the integrated greenhouse-gas measure.
+
+```{r integrated-growth-correlation}
+integrated_growth <- integrated_annual %>%
+  arrange(year) %>%
+  mutate(
+    meat_growth =
+      (average_meat_supply / lag(average_meat_supply) - 1) * 100,
+
+    co2e_growth =
+      (total_CO2e_kt / lag(total_CO2e_kt) - 1) * 100
+  ) %>%
+  drop_na()
+
+integrated_test <- cor.test(
+  integrated_growth$meat_growth,
+  integrated_growth$co2e_growth,
+  method = "pearson"
+)
+
+integrated_spearman <- cor(
+  integrated_growth$meat_growth,
+  integrated_growth$co2e_growth,
+  method = "spearman"
+)
+
+integrated_model <- lm(
+  co2e_growth ~ meat_growth,
+  data = integrated_growth
+)
+
+integrated_results <- tibble(
+  Statistic = c(
+    "Complete annual observations",
+    "Pearson r",
+    "Pearson p-value",
+    "Spearman rho",
+    "Regression slope",
+    "Regression R-squared"
+  ),
+  Value = c(
+    nrow(integrated_growth),
+    cor(
+      integrated_growth$meat_growth,
+      integrated_growth$co2e_growth
+    ),
+    integrated_test$p.value,
+    integrated_spearman,
+    coef(integrated_model)[["meat_growth"]],
+    summary(integrated_model)$r.squared
+  )
+)
+
+kable(
+  integrated_results,
+  digits = 4,
+  caption = "Association between annual meat-supply growth and integrated CO2e growth"
+)
+```
+
+```{r integrated-scatter, fig.width=9, fig.height=5}
+ggplot(
+  integrated_growth,
+  aes(meat_growth, co2e_growth)
+) +
+  geom_point(size = 2) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Annual Meat-Supply Growth vs Integrated CO2e Growth",
+    x = "Average meat-supply growth (%)",
+    y = "Integrated CO2e growth (%)"
+  ) +
+  theme_minimal()
+```
+
+# 28. Final Integrated Interpretation
+
+The analysis should be interpreted as a connected environmental profile rather than as a single causal chain.
+
+The study asks whether the following indicators move together:
+
+**Matched meat supply**
+
+↓
+
+**Livestock CH4**
+
+**Livestock N2O**
+
+↓
+
+**CO2-equivalent greenhouse-gas burden**
+
+and, separately,
+
+**Land-use indicators**
+
+The growth-rate correlations help control for the fact that larger countries naturally have larger absolute emission and land values. Therefore, a weak correlation between growth rates does not mean that land or meat supply is environmentally irrelevant. It means that year-to-year percentage changes are not strongly synchronized in the available country-year data.
+
+The land analysis is therefore complementary rather than a replacement for the emissions analysis.
+
+# 29. Limitations
+
+1. The analysis uses matched livestock categories rather than all meat categories. Poultry Meat and Meat, Other are excluded because equivalent livestock categories are not present in the selected emissions files.
+2. The study uses associations and does not establish causality.
+3. Country size strongly affects absolute emission and land values, which is why growth-rate analysis is useful.
+4. CH4 and N2O have different physical climate impacts; therefore, they are converted to CO2e before being combined.
+5. The land indicators overlap conceptually. For example, agricultural land, cropland and pasture are related categories. They should therefore not automatically be added together.
+6. The seven-land-indicator analysis is intentionally broad. A later sensitivity analysis can retain only the land categories most directly connected to livestock production.
+7. The integrated CO2e conversion depends on the chosen GWP framework. This study uses IPCC AR6 GWP100 values consistently.
+
+# 30. Final Conclusion
+
+The study provides an empirical picture of the relationship between livestock meat supply, greenhouse-gas emissions and land-use pressure across the matched Asian countries.
+
+The main analytical message is not that meat supply alone causes environmental emissions. Rather, the evidence is used to examine whether changes in meat supply are statistically associated with changes in livestock CH4 and N2O emissions, while land-use indicators provide an additional resource-pressure dimension.
+
+The integrated CO2e analysis places the two greenhouse gases on a common climate-impact scale and allows the overall temporal pattern to be interpreted more clearly.
+
+This produces a sustainability framework connecting:
+
+**Food supply → livestock emissions → greenhouse-gas burden → land-use pressure**
+
+without making unsupported causal claims.
